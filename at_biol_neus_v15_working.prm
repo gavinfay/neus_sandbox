@@ -150,168 +150,248 @@ flagsenesce      1         Oldest sub-part of final age group senesces, 1 = yes,
 flagtsforcerecruit 0       Force recruitment of 1+ groups with environmental forcing           0
 
 # Groups functioning 
-flagPL           1         PL: 1 = on, 0 = off                                                 1
-flagPS           1         PS: 1 = on, 0 = off                                                 1
-flagDF           1         DF: 1 = on, 0 = off                                                 1
-flagMB           0         MB: 1 = on, 0 = off                                                 0
-flagMA           0         MA: 1 = on, 0 = off                                                 1
-flagSG           0         SG: 1 = on, 0 = off                                                 1
-flagZG           1         ZG: 1 = on, 0 = off                                                 1
-flagZL           1         ZL: 1 = on, 0 = off                                                 1
-flagZM           1         ZM: 1 = on, 0 = off                                                 1
-flagZS           1         ZS: 1 = on, 0 = off                                                 1
-flagFPS          1         FPS: 1 = on, 0 = off                                                1
-flagFPL          1         FPL: 1 = on, 0 = off                                                1
-flagFPO          0         FPO: 1 = on, 0 = off                                                1
-flagFVD          1         FVD: 1 = on, 0 = off                                                1
-flagFVV          0         FVV: 1 = on, 0 = off                                                1
-flagFVS          1         FVS: 1 = on, 0 = off                                                1
-flagFVT          1         FVT: 1 = on, 0 = off                                                1
-flagFVO          0         FVO: 1 = on, 0 = off                                                1
-flagFVB          1         FVB: 1 = on, 0 = off                                                1
-flagFMM          1         FMM: 1 = on, 0 = off                                                1
-flagFMN          0         FMN: 1 = on, 0 = off                                                1
-flagFBP          1         FBP: 1 = on, 0 = off                                                1
-flagFDD          1         FDD: 1 = on, 0 = off                                                1
-flagFDS          1         FDS: 1 = on, 0 = off                                                1
-flagFDB          1         FDB: 1 = on, 0 = off                                                1
-flagFDC          1         FDC: 1 = on, 0 = off                                                1
-flagFDO          1         FDO: 1 = on, 0 = off                                                1
-flagFDE          1         FDE: 1 = on, 0 = off                                                1
-flagFDF          1         FDF: 1 = on, 0 = off                                                1
-flagFDM          0         FDM: 1 = on, 0 = off                                                1
-flagFDP          0         FDP: 1 = on, 0 = off                                                1
-flagSHD          1         SHD: 1 = on, 0 = off                                                1
-flagSHC          0         SHC: 1 = on, 0 = off                                                1
-flagSHP          1         SHP: 1 = on, 0 = off                                                1
-flagSHB          1         SHB: 1 = on, 0 = off                                                1
-flagSHR          0         SHR: 1 = on, 0 = off                                                1
-flagSSK          1         SSK: 1 = on, 0 = off                                                1
-flagSB           1         SB: 1 = on, 0 = off                                                 1
-flagSP           0         SP: 1 = on, 0 = off                                                 1
-flagREP          1         REP: 1 = on, 0 = off                                                1
-flagPIN          1         PIN: 1 = on, 0 = off                                                1
-flagWDG          0         WDG: 1 = on, 0 = off                                                1
-flagWHB          1         WHB: 1 = on, 0 = off                                                1
-flagWHT          1         WHT: 1 = on, 0 = off                                                1
-flagWHS          0         WHT: 1 = on, 0 = off                                                1
-flagPB           1         PB: 1 = on, 0 = off                                                 1
-flagBB           1         BB: 1 = on, 0 = off                                                 1
-flagBO           1         BO: 1 = on, 0 = off                                                 1
-flagBD           1         BD: 1 = on, 0 = off                                                 1
-flagBC           1         BC: 1 = on, 0 = off                                                 1
-flagBFS          1         BFS: 1 = on, 0 = off                                                1
-flagBFD          0         BFD: 1 = on, 0 = off                                                1
-flagBFF          1         BFF: 1 = on, 0 = off                                                1
-flagBG           1         BG: 1 = on, 0 = off                                                 1
-flagBMS          1         BMS: 1 = on, 0 = off                                                1
-flagBML          1         BML: 1 = on, 0 = off                                                1
-flagBMD          0         BMD: 1 = on, 0 = off                                                1
-flagCEP          1         CEP: 1 = on, 0 = off                                                1
-flagjCEP         0         jCEP: 1 = on, 0 = off                                               1
-flagPWN          1         PWN: 1 = on, 0 = off                                                1
-flagjPWN         0         jPWN: 1 = on, 0 = off                                               1
+flagMAK         1
+flagHER         1
+flagWHK         1
+flagBLF         1
+flagWPF         1
+flagSUF         1
+flagWIF         1
+flagWTF         1
+flagHAL         1
+flagPLA         1
+flagFOU         1
+flagFLA         1
+flagBFT         1
+flagTUN         1
+flagBIL         1
+flagMPF         1
+flagBUT         1
+flagANC         1
+flagBPF         1
+flagGOO         1
+flagMEN         1
+flagFDE         1
+flagCOD         1
+flagSHK         1
+flagOHK         1
+flagPOL         1
+flagRHK         1
+flagBSB         1
+flagSCU         1
+flagTYL         1
+flagRED         1
+flagOPT         1
+flagSAL         1
+flagDRM         1
+flagSTB         1
+flagTAU         1
+flagWOL         1
+flagSDF         1
+flagFDF         1
+flagHAD         1
+flagYTF         1
+flagDOG         1
+flagSMO         1
+flagSSH         1
+flagDSH         1
+flagBLS         1
+flagPOR         1
+flagPSH         1
+flagWSK         1
+flagLSK         1
+flagSK         1
+flagSB         1
+flagPIN         1
+flagREP         1
+flagRWH         1
+flagBWH         1
+flagSWH         1
+flagTWH         1
+flagINV         1
+flagLSQ         1
+flagISQ         1
+flagSCA         1
+flagQHG         1
+flagCLA         1
+flagBFF         1
+flagBG         1
+flagLOB         1
+flagRCB         1
+flagBMS         1
+flagNSH         1
+flagOSH         1
+flagZL         1
+flagBD         1
+flagMA         0
+flagMB         0
+flagSG         0
+flagBC         1
+flagZG         1
+flagPL         1
+flagDF         1
+flagPS         1
+flagZM         1
+flagZS         1
+flagPB         1
+flagBB         1
+flagBO         1
+flagDL         1
+flagDR         1
+flagDC         1
  
 # Preferred location trend (whether to weight vertical distributions towards surface or bottom
 # layers when in depths where there were less than complete set of depth layers)
-flagdemPL        0         PL: 1 = on, 0 = off                                                 1
-flagdemPS        0         PS: 1 = on, 0 = off                                                 1
-flagdemDF        0         DF: 1 = on, 0 = off                                                 1
-flagdemMA        1         MA: 1 = on, 0 = off                                                 1
-flagdemMB        1         MB: 1 = on, 0 = off                                                 1
-flagdemSG        1         SG: 1 = on, 0 = off                                                 1
-flagdemZG        0         ZG: 1 = on, 0 = off                                                 1
-flagdemZL        0         ZL: 1 = on, 0 = off                                                 1
-flagdemZM        0         ZM: 1 = on, 0 = off                                                 1
-flagdemZS        0         ZS: 1 = on, 0 = off                                                 1
-flagdemFPS       0         FPS: 1 = on, 0 = off                                                1
-flagdemFPL       0         FPL: 1 = on, 0 = off                                                1
-flagdemFPO       1         FPO: 1 = on, 0 = off                                                1
-flagdemFVD       0         FVD: 1 = on, 0 = off                                                1
-flagdemFVV       0         FVV: 1 = on, 0 = off                                                1
-flagdemFVS       0         FVS: 1 = on, 0 = off                                                1
-flagdemFVT       0         FVT: 1 = on, 0 = off                                                1
-flagdemFVO       1         FVO: 1 = on, 0 = off                                                1
-flagdemFVB       0         FVB: 1 = on, 0 = off                                                1
-flagdemFMM       0         FMM: 1 = on, 0 = off                                                1
-flagdemFMN       0         FMN: 1 = on, 0 = off                                                1
-flagdemFBP       0         FBP: 1 = on, 0 = off                                                1
-flagdemFDD       1         FDD: 1 = on, 0 = off                                                1
-flagdemFDS       1         FDS: 1 = on, 0 = off                                                1
-flagdemFDB       1         FDB: 1 = on, 0 = off                                                1
-flagdemFDC       1         FDC: 1 = on, 0 = off                                                1
-flagdemFDO       1         FDO: 1 = on, 0 = off                                                1
-flagdemFDE       1         FDE: 1 = on, 0 = off                                                1
-flagdemFDF       1         FDF: 1 = on, 0 = off                                                1
-flagdemFDP       1         FDP: 1 = on, 0 = off                                                1
-flagdemFDM       1         FDM: 1 = on, 0 = off                                                1
-flagdemSHD       1         SHD: 1 = on, 0 = off                                                1
-flagdemSHC       1         SHC: 1 = on, 0 = off                                                1
-flagdemSHP       0         SHP: 1 = on, 0 = off                                                1
-flagdemSHB       1         SHB: 1 = on, 0 = off                                                1
-flagdemSHR       1         SHR: 1 = on, 0 = off                                                1
-flagdemSSK       1         SSK: 1 = on, 0 = off                                                1
-flagdemSB        0         SB: 1 = on, 0 = off                                                 1
-flagdemSP        0         SP: 1 = on, 0 = off                                                 1
-flagdemREP       1         REP: 1 = on, 0 = off                                                1
-flagdemPIN       0         PIN: 1 = on, 0 = off                                                1
-flagdemWDG       0         WDG: 1 = on, 0 = off                                                1
-flagdemWHB       0         WHB: 1 = on, 0 = off                                                1
-flagdemWHT       0         WHT: 1 = on, 0 = off                                                1
-flagdemWHS       0         WHS: 1 = on, 0 = off                                                1
-flagdemPB        0         PB: 1 = on, 0 = off                                                 1
-flagdemBB        1         BB: 1 = on, 0 = off                                                 1
-flagdemBO        1         BO: 1 = on, 0 = off                                                 1
-flagdemBD        1         BD: 1 = on, 0 = off                                                 1
-flagdemBC        1         BC: 1 = on, 0 = off                                                 1
-flagdemBFS       1         BFS: 1 = on, 0 = off                                                1
-flagdemBFD       1         BFD: 1 = on, 0 = off                                                1
-flagdemBFF       1         BFF: 1 = on, 0 = off                                                1
-flagdemBG        1         BG: 1 = on, 0 = off                                                 1
-flagdemBMS       1         BMS: 1 = on, 0 = off                                                1
-flagdemBMD       1         BMD: 1 = on, 0 = off                                                1
-flagdemBML       1         BML: 1 = on, 0 = off                                                1
-flagdemCEP       0         CEP: 1 = on, 0 = off                                                1
-flagdemjCEP      0         jCEP: 1 = on, 0 = off                                               1
-flagdemPWN       1         PWN: 1 = on, 0 = off                                                1
-flagdemjPWN      1         jPWN: 1 = on, 0 = off                                               1
+flagdemMAK 0
+flagdemHER 0
+flagdemWHK 0
+flagdemBLF 0
+flagdemWPF 0
+flagdemSUF 0
+flagdemWIF 0
+flagdemWTF 0
+flagdemHAL 0
+flagdemPLA 0
+flagdemFOU 0
+flagdemFLA 0
+flagdemBFT 0
+flagdemTUN 0
+flagdemBIL 0
+flagdemMPF 0
+flagdemBUT 0
+flagdemANC 0
+flagdemBPF 0
+flagdemGOO 1
+flagdemMEN 1
+flagdemFDE 1
+flagdemCOD 1
+flagdemSHK 1
+flagdemOHK 1
+flagdemPOL 1
+flagdemRHK 1
+flagdemBSB 1
+flagdemSCU 1
+flagdemTYL 1
+flagdemRED 1
+flagdemOPT 1
+flagdemSAL 1
+flagdemDRM 1
+flagdemSTB 1
+flagdemTAU 1
+flagdemWOL 1
+flagdemSDF 1
+flagdemFDF 1
+flagdemHAD 1
+flagdemYTF 1
+flagdemDOG 1
+flagdemSMO 1
+flagdemSSH 1
+flagdemDSH 1
+flagdemBLS 0
+flagdemPOR 0
+flagdemPSH 0
+flagdemWSK 1
+flagdemLSK 1
+flagdemSK 1
+flagdemSB 0
+flagdemPIN 0
+flagdemREP 1
+flagdemRWH 0
+flagdemBWH 0
+flagdemSWH 0
+flagdemTWH 0
+flagdemINV 1
+flagdemLSQ 0
+flagdemISQ 0
+flagdemSCA 1
+flagdemQHG 1
+flagdemCLA 1
+flagdemBFF 1
+flagdemBG 1
+flagdemLOB 1
+flagdemRCB 1
+flagdemBMS 1
+flagdemNSH 1
+flagdemOSH 1
+flagdemZL 0
+flagdemBD 1
+flagdemMA 1
+flagdemMB 1
+flagdemSG 1
+flagdemBC 1
+flagdemZG 0
+flagdemPL 0
+flagdemDF 0
+flagdemPS 0
+flagdemZM 0
+flagdemZS 0
+flagdemPB 0
+flagdemBB 1
+flagdemBO 1
+#flagdemDL NA
+#flagdemDR NA
+#flagdemDC NA
 
 # Flag indicating whether vertebrate is a planktivore primarily
-flagplankfishFPS       1         FPS: 1 = yes, 0 = no                                                1
-flagplankfishFPL       1         FPL: 1 = yes, 0 = no                                                1
-flagplankfishFPO       0         FPO: 1 = yes, 0 = no                                                1
-flagplankfishFVD       0         FVD: 1 = yes, 0 = no                                                1
-flagplankfishFVV       0         FVV: 1 = yes, 0 = no                                                1
-flagplankfishFVS       0         FVS: 1 = yes, 0 = no                                                1
-flagplankfishFVT       0         FVT: 1 = yes, 0 = no                                                1
-flagplankfishFVO       0         FVO: 1 = yes, 0 = no                                                1
-flagplankfishFVB       0         FVB: 1 = yes, 0 = no                                                1
-flagplankfishFMM       1         FMM: 1 = yes, 0 = no                                                1
-flagplankfishFMN       0         FMN: 1 = yes, 0 = no                                                1
-flagplankfishFBP       0         FBP: 1 = yes, 0 = no                                                1
-flagplankfishFDD       0         FDD: 1 = yes, 0 = no                                                1
-flagplankfishFDS       0         FDS: 1 = yes, 0 = no                                                1
-flagplankfishFDB       0         FDB: 1 = yes, 0 = no                                                1
-flagplankfishFDC       0         FDC: 1 = yes, 0 = no                                                1
-flagplankfishFDO       0         FDO: 1 = yes, 0 = no                                                1
-flagplankfishFDE       1         FDE: 1 = yes, 0 = no                                                1
-flagplankfishFDF       0         FDF: 1 = yes, 0 = no                                                1
-flagplankfishFDP       0         FDP: 1 = yes, 0 = no                                                1
-flagplankfishFDM       0         FDM: 1 = yes, 0 = no                                                1
-flagplankfishSHD       0         SHD: 1 = yes, 0 = no                                                1
-flagplankfishSHC       0         SHC: 1 = yes, 0 = no                                                1
-flagplankfishSHP       0         SHP: 1 = yes, 0 = no                                                1
-flagplankfishSHB       0         SHB: 1 = yes, 0 = no                                                1
-flagplankfishSHR       0         SHR: 1 = yes, 0 = no                                                1
-flagplankfishSSK       0         SSK: 1 = yes, 0 = no                                                1
-flagplankfishSB        0         SB: 1 = yes, 0 = no                                                 1
-flagplankfishSP        0         SP: 1 = yes, 0 = no                                                 1
-flagplankfishREP       0         REP: 1 = yes, 0 = no                                                1
-flagplankfishPIN       0         PIN: 1 = yes, 0 = no                                                1
-flagplankfishWDG       0         WDG: 1 = yes, 0 = no                                                1
-flagplankfishWHB       0         WHB: 1 = yes, 0 = no                                                1
-flagplankfishWHT       0         WHT: 1 = yes, 0 = no                                                1
-flagplankfishWHS       0         WHS: 1 = yes, 0 = no                                                1
+flagplankfishMAK 1
+flagplankfishHER 1
+flagplankfishWHK 0
+flagplankfishBLF 0
+flagplankfishWPF 0
+flagplankfishSUF 0
+flagplankfishWIF 0
+flagplankfishWTF 0
+flagplankfishHAL 0
+flagplankfishPLA 0
+flagplankfishFOU 0
+flagplankfishFLA 0
+flagplankfishBFT 0
+flagplankfishTUN 0
+flagplankfishBIL 0
+flagplankfishMPF 1
+flagplankfishBUT 0
+flagplankfishANC 0
+flagplankfishBPF 0
+flagplankfishGOO 0
+flagplankfishMEN 1
+flagplankfishFDE 1
+flagplankfishCOD 0
+flagplankfishSHK 0
+flagplankfishOHK 0
+flagplankfishPOL 0
+flagplankfishRHK 0
+flagplankfishBSB 0
+flagplankfishSCU 0
+flagplankfishTYL 0
+flagplankfishRED 0
+flagplankfishOPT 0
+flagplankfishSAL 0
+flagplankfishDRM 0
+flagplankfishSTB 0
+flagplankfishTAU 0
+flagplankfishWOL 0
+flagplankfishSDF 0
+flagplankfishFDF 0
+flagplankfishHAD 0
+flagplankfishYTF 0
+flagplankfishDOG 0
+flagplankfishSMO 0
+flagplankfishSSH 0
+flagplankfishDSH 0
+flagplankfishBLS 0
+flagplankfishPOR 0
+flagplankfishPSH 0
+flagplankfishWSK 0
+flagplankfishLSK 0
+flagplankfishSK 0
+flagplankfishSB 0
+flagplankfishPIN 0
+flagplankfishREP 0
+flagplankfishRWH 0
+flagplankfishBWH 0
+flagplankfishSWH 0
+flagplankfishTWH 0
+flagplankfishINV 0
 
 # Identifier indicating whether vertebrate group is parameterised as a bird (1 = yes, 0 = no)
 
@@ -327,391 +407,638 @@ flagtrecruitdistrib 1      0=humped recruit arrival distrib, 1=flat distrib of r
 # 1=const, 2=dependent on prim producers (Chla), 3=Beverton-Holt, 4=lognormal, 5=dependent on all plankton
 # groups not just Chla, 6=Bev-Holt with lognormal variation added, 7=Bev-Holt with "encourage recovery"   
 # 8=Bev-Holt with perscribed "recovery", 9=Ricker, 10=Standard Bev-Holt (no explict use of spawn included)   
+
+######### 11 Jan 2015  Gavin FAy @UmassD flagrecruit/separate for inverts not done
+##
 flagrecruitCEP   1                                                                             3
 flagseperateCEP  1         CEP, CEPj are: 1 = seperate groups (or single pool), 0 = age structured single group
 flagrecruitPWN   1                                                                             3
 flagseperatePWN  1         PWN, PWNj are: 1 = seperate groups (or single pool), 0 = age structured single group
 
-flagrecruitFPS   10                                                                             10          
-flagrecruitFPL   10                                                                             10
-flagrecruitFPO   1                                                                              10
-flagrecruitFVD   10                                                                             10
-flagrecruitFVV   1                                                                              10
-flagrecruitFVS   10                                                                             10
-flagrecruitFVT   1                                                                              1
-flagrecruitFVO   10                                                                             10
-flagrecruitFVB   10                                                                             10
-flagrecruitFMM   10                                                                             10
-flagrecruitFMN   10                                                                             10
-flagrecruitFBP   10                                                                             10
-flagrecruitFDD   10                                                                             10
-flagrecruitFDS   10                                                                             10
-flagrecruitFDB   10                                                                             10
-flagrecruitFDC   10                                                                             10
-flagrecruitFDO   10                                                                             10
-flagrecruitFDF   10                                                                             10
-flagrecruitFDE   10                                                                             10
-flagrecruitFDM   1                                                                              10
-flagrecruitFDP   1                                                                              10
-flagrecruitSHD   10                                                                             10
-flagrecruitSHC   1                                                                              10
-flagrecruitSHP   10                                                                             10
-flagrecruitSHB   10                                                                             10
-flagrecruitSHR   10                                                                             10
-flagrecruitSSK   10                                                                             10
-flagrecruitSB    1                                                                              1
-flagrecruitSP    10                                                                             10
-flagrecruitREP   10                                                                             10
-flagrecruitPIN   10                                                                             10
-flagrecruitWDG   10                                                                             10
-flagrecruitWHB   10                                                                             10
-flagrecruitWHT   10                                                                             10
-flagrecruitWHS   1                                                                              10
+flagrecruitMAK 10
+flagrecruitHER 10
+flagrecruitWHK 10
+flagrecruitBLF 10
+flagrecruitWPF 10
+flagrecruitSUF 10
+flagrecruitWIF 10
+flagrecruitWTF 10
+flagrecruitHAL 10
+flagrecruitPLA 10
+flagrecruitFOU 10
+flagrecruitFLA 10
+flagrecruitBFT 1
+flagrecruitTUN 1
+flagrecruitBIL 1
+flagrecruitMPF 10
+flagrecruitBUT 10
+flagrecruitANC 10
+flagrecruitBPF 10
+flagrecruitGOO 10
+flagrecruitMEN 10
+flagrecruitFDE 10
+flagrecruitCOD 10
+flagrecruitSHK 10
+flagrecruitOHK 10
+flagrecruitPOL 10
+flagrecruitRHK 10
+flagrecruitBSB 10
+flagrecruitSCU 10
+flagrecruitTYL 10
+flagrecruitRED 10
+flagrecruitOPT 10
+flagrecruitSAL 10
+flagrecruitDRM 10
+flagrecruitSTB 10
+flagrecruitTAU 10
+flagrecruitWOL 10
+flagrecruitSDF 10
+flagrecruitFDF 10
+flagrecruitHAD 10
+flagrecruitYTF 10
+flagrecruitDOG 10
+flagrecruitSMO 10
+flagrecruitSSH 10
+flagrecruitDSH 10
+flagrecruitBLS 10
+flagrecruitPOR 10
+flagrecruitPSH 10
+flagrecruitWSK 10
+flagrecruitLSK 10
+flagrecruitSK 10
+flagrecruitSB 1
+flagrecruitPIN 10
+flagrecruitREP 10
+flagrecruitRWH 10
+flagrecruitBWH 10
+flagrecruitSWH 10
+flagrecruitTWH 10
+flagrecruitINV 10
 
 # Vertebrate reproduction strength flags (1=very strong year classes possible, relative strength 
 # set using recruitRange and 0=only moderate variation in year class strength possible, mainly
 # for top predators with few young per reproductive event, relative strength set using recruitRangeFlat)
-flagrecpeakFPS   1                                                                             1          
-flagrecpeakFPO   1                                                                             1
-flagrecpeakFPL   1                                                                             1
-flagrecpeakFVD   1                                                                             1
-flagrecpeakFVV   1                                                                             1
-flagrecpeakFVS   1                                                                             1
-flagrecpeakFVT   1                                                                             1
-flagrecpeakFVO   1                                                                             1
-flagrecpeakFVB   1                                                                             1
-flagrecpeakFMM   1                                                                             1
-flagrecpeakFMN   1                                                                             1
-flagrecpeakFBP   1                                                                             1
-flagrecpeakFDD   1                                                                             1
-flagrecpeakFDS   1                                                                             1
-flagrecpeakFDB   1                                                                             1
-flagrecpeakFDC   1                                                                             1
-flagrecpeakFDO   1                                                                             1
-flagrecpeakFDF   1                                                                             1
-flagrecpeakFDE   1                                                                             1
-flagrecpeakFDP   1                                                                             1
-flagrecpeakFDM   1                                                                             1
-flagrecpeakSHD   0                                                                             1
-flagrecpeakSHC   0                                                                             1
-flagrecpeakSHP   0                                                                             1
-flagrecpeakSHB   0                                                                             1
-flagrecpeakSHR   0                                                                             1
-flagrecpeakSSK   0                                                                             1
-flagrecpeakSB    0                                                                             1
-flagrecpeakSP    0                                                                             1
-flagrecpeakREP   0                                                                             1
-flagrecpeakPIN   0                                                                             1
-flagrecpeakWDG   0                                                                             1
-flagrecpeakWHB   0                                                                             1
-flagrecpeakWHT   0                                                                             1
-flagrecpeakWHS   0                                                                             1
+flagrecpeakMAK 1
+flagrecpeakHER 1
+flagrecpeakWHK 1
+flagrecpeakBLF 1
+flagrecpeakWPF 1
+flagrecpeakSUF 1
+flagrecpeakWIF 1
+flagrecpeakWTF 1
+flagrecpeakHAL 1
+flagrecpeakPLA 1
+flagrecpeakFOU 1
+flagrecpeakFLA 1
+flagrecpeakBFT 1
+flagrecpeakTUN 1
+flagrecpeakBIL 1
+flagrecpeakMPF 1
+flagrecpeakBUT 1
+flagrecpeakANC 1
+flagrecpeakBPF 1
+flagrecpeakGOO 1
+flagrecpeakMEN 1
+flagrecpeakFDE 1
+flagrecpeakCOD 1
+flagrecpeakSHK 1
+flagrecpeakOHK 1
+flagrecpeakPOL 1
+flagrecpeakRHK 1
+flagrecpeakBSB 1
+flagrecpeakSCU 1
+flagrecpeakTYL 1
+flagrecpeakRED 1
+flagrecpeakOPT 1
+flagrecpeakSAL 1
+flagrecpeakDRM 1
+flagrecpeakSTB 1
+flagrecpeakTAU 1
+flagrecpeakWOL 1
+flagrecpeakSDF 1
+flagrecpeakFDF 1
+flagrecpeakHAD 1
+flagrecpeakYTF 1
+flagrecpeakDOG 0
+flagrecpeakSMO 0
+flagrecpeakSSH 0
+flagrecpeakDSH 0
+flagrecpeakBLS 0
+flagrecpeakPOR 0
+flagrecpeakPSH 0
+flagrecpeakWSK 0
+flagrecpeakLSK 0
+flagrecpeakSK 0
+flagrecpeakSB 0
+flagrecpeakPIN 0
+flagrecpeakREP 0
+flagrecpeakRWH 0
+flagrecpeakBWH 0
+flagrecpeakSWH 0
+flagrecpeakTWH 0
+flagrecpeakINV 1
 
 # Local recruitment (1 = demersal and piscivorous fish recruit at parental locations, 0 = independent distribution, 2 = external reproduction)
-flaglocalrecruitFPS   0                                                                             0          
-flaglocalrecruitFPL   0                                                                             0
-flaglocalrecruitFPO   0                                                                             0
-flaglocalrecruitFVD   0                                                                             0
-flaglocalrecruitFVV   0                                                                             0
-flaglocalrecruitFVS   0                                                                             0
-flaglocalrecruitFVT   0                                                                             1
-flaglocalrecruitFVO   0                                                                             0
-flaglocalrecruitFVB   0                                                                             0
-flaglocalrecruitFMM   0                                                                             0
-flaglocalrecruitFMN   0                                                                             0
-flaglocalrecruitFBP   0                                                                             0
-flaglocalrecruitFDD   0                                                                             0
-flaglocalrecruitFDS   0                                                                             0
-flaglocalrecruitFDB   0                                                                             0
-flaglocalrecruitFDC   0                                                                             0
-flaglocalrecruitFDO   0                                                                             0
-flaglocalrecruitFDF   0                                                                             0
-flaglocalrecruitFDE   0                                                                             0
-flaglocalrecruitFDM   0                                                                             0
-flaglocalrecruitFDP   0                                                                             0
-flaglocalrecruitSHD   0                                                                             0
-flaglocalrecruitSHC   0                                                                             0
-flaglocalrecruitSHP   1                                                                             0
-flaglocalrecruitSHB   0                                                                             0
-flaglocalrecruitSHR   1                                                                             0
-flaglocalrecruitSSK   0                                                                             0
-flaglocalrecruitSB    1                                                                             1
-flaglocalrecruitSP    1                                                                             0
-flaglocalrecruitREP   1                                                                             0
-flaglocalrecruitPIN   1                                                                             0
-flaglocalrecruitWDG   1                                                                             0
-flaglocalrecruitWHB   1                                                                             0
-flaglocalrecruitWHT   1                                                                             0
-flaglocalrecruitWHS   1                                                                             0
-
+flaglocalrecruitMAK 0
+flaglocalrecruitHER 0
+flaglocalrecruitWHK 0
+flaglocalrecruitBLF 0
+flaglocalrecruitWPF 0
+flaglocalrecruitSUF 0
+flaglocalrecruitWIF 0
+flaglocalrecruitWTF 0
+flaglocalrecruitHAL 0
+flaglocalrecruitPLA 0
+flaglocalrecruitFOU 0
+flaglocalrecruitFLA 0
+flaglocalrecruitBFT 0
+flaglocalrecruitTUN 0
+flaglocalrecruitBIL 0
+flaglocalrecruitMPF 0
+flaglocalrecruitBUT 0
+flaglocalrecruitANC 0
+flaglocalrecruitBPF 0
+flaglocalrecruitGOO 0
+flaglocalrecruitMEN 0
+flaglocalrecruitFDE 0
+flaglocalrecruitCOD 0
+flaglocalrecruitSHK 0
+flaglocalrecruitOHK 0
+flaglocalrecruitPOL 0
+flaglocalrecruitRHK 0
+flaglocalrecruitBSB 0
+flaglocalrecruitSCU 0
+flaglocalrecruitTYL 0
+flaglocalrecruitRED 0
+flaglocalrecruitOPT 0
+flaglocalrecruitSAL 0
+flaglocalrecruitDRM 0
+flaglocalrecruitSTB 0
+flaglocalrecruitTAU 0
+flaglocalrecruitWOL 0
+flaglocalrecruitSDF 0
+flaglocalrecruitFDF 0
+flaglocalrecruitHAD 0
+flaglocalrecruitYTF 0
+flaglocalrecruitDOG 0
+flaglocalrecruitSMO 0
+flaglocalrecruitSSH 0
+flaglocalrecruitDSH 0
+flaglocalrecruitBLS 1
+flaglocalrecruitPOR 1
+flaglocalrecruitPSH 1
+flaglocalrecruitWSK 0
+flaglocalrecruitLSK 0
+flaglocalrecruitSK 0
+flaglocalrecruitSB 1
+flaglocalrecruitPIN 1
+flaglocalrecruitREP 1
+flaglocalrecruitRWH 1
+flaglocalrecruitBWH 1
+flaglocalrecruitSWH 1
+flaglocalrecruitTWH 1
+flaglocalrecruitINV 0
+ 
 # Flag indicating whether the vertebrate group bearslive young (0 = no, 1 = yes)
-flagbearliveFPS   0                                                                             0          
-flagbearliveFPL   0                                                                             0
-flagbearliveFPO   0                                                                             0
-flagbearliveFVD   0                                                                             0
-flagbearliveFVV   0                                                                             0
-flagbearliveFVS   0                                                                             0
-flagbearliveFVT   0                                                                             1
-flagbearliveFVO   0                                                                             0
-flagbearliveFVB   0                                                                             0
-flagbearliveFMM   0                                                                             0
-flagbearliveFMN   0                                                                             0
-flagbearliveFBP   0                                                                             0
-flagbearliveFDD   0                                                                             0
-flagbearliveFDS   0                                                                             0
-flagbearliveFDB   0                                                                             0
-flagbearliveFDC   0                                                                             0
-flagbearliveFDO   0                                                                             0
-flagbearliveFDF   0                                                                             0
-flagbearliveFDE   0                                                                             0
-flagbearliveFDM   0                                                                             0
-flagbearliveFDP   0                                                                             0
-flagbearliveSHD   0                                                                             0
-flagbearliveSHC   0                                                                             0
-flagbearliveSHP   1                                                                             0
-flagbearliveSHB   0                                                                             0
-flagbearliveSHR   1                                                                             0
-flagbearliveSSK   0                                                                             0
-flagbearliveSB    0                                                                             1
-flagbearliveSP    0                                                                             0
-flagbearliveREP   0                                                                             0
-flagbearlivePIN   1                                                                             0
-flagbearliveWDG   1                                                                             0
-flagbearliveWHB   1                                                                             0
-flagbearliveWHT   1                                                                             0
-flagbearliveWHS   1                                                                             0
+flagbearliveMAK 0
+flagbearliveHER 0
+flagbearliveWHK 0
+flagbearliveBLF 0
+flagbearliveWPF 0
+flagbearliveSUF 0
+flagbearliveWIF 0
+flagbearliveWTF 0
+flagbearliveHAL 0
+flagbearlivePLA 0
+flagbearliveFOU 0
+flagbearliveFLA 0
+flagbearliveBFT 0
+flagbearliveTUN 0
+flagbearliveBIL 0
+flagbearliveMPF 0
+flagbearliveBUT 0
+flagbearliveANC 0
+flagbearliveBPF 0
+flagbearliveGOO 0
+flagbearliveMEN 0
+flagbearliveFDE 0
+flagbearliveCOD 0
+flagbearliveSHK 0
+flagbearliveOHK 0
+flagbearlivePOL 0
+flagbearliveRHK 0
+flagbearliveBSB 0
+flagbearliveSCU 0
+flagbearliveTYL 0
+flagbearliveRED 0
+flagbearliveOPT 0
+flagbearliveSAL 0
+flagbearliveDRM 0
+flagbearliveSTB 0
+flagbearliveTAU 0
+flagbearliveWOL 0
+flagbearliveSDF 0
+flagbearliveFDF 0
+flagbearliveHAD 0
+flagbearliveYTF 0
+flagbearliveDOG 0
+flagbearliveSMO 0
+flagbearliveSSH 0
+flagbearliveDSH 0
+flagbearliveBLS 1
+flagbearlivePOR 1
+flagbearlivePSH 1
+flagbearliveWSK 0
+flagbearliveLSK 0
+flagbearliveSK 0
+flagbearliveSB 0
+flagbearlivePIN 1
+flagbearliveREP 0
+flagbearliveRWH 1
+flagbearliveBWH 1
+flagbearliveSWH 1
+flagbearliveTWH 1
+flagbearliveINV 0
 
 # Flag indicating whether the vertebrate group provides parental care for young until maturity 
 # (0 = no, 1 = yes)
-flagmotherFPS   0                                                                             0          
-flagmotherFPL   0                                                                             0
-flagmotherFPO   0                                                                             0
-flagmotherFVD   0                                                                             0
-flagmotherFVV   0                                                                             0
-flagmotherFVS   0                                                                             0
-flagmotherFVT   0                                                                             1
-flagmotherFVO   0                                                                             0
-flagmotherFVB   0                                                                             0
-flagmotherFMM   0                                                                             0
-flagmotherFMN   0                                                                             0
-flagmotherFBP   0                                                                             0
-flagmotherFDD   0                                                                             0
-flagmotherFDS   0                                                                             0
-flagmotherFDB   0                                                                             0
-flagmotherFDC   0                                                                             0
-flagmotherFDO   0                                                                             0
-flagmotherFDF   0                                                                             0
-flagmotherFDE   0                                                                             0
-flagmotherFDM   0                                                                             0
-flagmotherFDP   0                                                                             0
-flagmotherSHD   0                                                                             0
-flagmotherSHC   0                                                                             0
-flagmotherSHP   0                                                                             0
-flagmotherSHB   0                                                                             0
-flagmotherSHR   0                                                                             0
-flagmotherSSK   0                                                                             0
-flagmotherSB    0                                                                             1
-flagmotherSP    0                                                                             0
-flagmotherREP   0                                                                             0
-flagmotherPIN   0                                                                             0
-flagmotherWDG   1                                                                             0
-flagmotherWHB   1                                                                             0
-flagmotherWHT   1                                                                             0
-flagmotherWHS   1                                                                             0
-
+flagmotherMAK 0
+flagmotherHER 0
+flagmotherWHK 0
+flagmotherBLF 0
+flagmotherWPF 0
+flagmotherSUF 0
+flagmotherWIF 0
+flagmotherWTF 0
+flagmotherHAL 0
+flagmotherPLA 0
+flagmotherFOU 0
+flagmotherFLA 0
+flagmotherBFT 0
+flagmotherTUN 0
+flagmotherBIL 0
+flagmotherMPF 0
+flagmotherBUT 0
+flagmotherANC 0
+flagmotherBPF 0
+flagmotherGOO 0
+flagmotherMEN 0
+flagmotherFDE 0
+flagmotherCOD 0
+flagmotherSHK 0
+flagmotherOHK 0
+flagmotherPOL 0
+flagmotherRHK 0
+flagmotherBSB 0
+flagmotherSCU 0
+flagmotherTYL 0
+flagmotherRED 0
+flagmotherOPT 0
+flagmotherSAL 0
+flagmotherDRM 0
+flagmotherSTB 0
+flagmotherTAU 0
+flagmotherWOL 0
+flagmotherSDF 0
+flagmotherFDF 0
+flagmotherHAD 0
+flagmotherYTF 0
+flagmotherDOG 0
+flagmotherSMO 0
+flagmotherSSH 0
+flagmotherDSH 0
+flagmotherBLS 0
+flagmotherPOR 0
+flagmotherPSH 0
+flagmotherWSK 0
+flagmotherLSK 0
+flagmotherSK 0
+flagmotherSB 0
+flagmotherPIN 0
+flagmotherREP 0
+flagmotherRWH 1
+flagmotherBWH 1
+flagmotherSWH 1
+flagmotherTWH 1
+flagmotherINV 0
+ 
 # Flag indicating whether feed during the spawning period (1 = no, 1 = yes)
-feed_while_spawnFPS   1                                                                        1          
-feed_while_spawnFPL   1                                                                        1
-feed_while_spawnFPO   1                                                                        1
-feed_while_spawnFVD   1                                                                        1
-feed_while_spawnFVV   1                                                                        1
-feed_while_spawnFVS   1                                                                        1
-feed_while_spawnFVT   1                                                                        1
-feed_while_spawnFVO   1                                                                        1
-feed_while_spawnFVB   1                                                                        1
-feed_while_spawnFMM   1                                                                        1
-feed_while_spawnFMN   1                                                                        1
-feed_while_spawnFBP   1                                                                        1
-feed_while_spawnFDD   1                                                                        1
-feed_while_spawnFDS   1                                                                        1
-feed_while_spawnFDB   1                                                                        1
-feed_while_spawnFDC   1                                                                        1
-feed_while_spawnFDO   1                                                                        1
-feed_while_spawnFDF   1                                                                        1
-feed_while_spawnFDE   1                                                                        1
-feed_while_spawnFDP   1                                                                        1
-feed_while_spawnFDM   1                                                                        1
-feed_while_spawnSHD   1                                                                        1
-feed_while_spawnSHC   1                                                                        1
-feed_while_spawnSHP   1                                                                        1
-feed_while_spawnSHB   1                                                                        1
-feed_while_spawnSHR   1                                                                        1
-feed_while_spawnSSK   1                                                                        1
-feed_while_spawnSB    1                                                                        1
-feed_while_spawnSP    1                                                                        1
-feed_while_spawnREP   1                                                                        1
-feed_while_spawnPIN   1                                                                        1
-feed_while_spawnWDG   1                                                                        1
-feed_while_spawnWHB   1                                                                        1
-feed_while_spawnWHT   1                                                                        1
-feed_while_spawnWHS   1                                                                        1
+feed_while_spawnMAK 1
+feed_while_spawnHER 1
+feed_while_spawnWHK 1
+feed_while_spawnBLF 1
+feed_while_spawnWPF 1
+feed_while_spawnSUF 1
+feed_while_spawnWIF 1
+feed_while_spawnWTF 1
+feed_while_spawnHAL 1
+feed_while_spawnPLA 1
+feed_while_spawnFOU 1
+feed_while_spawnFLA 1
+feed_while_spawnBFT 1
+feed_while_spawnTUN 1
+feed_while_spawnBIL 1
+feed_while_spawnMPF 1
+feed_while_spawnBUT 1
+feed_while_spawnANC 1
+feed_while_spawnBPF 1
+feed_while_spawnGOO 1
+feed_while_spawnMEN 1
+feed_while_spawnFDE 1
+feed_while_spawnCOD 1
+feed_while_spawnSHK 1
+feed_while_spawnOHK 1
+feed_while_spawnPOL 1
+feed_while_spawnRHK 1
+feed_while_spawnBSB 1
+feed_while_spawnSCU 1
+feed_while_spawnTYL 1
+feed_while_spawnRED 1
+feed_while_spawnOPT 1
+feed_while_spawnSAL 1
+feed_while_spawnDRM 1
+feed_while_spawnSTB 1
+feed_while_spawnTAU 1
+feed_while_spawnWOL 1
+feed_while_spawnSDF 1
+feed_while_spawnFDF 1
+feed_while_spawnHAD 1
+feed_while_spawnYTF 1
+feed_while_spawnDOG 1
+feed_while_spawnSMO 1
+feed_while_spawnSSH 1
+feed_while_spawnDSH 1
+feed_while_spawnBLS 1
+feed_while_spawnPOR 1
+feed_while_spawnPSH 1
+feed_while_spawnWSK 1
+feed_while_spawnLSK 1
+feed_while_spawnSK 1
+feed_while_spawnSB 1
+feed_while_spawnPIN 1
+feed_while_spawnREP 1
+feed_while_spawnRWH 1
+feed_while_spawnBWH 1
+feed_while_spawnSWH 1
+feed_while_spawnTWH 1
+feed_while_spawnINV 1
 
+#### 11 Jan 2015 Gavin @UmassD, Invertebrates not changed.
 feed_while_spawnCEP   1                                                                        1
 feed_while_spawnPWN   1                                                                        1
  
 # Switch indicating whether or not efficiency of assimilation is temperature dependent
 # 0 = no (same efficiency regardless), 1 = poorer when cooler, 2 = poorer when warmer 
-flagq10effFPS   0                                                                                1          
-flagq10effFPL   0                                                                                1
-flagq10effFPO   0                                                                                1
-flagq10effFVD   0                                                                                1
-flagq10effFVV   0                                                                                1
-flagq10effFVS   0                                                                                1
-flagq10effFVT   0                                                                                1
-flagq10effFVO   0                                                                                1
-flagq10effFVB   0                                                                                1
-flagq10effFMM   0                                                                                1
-flagq10effFMN   0                                                                                1
-flagq10effFBP   0                                                                                1
-flagq10effFDD   0                                                                                1
-flagq10effFDS   0                                                                                1
-flagq10effFDB   0                                                                                1
-flagq10effFDC   0                                                                                1
-flagq10effFDO   0                                                                                1
-flagq10effFDF   0                                                                                1
-flagq10effFDE   0                                                                                1
-flagq10effFDM   0                                                                                1
-flagq10effFDP   0                                                                                1
-flagq10effSHD   0                                                                                1
-flagq10effSHC   0                                                                                1
-flagq10effSHP   0                                                                                1
-flagq10effSHB   0                                                                                1
-flagq10effSHR   0                                                                                1
-flagq10effSSK   0                                                                                1
-flagq10effSB    0                                                                                1
-flagq10effSP    0                                                                                1
-flagq10effREP   0                                                                                1
-flagq10effPIN   0                                                                                1
-flagq10effWDG   0                                                                                1
-flagq10effWHB   0                                                                                1
-flagq10effWHT   0                                                                                1
-flagq10effWHS   0                                                                                1
+flagq10effMAK 0
+flagq10effHER 0
+flagq10effWHK 0
+flagq10effBLF 0
+flagq10effWPF 0
+flagq10effSUF 0
+flagq10effWIF 0
+flagq10effWTF 0
+flagq10effHAL 0
+flagq10effPLA 0
+flagq10effFOU 0
+flagq10effFLA 0
+flagq10effBFT 0
+flagq10effTUN 0
+flagq10effBIL 0
+flagq10effMPF 0
+flagq10effBUT 0
+flagq10effANC 0
+flagq10effBPF 0
+flagq10effGOO 0
+flagq10effMEN 0
+flagq10effFDE 0
+flagq10effCOD 0
+flagq10effSHK 0
+flagq10effOHK 0
+flagq10effPOL 0
+flagq10effRHK 0
+flagq10effBSB 0
+flagq10effSCU 0
+flagq10effTYL 0
+flagq10effRED 0
+flagq10effOPT 0
+flagq10effSAL 0
+flagq10effDRM 0
+flagq10effSTB 0
+flagq10effTAU 0
+flagq10effWOL 0
+flagq10effSDF 0
+flagq10effFDF 0
+flagq10effHAD 0
+flagq10effYTF 0
+flagq10effDOG 0
+flagq10effSMO 0
+flagq10effSSH 0
+flagq10effDSH 0
+flagq10effBLS 0
+flagq10effPOR 0
+flagq10effPSH 0
+flagq10effWSK 0
+flagq10effLSK 0
+flagq10effSK 0
+flagq10effSB 0
+flagq10effPIN 0
+flagq10effREP 0
+flagq10effRWH 0
+flagq10effBWH 0
+flagq10effSWH 0
+flagq10effTWH 0
+flagq10effINV 0
 
 # Temperature sensitivty of vertebrates and CEP, PWN: 0 = no, 1 = yes   
-flagtempsensitiveFPS   0                                                                             3          
-flagtempsensitiveFPL   0                                                                             3
-flagtempsensitiveFPO   0                                                                             3
-flagtempsensitiveFVD   0                                                                             3
-flagtempsensitiveFVV   0                                                                             3
-flagtempsensitiveFVS   0                                                                             3
-flagtempsensitiveFVT   0                                                                             3
-flagtempsensitiveFVO   0                                                                             3
-flagtempsensitiveFVB   0                                                                             3
-flagtempsensitiveFMM   0                                                                             3
-flagtempsensitiveFMN   0                                                                             3
-flagtempsensitiveFBP   0                                                                             3
-flagtempsensitiveFDD   0                                                                             3
-flagtempsensitiveFDS   0                                                                             3
-flagtempsensitiveFDB   0                                                                             3
-flagtempsensitiveFDC   0                                                                             3
-flagtempsensitiveFDO   0                                                                             3
-flagtempsensitiveFDF   0                                                                             3
-flagtempsensitiveFDE   0                                                                             3
-flagtempsensitiveFDM   0                                                                             3
-flagtempsensitiveFDP   0                                                                             3
-flagtempsensitiveSHD   0                                                                             3
-flagtempsensitiveSHC   0                                                                             3
-flagtempsensitiveSHP   0                                                                             3
-flagtempsensitiveSHB   0                                                                             3
-flagtempsensitiveSHR   0                                                                             3
-flagtempsensitiveSSK   0                                                                             3
-flagtempsensitiveSB    0                                                                             3
-flagtempsensitiveSP    0                                                                             3
-flagtempsensitiveREP   0                                                                             3
-flagtempsensitivePIN   0                                                                             3
-flagtempsensitiveWDG   0                                                                             3
-flagtempsensitiveWHB   0                                                                             3
-flagtempsensitiveWHT   0                                                                             3
-flagtempsensitiveWHS   0                                                                             3
+flagtempsensitiveMAK 0
+flagtempsensitiveHER 0
+flagtempsensitiveWHK 0
+flagtempsensitiveBLF 0
+flagtempsensitiveWPF 0
+flagtempsensitiveSUF 0
+flagtempsensitiveWIF 0
+flagtempsensitiveWTF 0
+flagtempsensitiveHAL 0
+flagtempsensitivePLA 0
+flagtempsensitiveFOU 0
+flagtempsensitiveFLA 0
+flagtempsensitiveBFT 0
+flagtempsensitiveTUN 0
+flagtempsensitiveBIL 0
+flagtempsensitiveMPF 0
+flagtempsensitiveBUT 0
+flagtempsensitiveANC 0
+flagtempsensitiveBPF 0
+flagtempsensitiveGOO 0
+flagtempsensitiveMEN 0
+flagtempsensitiveFDE 0
+flagtempsensitiveCOD 0
+flagtempsensitiveSHK 0
+flagtempsensitiveOHK 0
+flagtempsensitivePOL 0
+flagtempsensitiveRHK 0
+flagtempsensitiveBSB 0
+flagtempsensitiveSCU 0
+flagtempsensitiveTYL 0
+flagtempsensitiveRED 0
+flagtempsensitiveOPT 0
+flagtempsensitiveSAL 0
+flagtempsensitiveDRM 0
+flagtempsensitiveSTB 0
+flagtempsensitiveTAU 0
+flagtempsensitiveWOL 0
+flagtempsensitiveSDF 0
+flagtempsensitiveFDF 0
+flagtempsensitiveHAD 0
+flagtempsensitiveYTF 0
+flagtempsensitiveDOG 0
+flagtempsensitiveSMO 0
+flagtempsensitiveSSH 0
+flagtempsensitiveDSH 0
+flagtempsensitiveBLS 0
+flagtempsensitivePOR 0
+flagtempsensitivePSH 0
+flagtempsensitiveWSK 0
+flagtempsensitiveLSK 0
+flagtempsensitiveSK 0
+flagtempsensitiveSB 0
+flagtempsensitivePIN 0
+flagtempsensitiveREP 0
+flagtempsensitiveRWH 0
+flagtempsensitiveBWH 0
+flagtempsensitiveSWH 0
+flagtempsensitiveTWH 0
+flagtempsensitiveINV 0
 
+### 11 Jan 2015  Gavin Fay @UMassD INVERTEBRATES NOT DONE
 flagtempsensitiveCEP   1                                                                             3
 flagtempsensitivePWN   0                                                                             3
 
 # Habitat dependency
 flaghabdepend    0         general vertebrate demersal habitat dependency: 0 = no, 1 = yes     0
-FPS_habdepend    0         small planktivores dependent on demersal habitat: 0 = no, 1 = yes   0
-FPL_habdepend    0         large planktivores dependent on demersal habitat: 0 = no, 1 = yes   0
-FPO_habdepend    0         other planktivores dependent on demersal habitat: 0 = no, 1 = yes   0
-FVD_habdepend    0         deep piscivorous fish depend. on demersal habitat: 0 = no, 1 = yes  0
-FVV_habdepend    0         vul. pisciv. fish depend. on demersal habitat: 0 = no, 1 = yes      0
-FVS_habdepend    0         shallow pisciv. fish dependent on demersal habitat: 0 = no, 1 = yes 0
-FVT_habdepend    0         large piscivorous fish depend. on demersal habitat: 0 = no, 1 = yes 0
-FVO_habdepend    0         other tuna dependent on demersal habitat: 0 = no, 1 = yes           0
-FVB_habdepend    0         other pisciv. fish dependent on demersal habitat: 0 = no, 1 = yes   0
-FMM_habdepend    0         migratory mesopelag. depend. on demersal habitat: 0 = no, 1 = yes   0
-FMN_habdepend    0         non-mig. mesopelag. depend. on demersal habitat: 0 = no, 1 = yes    0
-FBP_habdepend    0         benthoopelagic depend. on demersal habitat: 0 = no, 1 = yes         0
-FDD_habdepend    0         deep demersal fish dependent on demersal habitat: 0 = no, 1 = yes   0
-FDS_habdepend    0         shallow demersal fish depend. on demersal habitat: 0 = no, 1 = yes  0
-FDB_habdepend    0         other shallow dem. dependent on demersal habitat: 0 = no, 1 = yes   0
-FDC_habdepend    0         other demersal dependent on demersal habitat: 0 = no, 1 = yes       0
-FDO_habdepend    0         longlived demersal dependent on demersal habitat: 0 = no, 1 = yes   0
-FDF_habdepend    0         flat deep demersal dependent on demersal habitat: 0 = no, 1 = yes   0
-FDE_habdepend    0         estuarine demersal dependent on demersal habitat: 0 = no, 1 = yes   0
-FDM_habdepend    0         miscellaneous dem. dependent on demersal habitat: 0 = no, 1 = yes   0
-FDP_habdepend    0         eprotected demersal dependent on demersal habitat: 0 = no, 1 = yes  0
-SHD_habdepend    0         demersal sharks dependent on demersal habitat: 0 = no, 1 = yes      0
-SHC_habdepend    0         dogfish dependent on demersal habitat: 0 = no, 1 = yes              0
-SHP_habdepend    0         pelagic sharks dependent on demersal habitat: 0 = no, 1 = yes       0
-SHB_habdepend    0         other shark dependent on demersal habitat: 0 = no, 1 = yes          0
-SHR_habdepend    0         reef shark dependent on demersal habitat: 0 = no, 1 = yes           1
-SSK_habdepend    0         skates and rays dependent on demersal habitat: 0 = no, 1 = yes      1
-SB_habdepend     0         seabirds dependent on demersal habitat: 0 = no, 1 = yes             0
-SP_habdepend     0         penguins dependent on demersal habitat: 0 = no, 1 = yes             0
-REP_habdepend    0         reptiles dependent on demersal habitat: 0 = no, 1 = yes             0
-PIN_habdepend    0         pinnipeds dependent on demersal habitat: 0 = no, 1 = yes            0
-WDG_habdepend    0         dugongs dependent on demersal habitat: 0 = no, 1 = yes              0
-WHB_habdepend    0         baleen whales dependent on demersal habitat: 0 = no, 1 = yes        0
-WHT_habdepend    0         toothed whales dependent on demersal habitat: 0 = no, 1 = yes       0
-WHS_habdepend    0         small toothed whales dependent on demersal habitat: 0 = no, 1 = yes 0
+MAK_habdepend 0
+HER_habdepend 0
+WHK_habdepend 0
+BLF_habdepend 0
+WPF_habdepend 0
+SUF_habdepend 0
+WIF_habdepend 0
+WTF_habdepend 0
+HAL_habdepend 0
+PLA_habdepend 0
+FOU_habdepend 0
+FLA_habdepend 0
+BFT_habdepend 0
+TUN_habdepend 0
+BIL_habdepend 0
+MPF_habdepend 0
+BUT_habdepend 0
+ANC_habdepend 0
+BPF_habdepend 0
+GOO_habdepend 0
+MEN_habdepend 0
+FDE_habdepend 0
+COD_habdepend 0
+SHK_habdepend 0
+OHK_habdepend 0
+POL_habdepend 0
+RHK_habdepend 0
+BSB_habdepend 0
+SCU_habdepend 0
+TYL_habdepend 0
+RED_habdepend 0
+OPT_habdepend 0
+SAL_habdepend 0
+DRM_habdepend 0
+STB_habdepend 0
+TAU_habdepend 0
+WOL_habdepend 0
+SDF_habdepend 0
+FDF_habdepend 0
+HAD_habdepend 0
+YTF_habdepend 0
+DOG_habdepend 0
+SMO_habdepend 0
+SSH_habdepend 0
+DSH_habdepend 0
+BLS_habdepend 0
+POR_habdepend 0
+PSH_habdepend 0
+WSK_habdepend 0
+LSK_habdepend 0
+SK_habdepend 0
+SB_habdepend 0
+PIN_habdepend 0
+REP_habdepend 0
+RWH_habdepend 0
+BWH_habdepend 0
+SWH_habdepend 0
+TWH_habdepend 0
+INV_habdepend 0
+ 
 
 # Vertebrate density dependent movement related flags
 flagtempdepend   0         0 = off, 1 = temperature preferences used
-FPS_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FPL_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FPO_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FVD_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FVV_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FVS_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FVT_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FVO_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FVB_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FMM_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FMN_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FBP_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FDD_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FDS_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FDB_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FDC_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FDO_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky (1)                      0
-FDE_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FDF_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FDM_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-FDP_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-SHD_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-SHC_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-SHP_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-SHB_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-SHR_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-SSK_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-SB_ddepend_move  2         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-SP_ddepend_move  0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-REP_ddepend_move 2         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-PIN_ddepend_move 2         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-WDG_ddepend_move 0         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-WHB_ddepend_move 2         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-WHT_ddepend_move 2         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
-WHS_ddepend_move 2         0 = off, 1 = sedentary, 2 = on, 3 = sticky                          0
+MAK_ddepend_move 0
+HER_ddepend_move 0
+WHK_ddepend_move 0
+BLF_ddepend_move 0
+WPF_ddepend_move 0
+SUF_ddepend_move 0
+WIF_ddepend_move 0
+WTF_ddepend_move 0
+HAL_ddepend_move 0
+PLA_ddepend_move 0
+FOU_ddepend_move 0
+FLA_ddepend_move 0
+BFT_ddepend_move 0
+TUN_ddepend_move 0
+BIL_ddepend_move 0
+MPF_ddepend_move 0
+BUT_ddepend_move 0
+ANC_ddepend_move 0
+BPF_ddepend_move 0
+GOO_ddepend_move 0
+MEN_ddepend_move 0
+FDE_ddepend_move 0
+COD_ddepend_move 0
+SHK_ddepend_move 0
+OHK_ddepend_move 0
+POL_ddepend_move 0
+RHK_ddepend_move 0
+BSB_ddepend_move 0
+SCU_ddepend_move 0
+TYL_ddepend_move 0
+RED_ddepend_move 0
+OPT_ddepend_move 0
+SAL_ddepend_move 0
+DRM_ddepend_move 0
+STB_ddepend_move 0
+TAU_ddepend_move 0
+WOL_ddepend_move 0
+SDF_ddepend_move 0
+FDF_ddepend_move 0
+HAD_ddepend_move 0
+YTF_ddepend_move 0
+DOG_ddepend_move 0
+SMO_ddepend_move 0
+SSH_ddepend_move 0
+DSH_ddepend_move 0
+BLS_ddepend_move 0
+POR_ddepend_move 0
+PSH_ddepend_move 0
+WSK_ddepend_move 0
+LSK_ddepend_move 0
+SK_ddepend_move 0
+SB_ddepend_move 2
+PIN_ddepend_move 2
+REP_ddepend_move 2
+RWH_ddepend_move 2
+BWH_ddepend_move 2
+SWH_ddepend_move 2
+TWH_ddepend_move 2
+INV_ddepend_move 0
+### Jan 2015, Gavin Fay @UmassD, Invertebrate entries not done (other invert groups)
 CEP_ddepend_move 4         0 = off, 1 = sedentary, 2 = on, 3 = sticky, 4 = no explicit movement 4
 PWN_ddepend_move 4         0 = off, 1 = sedentary, 2 = on, 3 = sticky  4 = no explicit movement 4
 BML_ddepend_move 4         0 = off, 1 = sedentary, 2 = on, 3 = sticky  4 = no explicit movement 4
@@ -719,6 +1046,8 @@ ZL_ddepend_move  4         0 = off, 1 = sedentary, 2 = on, 3 = sticky  4 = no ex
 
 # Flags for invertebrate migration out of model domain (enter juveniles and adults
 # separately for CEP and PWN - as may be separate groups, rather than age groups)
+### Jan 2015, Gavin Fay @UmassD, Invertebrate entries not done (other invert groups)
+
 flagZLMigrate    0         0=always remain within the model domain, 1+=migrate in/out of the model 0
 flagBMLMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
 flagjCEPMigrate  0         0=always remain within the model domain, 1+=migrate in/out of the model 0
@@ -729,101 +1058,170 @@ flagPWNMigrate   0         0=always remain within the model domain, 1+=migrate i
 # Flags for migration out of model domain (maximum number of times juvenile OR 
 # adult stages must leave the model domain). For example if juvenile FVT leave once,
 # but adults leave 3 times then enter 3 here
-flagFPSMigrate   1         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFPLMigrate   1         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFPOMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model
-flagFVDMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFVVMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model
-flagFVSMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFVTMigrate   1         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFVOMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFVBMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFMMMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFMNMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFBPMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFDDMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFDSMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFDBMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFDCMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFDOMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFDEMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFDFMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagFDMMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model
-flagFDPMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model
-flagSHDMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagSHCMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model
-flagSHPMigrate   1         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagSHBMigrate   1         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagSHRMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagSSKMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagSBMigrate    1         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagSPMigrate    0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagREPMigrate   1         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagPINMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagWDGMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagWHBMigrate   1         0=always remain within the model domain, 1+=migrate in/out of the model 0
-flagWHSMigrate   0         0=always remain within the model domain, 1+=migrate in/out of the model
-flagWHTMigrate   1         0=always remain within the model domain, 1+=migrate in/out of the model 0
+# 0=always remain within the model domain, 1+=migrate in/out of the model 0
+# 0=always remain within the model domain, 1+=migrate in/out of the model 0
+flagMAKMigrate 1
+flagHERMigrate 1
+flagWHKMigrate 0
+flagBLFMigrate 0
+flagWPFMigrate 0
+flagSUFMigrate 0
+flagWIFMigrate 0
+flagWTFMigrate 0
+flagHALMigrate 0
+flagPLAMigrate 0
+flagFOUMigrate 0
+flagFLAMigrate 0
+flagBFTMigrate 1
+flagTUNMigrate 1
+flagBILMigrate 1
+flagMPFMigrate 0
+flagBUTMigrate 0
+flagANCMigrate 0
+flagBPFMigrate 0
+flagGOOMigrate 0
+flagMENMigrate 0
+flagFDEMigrate 0
+flagCODMigrate 0
+flagSHKMigrate 0
+flagOHKMigrate 0
+flagPOLMigrate 0
+flagRHKMigrate 0
+flagBSBMigrate 0
+flagSCUMigrate 0
+flagTYLMigrate 0
+flagREDMigrate 0
+flagOPTMigrate 0
+flagSALMigrate 0
+flagDRMMigrate 0
+flagSTBMigrate 0
+flagTAUMigrate 0
+flagWOLMigrate 0
+flagSDFMigrate 0
+flagFDFMigrate 0
+flagHADMigrate 0
+flagYTFMigrate 0
+flagDOGMigrate 1
+flagSMOMigrate 0
+flagSSHMigrate 0
+flagDSHMigrate 0
+flagBLSMigrate 1
+flagPORMigrate 1
+flagPSHMigrate 1
+flagWSKMigrate 0
+flagLSKMigrate 0
+flagSKMigrate 0
+flagSBMigrate 1
+flagPINMigrate 0
+flagREPMigrate 1
+flagRWHMigrate 1
+flagBWHMigrate 1
+flagSWHMigrate 1
+flagTWHMigrate 1
+flagINVMigrate 0
 
 # Predation formulation switches. 0=Holling type II, 1=Holling type I, 2=Holling type III, 
 # 3=ECOSIM (currently disabled), 4=min-max, 5=Size specific Holling type III
-predcase_DF      0
-predcase_ZG      0                                                                             0
-predcase_ZL      0                                                                             0
-predcase_ZM      0                                                                             0
-predcase_ZS      0                                                                             0
-predcase_CEP     0                                                                             0
-predcase_PWN     0                                                                             0
-predcase_BO      0                                                                             0
-predcase_BD      0                                                                             0
-predcase_BC      0                                                                             0
-predcase_BFS     0                                                                             0
-predcase_BFD     0                                                                             0
-predcase_BFF     0                                                                             0
-predcase_BMS     0                                                                             0
-predcase_BML     0                                                                             0
-predcase_BMD     0                                                                             0
-predcase_BG      0                                                                             0
-predcase_FPS     0                                                                             0
-predcase_FPL     0                                                                             0
-predcase_FPO     0                                                                             0
-predcase_FVD     0                                                                             0
-predcase_FVV     0                                                                             0
-predcase_FVS     0                                                                             0
-predcase_FVT     0                                                                             0
-predcase_FVO     0                                                                             0
-predcase_FVB     0                                                                             0
-predcase_FMM     0                                                                             0
-predcase_FMN     0                                                                             0
-predcase_FBP     0                                                                             0
-predcase_FDD     0                                                                             0
-predcase_FDS     0                                                                             0
-predcase_FDB     0                                                                             0
-predcase_FDC     0                                                                             0
-predcase_FDO     0                                                                             0
-predcase_FDE     0                                                                             0
-predcase_FDF     0                                                                             0
-predcase_FDM     0                                                                             0
-predcase_FDP     0                                                                             0
-predcase_SHD     0                                                                             0
-predcase_SHC     0                                                                             0
-predcase_SHP     0                                                                             0
-predcase_SHB     0                                                                             0
-predcase_SHR     0                                                                             0
-predcase_SSK     0                                                                             0
-predcase_SB      2                                                                             0
-predcase_SP      0                                                                             0
-predcase_REP     0                                                                             0
-predcase_PIN     2                                                                             0
-predcase_WDG     0                                                                             0
-predcase_WHB     2                                                                             0
-predcase_WHS     0                                                                             0
-predcase_WHT     2                                                                             0
+predcase_MAK 0
+predcase_HER 0
+predcase_WHK 0
+predcase_BLF 0
+predcase_WPF 0
+predcase_SUF 0
+predcase_WIF 0
+predcase_WTF 0
+predcase_HAL 0
+predcase_PLA 0
+predcase_FOU 0
+predcase_FLA 0
+predcase_BFT 0
+predcase_TUN 0
+predcase_BIL 0
+predcase_MPF 0
+predcase_BUT 0
+predcase_ANC 0
+predcase_BPF 0
+predcase_GOO 0
+predcase_MEN 0
+predcase_FDE 0
+predcase_COD 0
+predcase_SHK 0
+predcase_OHK 0
+predcase_POL 0
+predcase_RHK 0
+predcase_BSB 0
+predcase_SCU 0
+predcase_TYL 0
+predcase_RED 0
+predcase_OPT 0
+predcase_SAL 0
+predcase_DRM 0
+predcase_STB 0
+predcase_TAU 0
+predcase_WOL 0
+predcase_SDF 0
+predcase_FDF 0
+predcase_HAD 0
+predcase_YTF 0
+predcase_DOG 0
+predcase_SMO 0
+predcase_SSH 0
+predcase_DSH 0
+predcase_BLS 0
+predcase_POR 0
+predcase_PSH 0
+predcase_WSK 0
+predcase_LSK 0
+predcase_SK 0
+predcase_SB 2
+predcase_PIN 2
+predcase_REP 0
+predcase_RWH 2
+predcase_BWH 2
+predcase_SWH 2
+predcase_TWH 2
+predcase_INV 0
+predcase_LSQ 0
+predcase_ISQ 0
+predcase_SCA 0
+predcase_QHG 0
+predcase_CLA 0
+predcase_BFF 0
+predcase_BG 0
+predcase_LOB 0
+predcase_RCB 0
+predcase_BMS 0
+predcase_NSH 0
+predcase_OSH 0
+predcase_ZL 0
+predcase_BD 0
+#predcase_MA NA
+#predcase_MB NA
+#predcase_SG NA
+predcase_BC 0
+predcase_ZG 0
+#predcase_PL NA
+predcase_DF 0
+#predcase_PS NA
+predcase_ZM 0
+predcase_ZS 0
+#predcase_PB NA
+#predcase_BB NA
+predcase_BO 0
+#predcase_DL NA
+#predcase_DR NA
+#predcase_DC NA
+
 
 # Flags indicating whether large mammals steal from fisheries catches
 PIN_catcheater   0         Pinnipeds eat catch from nets: 1 = yes, 0 = no                      1
-WHS_catcheater   0         Small toothed whales eat catch from nets: 1 = yes, 0 = no           1
-WHT_catcheater   0         Toothed whales eat catch from nets: 1 = yes, 0 = no                      1
+#WHS_catcheater   0         Small toothed whales eat catch from nets: 1 = yes, 0 = no           1
+#WHT_catcheater   0         Toothed whales eat catch from nets: 1 = yes, 0 = no                      1
+RWH_catcheater   0        
+BWH_catcheater   0        
+SWH_catcheater   0        
+TWH_catcheater   0        
+
 
 # Period of activity for consumer groups 
 flagZGday        2         Active: 2 = no preference, 1 = day, 0 = night                       2

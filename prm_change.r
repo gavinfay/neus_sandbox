@@ -10,6 +10,9 @@
 
 #set working directory
 setwd("C:/Atlantis/neus_sandbox/Test/test1/")
+setwd("~/Atlantis/neus_sandbox/")
+
+
 
 #Lookup table with new codes for functional groups along with 'parent' groups from Atlantis-neus v1.
 CodeRelations <- read.csv("coderelations.csv")
@@ -55,7 +58,8 @@ write.table(temptab,file="newtable.out",col.names=FALSE,row.names=FALSE,quote=FA
 
 
 
-change.prm <- function(path,origfile,param.name,outfile,mapfile,param.type,name2=NULL)
+change.prm <- function(path,origfile,param.name,outfile,mapfile,param.type,
+                       name2=NULL)
  {
   #this function finds a parameter in a prm file, 
   #maps the old values to new group structure,
@@ -73,11 +77,28 @@ change.prm <- function(path,origfile,param.name,outfile,mapfile,param.type,name2
 
 
   #find the length-weight parameters from the old prm file, store them
-  pick <- grep(param.name,TheData[,1])
+  if (param.name!= "") 
+    pick <- grep(param.name,TheData[,1])
+  if (length(name2)>0) pick <-pick[grep(name2,TheData[pick,1])]
+  if (param.name== "") pick <- grep(name2,TheData[,1])
   xx <- TheData[pick,]
   tempmat <- matrix(NA,nrow=nrow(xx),ncol=2)
-  for (igroup in 1:nrow(tempmat)) tempmat[igroup,1] <- strsplit(as.character(xx[igroup,1]),param.name)[[1]][2]
-  if (length(name2)>0) for (igroup in 1:nrow(tempmat)) tempmat[igroup,1] <- strsplit(tempmat[igroup,1],name2)[[1]][1]
+  if (param.name!="")
+    {
+     for (igroup in 1:nrow(tempmat)) tempmat[igroup,1] <- 
+      strsplit(as.character(xx[igroup,1]),param.name)[[1]][2]
+     if (length(name2)>0)
+      {
+       for (igroup in 1:nrow(tempmat)) tempmat[igroup,1] <- 
+         strsplit(as.character(tempmat[igroup,1]),name2)[[1]][1]
+      }
+    }
+  if (param.name=="")
+   {
+    for (igroup in 1:nrow(tempmat)) tempmat[igroup,1] <- 
+      strsplit(as.character(xx[igroup,1]),name2)[[1]][1]
+   }     
+  ###if (length(name2)>0) for (igroup in 1:nrow(tempmat)) tempmat[igroup,1] <- strsplit(tempmat[igroup,1],name2)[[1]][1]
   tempmat[,2] <- as.numeric(as.character(xx[,2]))
   ##pick <- grep("li_b_",TheData[,1])
   ##tempmat[,3] <- as.numeric(as.character(TheData[pick,2]))
@@ -129,6 +150,7 @@ if (param.type==3)  #just invertebrates
 
 
 }
+
 
 change.prm2 <- function(path,origfile,param.name,outfile,mapfile,param.type,param.length=4,name2=NULL)
  {
@@ -299,3 +321,14 @@ if (param.type==1)  #just vertebrates
   write(" ",file=outfile,append=TRUE)
 }
 
+
+
+
+biofile <- "at_biol_neus_v15_working.prm"
+TheData <- read.table(biofile,col.names=1:100,comment.char="",fill=TRUE,
+                      skip=152,nrow=62,header=FALSE)
+mapvals <- match(CodeRelations$Parent,oldgroups$Code)
+temp <- cbind(paste("flag",CodeRelations$Child,sep=""),
+              oldgroups$IsTurnedOn[mapvals])
+write.table(temp,file=outfile,row.names=FALSE,col.names=FALSE,sep="         ",
+            quote=FALSE)
