@@ -1,0 +1,64 @@
+### Spatial distribution ###
+Spatial distribution of groups FXXX_S1 FXXX_S2 FXXX_S3 FXXX_S4 (ad &juv)
+vertical distribution
+recruit location spatial distribution  XXX_recruit_hdistrib  XXX_recruit_vdistrib
+
+### BIOMASS AND SIZE ###
+current biomass  (init.nc)
+structural and reserve weights for each age group  KMIGa_XXXrn  KMIGa_XXXsn  (read in init.nc)
+
+### AGE AND GROWTH ###
+length-weight parameters   li_a_XXX  li_b_XXX
+Consumer growth  mum_XXX_T15
+age class size  XXX_AgeClassSize
+preference for rebuilding reserves over structure   pR_XXX (inherit)
+assimilation efficiencies E_XXX EPlant_XXX EDL_XXX (children inherit from parents)
+
+### FEEDING ###
+Diet availability  pPREY1XXX1 pPREY2XXX1  pPREY1XXX2 pPREY2XXX2
+age structure specific values:  p_XXXYYY
+gape size?  KLP_XXX  KUP_XXX
+Seed bank/population refuge based on intake (min/max feeding)  KL_XXX
+saturation levels (predcase 4)  KU_XXX
+Search volume vl_XXX  vla_XXX_T15  vlb_XXX_T15
+Handling time  ht_XXX  hta_XXX  htb_XXX
+Clearance rates C_XXX_T15  C_XXX
+sediment penetration depth  KDEP_XXX
+
+### MORTALITY ###
+linear mortality mL_XXX_T15  (inherit)
+quadratic mortality mL_XXX_T15  (inherit)
+
+### MATURITY ###
+age class of maturity  XXX_age_mat
+time of year cohort becomes mature? Time_Age_XXX
+Spawn production  KSPA_XXX  FSP_XXX (inherit)  
+prop of pop spawning FSPB_XXX
+
+### OTHER BIOL PARAMS ###
+respiration  KA_XXX KB_XXX (inherit)
+fraction of non-assimilate lost to detritus  FDG_XXX(inherit)
+fraction of mortality lost to detritus  FDM_XXX  (inherit)
+swimming speed
+migration timing
+increase in size while outside model XXX_FMSG jXXX_FMSG
+proportion migrating  MigIOBox_XXXad
+
+## STOCK-RECRUITMENT  (all either constant recruits or BH) ###
+total no. of new recruits KDENR_XXX
+average biomass spawned in each cell (age structure inverts) KDENR_XXX  #### NEED TO CHECK THESE AS BEC ADDED TO MAKE WORK
+BH recruitment  BHalpha_XXX BHbeta_XXX
+size of recruits  KWSR_XXX  KWRR_XXX
+stock structure   XXX_stock_struct  XXX_vert_stock_struct
+spawning season  XXX_Time_Spawn (inherit)
+spawning period XXX_spawn_period(inherit)
+age of recruitment / length of larval period  XXX_Recruit_Time  (inherit)
+length of time recruits arrive over  Recruit_Period_XXX
+#PP dependent recruitment  PP_XXX
+#Ricker recruit   Ralpha_XXX Rbeta_XXX
+#lognormal random recruitment   FPL_log_mult
+#jackknife (GF copied from BH)
+
+
+
+

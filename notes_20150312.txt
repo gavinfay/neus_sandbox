@@ -1,0 +1,87 @@
+
+Developing common scenarios for the Atlantis Summit
+
+Climate: Discussion over challenging nature of different models having varying capabilities of being able to implement changes
+ - e.g. hi-res hyrdo, or fixed Temp forcing, etc.
+
+
+1. Cross-Sector Multiple Use Management
+2. Climate
+	- Forcing with Temp over time - proportional change -climate prediction for your system
+	- changes in hydrodynamic pattern associated with climate change (more challenging but more realistic), only a subset of models can do this.
+3. Fisheries 
+	
+
+DRIVERS
+	Climate
+	AreaUse Conflict
+	Overfishing
+	Conservation (MPAs)
+
+	Future Scenarios, compare EBM vs Business as Usual
+	EBM makes most sense 
+
+
+
+Fishing
+	1. Status Quo - project current F or E forward
+	2. All species at SS FMSY
+	3. Fixed F, egg. quotas, floors
+	4. COnstant catch
+	5. Gear Ban
+	6. Balanced Fishing
+	7. Multispecies FMSY
+	8. general advice on objectives - how do inividual models figure out how to implement.
+    9. 
+
+    Focus on contrasts, how are you going to implement, what do you have to change.
+
+    fishing at lower trophic levels
+
+    consumption driven limits
+
+    multiple use management: % decreases in fishing, or area closures, gear-specific effects.
+    
+    Ban fishing from conservation areas.
+
+    Area use conflict between different energy uses
+   
+    
+
+
+BUsiness as usual
+Single Species (Fishing focus), ss FMSY, no closyres
+Extreme Conservation (Bans / closures / low quitas) , forage fish control rules
+EBM (Balance)
+	a. spatial closures for other human uses
+	   ecosystem fishing scenario
+    b. MPAs smaller than 3
+
+
+
+
+13/3/15
+
+Parameter distributions that people have used.
+
+Discussion at the Summit on cailbration procedure
+
+Von Bertalanffy growth parameters
+
+weight-length params
+
+maturity info 
+
+Recruitment info
+
+
+
+
+##April meeting
+Spatial scenarios (Erik)
+Biological parameters
+Summit scenario determination
+Progress on biomass allocation, etc.
+
+
+

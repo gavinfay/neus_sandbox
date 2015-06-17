@@ -598,7 +598,7 @@ for (i in 1:length(duplicate.nespp)) tagrows <- c(tagrows,as.numeric(which(speci
 # squid
 #"CEP" 
 # allocate unclassifieds to shallow macrozoobenthos? or to one of the two squids - which?
-species.v15$new.sp.codes[species.v15$new.sp.codes=="CEP"] <- "BMS"
+species.v15$new.sp.codes[species.v15$new.sp.codes=="CEP"] <- "BC"
 species.v15$new.sp.codes[species.v15$COMNAME=="LONGFIN SQUID"] <- "LSQ"
 species.v15$new.sp.codes[species.v15$COMNAME=="NORTHERN SHORTFIN SQUID"] <- "ISQ"
 
@@ -635,9 +635,17 @@ newvec <- cbind("","",NA,neco.atl$NESPP3[pick],
 newvec[1,3] <- svspp$SVSPP[grep("knobbed",svspp$COMNAME,ignore.case=TRUE,value=FALSE)]
 colnames(newvec) <- colnames(species.v15)
 species.v15 <- rbind(species.v15,newvec)
-
-
-
+#octopods
+for (i in 510:515)
+{
+  newvec <- cbind("","",510,NA,"octopus","BC")
+  colnames(newvec) <- colnames(species.v15)
+  species.v15 <- rbind(species.v15,newvec)
+}
+## 2015 Feb 12 ##
+## Come back to this for the biomass files.
+## Need to insert rows from the SVSPP code file (one with all codes)
+## For the Benthic invertebrate groups and the BFFs
 
 
 ########################################################

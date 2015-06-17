@@ -1,0 +1,454 @@
+# Historical catch time series file until 2014 for box 1
+#          
+## COLUMNS 90        
+##          
+## COLUMN1.name Time        
+## COLUMN1.long_name Time        
+## COLUMN1.units days since 1964-01-01 00:00:00 +10    
+## COLUMN1.missing_value 0        
+##   
+## COLUMN2.name MAK 
+## COLUMN2.long_name MAK 
+## COLUMN2.units mg s-1
+## COLUMN2.missing_value 0 
+##   
+## COLUMN3.name HER 
+## COLUMN3.long_name HER 
+## COLUMN3.units mg s-1
+## COLUMN3.missing_value 0 
+##   
+## COLUMN4.name WHK 
+## COLUMN4.long_name WHK 
+## COLUMN4.units mg s-1
+## COLUMN4.missing_value 0 
+##   
+## COLUMN5.name BLF 
+## COLUMN5.long_name BLF 
+## COLUMN5.units mg s-1
+## COLUMN5.missing_value 0 
+##   
+## COLUMN6.name WPF 
+## COLUMN6.long_name WPF 
+## COLUMN6.units mg s-1
+## COLUMN6.missing_value 0 
+##   
+## COLUMN7.name SUF 
+## COLUMN7.long_name SUF 
+## COLUMN7.units mg s-1
+## COLUMN7.missing_value 0 
+##   
+## COLUMN8.name WIF 
+## COLUMN8.long_name WIF 
+## COLUMN8.units mg s-1
+## COLUMN8.missing_value 0 
+##   
+## COLUMN9.name WTF 
+## COLUMN9.long_name WTF 
+## COLUMN9.units mg s-1
+## COLUMN9.missing_value 0 
+##   
+## COLUMN10.name HAL 
+## COLUMN10.long_name HAL 
+## COLUMN10.units mg s-1
+## COLUMN10.missing_value 0 
+##   
+## COLUMN11.name PLA 
+## COLUMN11.long_name PLA 
+## COLUMN11.units mg s-1
+## COLUMN11.missing_value 0 
+##   
+## COLUMN12.name FOU 
+## COLUMN12.long_name FOU 
+## COLUMN12.units mg s-1
+## COLUMN12.missing_value 0 
+##   
+## COLUMN13.name FLA 
+## COLUMN13.long_name FLA 
+## COLUMN13.units mg s-1
+## COLUMN13.missing_value 0 
+##   
+## COLUMN14.name BFT 
+## COLUMN14.long_name BFT 
+## COLUMN14.units mg s-1
+## COLUMN14.missing_value 0 
+##   
+## COLUMN15.name TUN 
+## COLUMN15.long_name TUN 
+## COLUMN15.units mg s-1
+## COLUMN15.missing_value 0 
+##   
+## COLUMN16.name BIL 
+## COLUMN16.long_name BIL 
+## COLUMN16.units mg s-1
+## COLUMN16.missing_value 0 
+##   
+## COLUMN17.name MPF 
+## COLUMN17.long_name MPF 
+## COLUMN17.units mg s-1
+## COLUMN17.missing_value 0 
+##   
+## COLUMN18.name BUT 
+## COLUMN18.long_name BUT 
+## COLUMN18.units mg s-1
+## COLUMN18.missing_value 0 
+##   
+## COLUMN19.name ANC 
+## COLUMN19.long_name ANC 
+## COLUMN19.units mg s-1
+## COLUMN19.missing_value 0 
+##   
+## COLUMN20.name BPF 
+## COLUMN20.long_name BPF 
+## COLUMN20.units mg s-1
+## COLUMN20.missing_value 0 
+##   
+## COLUMN21.name GOO 
+## COLUMN21.long_name GOO 
+## COLUMN21.units mg s-1
+## COLUMN21.missing_value 0 
+##   
+## COLUMN22.name MEN 
+## COLUMN22.long_name MEN 
+## COLUMN22.units mg s-1
+## COLUMN22.missing_value 0 
+##   
+## COLUMN23.name FDE 
+## COLUMN23.long_name FDE 
+## COLUMN23.units mg s-1
+## COLUMN23.missing_value 0 
+##   
+## COLUMN24.name COD 
+## COLUMN24.long_name COD 
+## COLUMN24.units mg s-1
+## COLUMN24.missing_value 0 
+##   
+## COLUMN25.name SHK 
+## COLUMN25.long_name SHK 
+## COLUMN25.units mg s-1
+## COLUMN25.missing_value 0 
+##   
+## COLUMN26.name OHK 
+## COLUMN26.long_name OHK 
+## COLUMN26.units mg s-1
+## COLUMN26.missing_value 0 
+##   
+## COLUMN27.name POL 
+## COLUMN27.long_name POL 
+## COLUMN27.units mg s-1
+## COLUMN27.missing_value 0 
+##   
+## COLUMN28.name RHK 
+## COLUMN28.long_name RHK 
+## COLUMN28.units mg s-1
+## COLUMN28.missing_value 0 
+##   
+## COLUMN29.name BSB 
+## COLUMN29.long_name BSB 
+## COLUMN29.units mg s-1
+## COLUMN29.missing_value 0 
+##   
+## COLUMN30.name SCU 
+## COLUMN30.long_name SCU 
+## COLUMN30.units mg s-1
+## COLUMN30.missing_value 0 
+##   
+## COLUMN31.name TYL 
+## COLUMN31.long_name TYL 
+## COLUMN31.units mg s-1
+## COLUMN31.missing_value 0 
+##   
+## COLUMN32.name RED 
+## COLUMN32.long_name RED 
+## COLUMN32.units mg s-1
+## COLUMN32.missing_value 0 
+##   
+## COLUMN33.name OPT 
+## COLUMN33.long_name OPT 
+## COLUMN33.units mg s-1
+## COLUMN33.missing_value 0 
+##   
+## COLUMN34.name SAL 
+## COLUMN34.long_name SAL 
+## COLUMN34.units mg s-1
+## COLUMN34.missing_value 0 
+##   
+## COLUMN35.name DRM 
+## COLUMN35.long_name DRM 
+## COLUMN35.units mg s-1
+## COLUMN35.missing_value 0 
+##   
+## COLUMN36.name STB 
+## COLUMN36.long_name STB 
+## COLUMN36.units mg s-1
+## COLUMN36.missing_value 0 
+##   
+## COLUMN37.name TAU 
+## COLUMN37.long_name TAU 
+## COLUMN37.units mg s-1
+## COLUMN37.missing_value 0 
+##   
+## COLUMN38.name WOL 
+## COLUMN38.long_name WOL 
+## COLUMN38.units mg s-1
+## COLUMN38.missing_value 0 
+##   
+## COLUMN39.name SDF 
+## COLUMN39.long_name SDF 
+## COLUMN39.units mg s-1
+## COLUMN39.missing_value 0 
+##   
+## COLUMN40.name FDF 
+## COLUMN40.long_name FDF 
+## COLUMN40.units mg s-1
+## COLUMN40.missing_value 0 
+##   
+## COLUMN41.name HAD 
+## COLUMN41.long_name HAD 
+## COLUMN41.units mg s-1
+## COLUMN41.missing_value 0 
+##   
+## COLUMN42.name YTF 
+## COLUMN42.long_name YTF 
+## COLUMN42.units mg s-1
+## COLUMN42.missing_value 0 
+##   
+## COLUMN43.name DOG 
+## COLUMN43.long_name DOG 
+## COLUMN43.units mg s-1
+## COLUMN43.missing_value 0 
+##   
+## COLUMN44.name SMO 
+## COLUMN44.long_name SMO 
+## COLUMN44.units mg s-1
+## COLUMN44.missing_value 0 
+##   
+## COLUMN45.name SSH 
+## COLUMN45.long_name SSH 
+## COLUMN45.units mg s-1
+## COLUMN45.missing_value 0 
+##   
+## COLUMN46.name DSH 
+## COLUMN46.long_name DSH 
+## COLUMN46.units mg s-1
+## COLUMN46.missing_value 0 
+##   
+## COLUMN47.name BLS 
+## COLUMN47.long_name BLS 
+## COLUMN47.units mg s-1
+## COLUMN47.missing_value 0 
+##   
+## COLUMN48.name POR 
+## COLUMN48.long_name POR 
+## COLUMN48.units mg s-1
+## COLUMN48.missing_value 0 
+##   
+## COLUMN49.name PSH 
+## COLUMN49.long_name PSH 
+## COLUMN49.units mg s-1
+## COLUMN49.missing_value 0 
+##   
+## COLUMN50.name WSK 
+## COLUMN50.long_name WSK 
+## COLUMN50.units mg s-1
+## COLUMN50.missing_value 0 
+##   
+## COLUMN51.name LSK 
+## COLUMN51.long_name LSK 
+## COLUMN51.units mg s-1
+## COLUMN51.missing_value 0 
+##   
+## COLUMN52.name SK 
+## COLUMN52.long_name SK 
+## COLUMN52.units mg s-1
+## COLUMN52.missing_value 0 
+##   
+## COLUMN53.name SB 
+## COLUMN53.long_name SB 
+## COLUMN53.units mg s-1
+## COLUMN53.missing_value 0 
+##   
+## COLUMN54.name PIN 
+## COLUMN54.long_name PIN 
+## COLUMN54.units mg s-1
+## COLUMN54.missing_value 0 
+##   
+## COLUMN55.name REP 
+## COLUMN55.long_name REP 
+## COLUMN55.units mg s-1
+## COLUMN55.missing_value 0 
+##   
+## COLUMN56.name RWH 
+## COLUMN56.long_name RWH 
+## COLUMN56.units mg s-1
+## COLUMN56.missing_value 0 
+##   
+## COLUMN57.name BWH 
+## COLUMN57.long_name BWH 
+## COLUMN57.units mg s-1
+## COLUMN57.missing_value 0 
+##   
+## COLUMN58.name SWH 
+## COLUMN58.long_name SWH 
+## COLUMN58.units mg s-1
+## COLUMN58.missing_value 0 
+##   
+## COLUMN59.name TWH 
+## COLUMN59.long_name TWH 
+## COLUMN59.units mg s-1
+## COLUMN59.missing_value 0 
+##   
+## COLUMN60.name INV 
+## COLUMN60.long_name INV 
+## COLUMN60.units mg s-1
+## COLUMN60.missing_value 0 
+##   
+## COLUMN61.name LSQ 
+## COLUMN61.long_name LSQ 
+## COLUMN61.units mg s-1
+## COLUMN61.missing_value 0 
+##   
+## COLUMN62.name ISQ 
+## COLUMN62.long_name ISQ 
+## COLUMN62.units mg s-1
+## COLUMN62.missing_value 0 
+##   
+## COLUMN63.name SCA 
+## COLUMN63.long_name SCA 
+## COLUMN63.units mg s-1
+## COLUMN63.missing_value 0 
+##   
+## COLUMN64.name QHG 
+## COLUMN64.long_name QHG 
+## COLUMN64.units mg s-1
+## COLUMN64.missing_value 0 
+##   
+## COLUMN65.name CLA 
+## COLUMN65.long_name CLA 
+## COLUMN65.units mg s-1
+## COLUMN65.missing_value 0 
+##   
+## COLUMN66.name BFF 
+## COLUMN66.long_name BFF 
+## COLUMN66.units mg s-1
+## COLUMN66.missing_value 0 
+##   
+## COLUMN67.name BG 
+## COLUMN67.long_name BG 
+## COLUMN67.units mg s-1
+## COLUMN67.missing_value 0 
+##   
+## COLUMN68.name LOB 
+## COLUMN68.long_name LOB 
+## COLUMN68.units mg s-1
+## COLUMN68.missing_value 0 
+##   
+## COLUMN69.name RCB 
+## COLUMN69.long_name RCB 
+## COLUMN69.units mg s-1
+## COLUMN69.missing_value 0 
+##   
+## COLUMN70.name BMS 
+## COLUMN70.long_name BMS 
+## COLUMN70.units mg s-1
+## COLUMN70.missing_value 0 
+##   
+## COLUMN71.name NSH 
+## COLUMN71.long_name NSH 
+## COLUMN71.units mg s-1
+## COLUMN71.missing_value 0 
+##   
+## COLUMN72.name OSH 
+## COLUMN72.long_name OSH 
+## COLUMN72.units mg s-1
+## COLUMN72.missing_value 0 
+##   
+## COLUMN73.name ZL 
+## COLUMN73.long_name ZL 
+## COLUMN73.units mg s-1
+## COLUMN73.missing_value 0 
+##   
+## COLUMN74.name BD 
+## COLUMN74.long_name BD 
+## COLUMN74.units mg s-1
+## COLUMN74.missing_value 0 
+##   
+## COLUMN75.name MA 
+## COLUMN75.long_name MA 
+## COLUMN75.units mg s-1
+## COLUMN75.missing_value 0 
+##   
+## COLUMN76.name MB 
+## COLUMN76.long_name MB 
+## COLUMN76.units mg s-1
+## COLUMN76.missing_value 0 
+##   
+## COLUMN77.name SG 
+## COLUMN77.long_name SG 
+## COLUMN77.units mg s-1
+## COLUMN77.missing_value 0 
+##   
+## COLUMN78.name BC 
+## COLUMN78.long_name BC 
+## COLUMN78.units mg s-1
+## COLUMN78.missing_value 0 
+##   
+## COLUMN79.name ZG 
+## COLUMN79.long_name ZG 
+## COLUMN79.units mg s-1
+## COLUMN79.missing_value 0 
+##   
+## COLUMN80.name PL 
+## COLUMN80.long_name PL 
+## COLUMN80.units mg s-1
+## COLUMN80.missing_value 0 
+##   
+## COLUMN81.name DF 
+## COLUMN81.long_name DF 
+## COLUMN81.units mg s-1
+## COLUMN81.missing_value 0 
+##   
+## COLUMN82.name PS 
+## COLUMN82.long_name PS 
+## COLUMN82.units mg s-1
+## COLUMN82.missing_value 0 
+##   
+## COLUMN83.name ZM 
+## COLUMN83.long_name ZM 
+## COLUMN83.units mg s-1
+## COLUMN83.missing_value 0 
+##   
+## COLUMN84.name ZS 
+## COLUMN84.long_name ZS 
+## COLUMN84.units mg s-1
+## COLUMN84.missing_value 0 
+##   
+## COLUMN85.name PB 
+## COLUMN85.long_name PB 
+## COLUMN85.units mg s-1
+## COLUMN85.missing_value 0 
+##   
+## COLUMN86.name BB 
+## COLUMN86.long_name BB 
+## COLUMN86.units mg s-1
+## COLUMN86.missing_value 0 
+##   
+## COLUMN87.name BO 
+## COLUMN87.long_name BO 
+## COLUMN87.units mg s-1
+## COLUMN87.missing_value 0 
+##   
+## COLUMN88.name DL 
+## COLUMN88.long_name DL 
+## COLUMN88.units mg s-1
+## COLUMN88.missing_value 0 
+##   
+## COLUMN89.name DR 
+## COLUMN89.long_name DR 
+## COLUMN89.units mg s-1
+## COLUMN89.missing_value 0 
+##   
+## COLUMN90.name DC 
+## COLUMN90.long_name DC 
+## COLUMN90.units mg s-1
+## COLUMN90.missing_value 0 
+##

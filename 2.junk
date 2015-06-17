@@ -1,0 +1,410 @@
+A subdirectory or file junk4\ already exists.
+ncattinq: ncid 3; varid -1; attname "icenz": Attribute not found
+WARNING: flagecon_on in at_run_neus_v15_DE.xml set to zero - assume economics model disabled
+Read in 1127 tracers
+Read in 15 epibenthic variables
+WARNING: Box 27 has a depth -5.000000e+002 greater than the maxwcbotz. Please adjust your bgm file and try again
+WARNING: Sum of dz (3.800000e+002) in box 27 is greater than botz (5.000000e+002) for that box in bgm file. Difference = -1.200000e+002 - correct and retry
+WARNING: Sum of nominal_dz (3.800000e+002) in box 27 is greater than botz (5.000000e+002) for that box in bgm file - this will impact number of layers calculated for the box - correct and retry
+WARNING: The numLayers value for box 27 is 4 but the number of layers calculated based on nominal_dz is 2 - check and retry.
+WARNING: Box 28 has a depth -5.000000e+002 greater than the maxwcbotz. Please adjust your bgm file and try again
+WARNING: Sum of dz (3.800000e+002) in box 28 is greater than botz (5.000000e+002) for that box in bgm file. Difference = -1.200000e+002 - correct and retry
+WARNING: Sum of nominal_dz (3.800000e+002) in box 28 is greater than botz (5.000000e+002) for that box in bgm file - this will impact number of layers calculated for the box - correct and retry
+WARNING: The numLayers value for box 28 is 4 but the number of layers calculated based on nominal_dz is 2 - check and retry.
+WARNING: Box 29 has a depth -5.000000e+002 greater than the maxwcbotz. Please adjust your bgm file and try again
+WARNING: Sum of dz (3.800000e+002) in box 29 is greater than botz (5.000000e+002) for that box in bgm file. Difference = -1.200000e+002 - correct and retry
+WARNING: Sum of nominal_dz (3.800000e+002) in box 29 is greater than botz (5.000000e+002) for that box in bgm file - this will impact number of layers calculated for the box - correct and retry
+WARNING: Planktiv_S_Fish1_Nums scaled by 7.500000e+002
+WARNING: Planktiv_S_Fish2_Nums scaled by 7.500000e+002
+WARNING: Planktiv_S_Fish3_Nums scaled by 7.500000e+002
+WARNING: Planktiv_S_Fish4_Nums scaled by 7.500000e+002
+WARNING: Planktiv_S_Fish5_Nums scaled by 7.500000e+002
+WARNING: Planktiv_S_Fish6_Nums scaled by 7.500000e+002
+WARNING: Planktiv_S_Fish7_Nums scaled by 7.500000e+002
+WARNING: Planktiv_S_Fish8_Nums scaled by 7.500000e+002
+WARNING: Planktiv_S_Fish9_Nums scaled by 7.500000e+002
+WARNING: Planktiv_S_Fish10_Nums scaled by 7.500000e+002
+WARNING: Planktiv_L_Fish1_Nums scaled by 1.100000e+002
+WARNING: Planktiv_L_Fish2_Nums scaled by 1.100000e+002
+WARNING: Planktiv_L_Fish3_Nums scaled by 1.100000e+002
+WARNING: Planktiv_L_Fish4_Nums scaled by 1.100000e+002
+WARNING: Planktiv_L_Fish5_Nums scaled by 1.100000e+002
+WARNING: Planktiv_L_Fish6_Nums scaled by 1.100000e+002
+WARNING: Planktiv_L_Fish7_Nums scaled by 1.100000e+002
+WARNING: Planktiv_L_Fish8_Nums scaled by 1.100000e+002
+WARNING: Planktiv_L_Fish9_Nums scaled by 1.100000e+002
+WARNING: Planktiv_L_Fish10_Nums scaled by 1.100000e+002
+WARNING: Pisciv_S_Fish1_Nums scaled by 1.100000e+001
+WARNING: Pisciv_S_Fish2_Nums scaled by 1.100000e+001
+WARNING: Pisciv_S_Fish3_Nums scaled by 1.100000e+001
+WARNING: Pisciv_S_Fish4_Nums scaled by 1.100000e+001
+WARNING: Pisciv_S_Fish5_Nums scaled by 1.100000e+001
+WARNING: Pisciv_S_Fish6_Nums scaled by 1.100000e+001
+WARNING: Pisciv_S_Fish7_Nums scaled by 1.100000e+001
+WARNING: Pisciv_S_Fish8_Nums scaled by 1.100000e+001
+WARNING: Pisciv_S_Fish9_Nums scaled by 1.100000e+001
+WARNING: Pisciv_S_Fish10_Nums scaled by 1.100000e+001
+WARNING: Pisciv_D_Fish1_Nums scaled by 3.500000e-001
+WARNING: Pisciv_D_Fish2_Nums scaled by 3.500000e-001
+WARNING: Pisciv_D_Fish3_Nums scaled by 3.500000e-001
+WARNING: Pisciv_D_Fish4_Nums scaled by 3.500000e-001
+WARNING: Pisciv_D_Fish5_Nums scaled by 3.500000e-001
+WARNING: Pisciv_D_Fish6_Nums scaled by 3.500000e-001
+WARNING: Pisciv_D_Fish7_Nums scaled by 3.500000e-001
+WARNING: Pisciv_D_Fish8_Nums scaled by 3.500000e-001
+WARNING: Pisciv_D_Fish9_Nums scaled by 3.500000e-001
+WARNING: Pisciv_D_Fish10_Nums scaled by 3.500000e-001
+WARNING: Pisciv_T_Fish1_Nums scaled by 3.500000e+001
+WARNING: Pisciv_T_Fish2_Nums scaled by 3.500000e+001
+WARNING: Pisciv_T_Fish3_Nums scaled by 3.500000e+001
+WARNING: Pisciv_T_Fish4_Nums scaled by 3.500000e+001
+WARNING: Pisciv_T_Fish5_Nums scaled by 3.500000e+001
+WARNING: Pisciv_T_Fish6_Nums scaled by 3.500000e+001
+WARNING: Pisciv_T_Fish7_Nums scaled by 3.500000e+001
+WARNING: Pisciv_T_Fish8_Nums scaled by 3.500000e+001
+WARNING: Pisciv_T_Fish9_Nums scaled by 3.500000e+001
+WARNING: Pisciv_T_Fish10_Nums scaled by 3.500000e+001
+WARNING: Pisciv_B_Fish1_Nums scaled by 5.500000e-001
+WARNING: Pisciv_B_Fish2_Nums scaled by 5.500000e-001
+WARNING: Pisciv_B_Fish3_Nums scaled by 5.500000e-001
+WARNING: Pisciv_B_Fish4_Nums scaled by 5.500000e-001
+WARNING: Pisciv_B_Fish5_Nums scaled by 5.500000e-001
+WARNING: Pisciv_B_Fish6_Nums scaled by 5.500000e-001
+WARNING: Pisciv_B_Fish7_Nums scaled by 5.500000e-001
+WARNING: Pisciv_B_Fish8_Nums scaled by 5.500000e-001
+WARNING: Pisciv_B_Fish9_Nums scaled by 5.500000e-001
+WARNING: Pisciv_B_Fish10_Nums scaled by 5.500000e-001
+WARNING: Mesopel_M_Fish1_Nums scaled by 6.000000e-001
+WARNING: Mesopel_M_Fish2_Nums scaled by 6.000000e-001
+WARNING: Mesopel_M_Fish3_Nums scaled by 6.000000e-001
+WARNING: Mesopel_M_Fish4_Nums scaled by 6.000000e-001
+WARNING: Mesopel_M_Fish5_Nums scaled by 6.000000e-001
+WARNING: Mesopel_M_Fish6_Nums scaled by 6.000000e-001
+WARNING: Mesopel_M_Fish7_Nums scaled by 6.000000e-001
+WARNING: Mesopel_M_Fish8_Nums scaled by 6.000000e-001
+WARNING: Mesopel_M_Fish9_Nums scaled by 6.000000e-001
+WARNING: Mesopel_M_Fish10_Nums scaled by 6.000000e-001
+WARNING: Benthopel_Fish1_Nums scaled by 6.500000e-001
+WARNING: Benthopel_Fish2_Nums scaled by 6.500000e-001
+WARNING: Benthopel_Fish3_Nums scaled by 6.500000e-001
+WARNING: Benthopel_Fish4_Nums scaled by 6.500000e-001
+WARNING: Benthopel_Fish5_Nums scaled by 6.500000e-001
+WARNING: Benthopel_Fish6_Nums scaled by 6.500000e-001
+WARNING: Benthopel_Fish7_Nums scaled by 6.500000e-001
+WARNING: Benthopel_Fish8_Nums scaled by 6.500000e-001
+WARNING: Benthopel_Fish9_Nums scaled by 6.500000e-001
+WARNING: Benthopel_Fish10_Nums scaled by 6.500000e-001
+WARNING: Demersal_S_Fish1_Nums scaled by 6.000000e-001
+WARNING: Demersal_S_Fish2_Nums scaled by 6.000000e-001
+WARNING: Demersal_S_Fish3_Nums scaled by 6.000000e-001
+WARNING: Demersal_S_Fish4_Nums scaled by 6.000000e-001
+WARNING: Demersal_S_Fish5_Nums scaled by 6.000000e-001
+WARNING: Demersal_S_Fish6_Nums scaled by 6.000000e-001
+WARNING: Demersal_S_Fish7_Nums scaled by 6.000000e-001
+WARNING: Demersal_S_Fish8_Nums scaled by 6.000000e-001
+WARNING: Demersal_S_Fish9_Nums scaled by 6.000000e-001
+WARNING: Demersal_S_Fish10_Nums scaled by 6.000000e-001
+WARNING: Demersal_D_Fish1_Nums scaled by 1.200000e+001
+WARNING: Demersal_D_Fish2_Nums scaled by 1.200000e+001
+WARNING: Demersal_D_Fish3_Nums scaled by 1.200000e+001
+WARNING: Demersal_D_Fish4_Nums scaled by 1.200000e+001
+WARNING: Demersal_D_Fish5_Nums scaled by 1.200000e+001
+WARNING: Demersal_D_Fish6_Nums scaled by 1.200000e+001
+WARNING: Demersal_D_Fish7_Nums scaled by 1.200000e+001
+WARNING: Demersal_D_Fish8_Nums scaled by 1.200000e+001
+WARNING: Demersal_D_Fish9_Nums scaled by 1.200000e+001
+WARNING: Demersal_D_Fish10_Nums scaled by 1.200000e+001
+WARNING: Demersal_DC_Fish1_Nums scaled by 7.600000e-001
+WARNING: Demersal_DC_Fish2_Nums scaled by 7.600000e-001
+WARNING: Demersal_DC_Fish3_Nums scaled by 7.600000e-001
+WARNING: Demersal_DC_Fish4_Nums scaled by 7.600000e-001
+WARNING: Demersal_DC_Fish5_Nums scaled by 7.600000e-001
+WARNING: Demersal_DC_Fish6_Nums scaled by 7.600000e-001
+WARNING: Demersal_DC_Fish7_Nums scaled by 7.600000e-001
+WARNING: Demersal_DC_Fish8_Nums scaled by 7.600000e-001
+WARNING: Demersal_DC_Fish9_Nums scaled by 7.600000e-001
+WARNING: Demersal_DC_Fish10_Nums scaled by 7.600000e-001
+WARNING: Demersal_O_Fish1_Nums scaled by 6.600000e-001
+WARNING: Demersal_O_Fish2_Nums scaled by 6.600000e-001
+WARNING: Demersal_O_Fish3_Nums scaled by 6.600000e-001
+WARNING: Demersal_O_Fish4_Nums scaled by 6.600000e-001
+WARNING: Demersal_O_Fish5_Nums scaled by 6.600000e-001
+WARNING: Demersal_O_Fish6_Nums scaled by 6.600000e-001
+WARNING: Demersal_O_Fish7_Nums scaled by 6.600000e-001
+WARNING: Demersal_O_Fish8_Nums scaled by 6.600000e-001
+WARNING: Demersal_O_Fish9_Nums scaled by 6.600000e-001
+WARNING: Demersal_O_Fish10_Nums scaled by 6.600000e-001
+WARNING: Demersal_E_Fish1_Nums scaled by 4.000000e+001
+WARNING: Demersal_E_Fish2_Nums scaled by 4.000000e+001
+WARNING: Demersal_E_Fish3_Nums scaled by 4.000000e+001
+WARNING: Demersal_E_Fish4_Nums scaled by 4.000000e+001
+WARNING: Demersal_E_Fish5_Nums scaled by 4.000000e+001
+WARNING: Demersal_E_Fish6_Nums scaled by 4.000000e+001
+WARNING: Demersal_E_Fish7_Nums scaled by 4.000000e+001
+WARNING: Demersal_E_Fish8_Nums scaled by 4.000000e+001
+WARNING: Demersal_E_Fish9_Nums scaled by 4.000000e+001
+WARNING: Demersal_E_Fish10_Nums scaled by 4.000000e+001
+WARNING: Demersal_F_Fish1_Nums scaled by 2.500000e+000
+WARNING: Demersal_F_Fish2_Nums scaled by 2.500000e+000
+WARNING: Demersal_F_Fish3_Nums scaled by 2.500000e+000
+WARNING: Demersal_F_Fish4_Nums scaled by 2.500000e+000
+WARNING: Demersal_F_Fish5_Nums scaled by 2.500000e+000
+WARNING: Demersal_F_Fish6_Nums scaled by 2.500000e+000
+WARNING: Demersal_F_Fish7_Nums scaled by 2.500000e+000
+WARNING: Demersal_F_Fish8_Nums scaled by 2.500000e+000
+WARNING: Demersal_F_Fish9_Nums scaled by 2.500000e+000
+WARNING: Demersal_F_Fish10_Nums scaled by 2.500000e+000
+WARNING: Shark_B1_Nums scaled by 3.000000e-001
+WARNING: Shark_B2_Nums scaled by 3.000000e-001
+WARNING: Shark_B3_Nums scaled by 3.000000e-001
+WARNING: Shark_B4_Nums scaled by 3.000000e-001
+WARNING: Shark_B5_Nums scaled by 3.000000e-001
+WARNING: Shark_B6_Nums scaled by 3.000000e-001
+WARNING: Shark_B7_Nums scaled by 3.000000e-001
+WARNING: Shark_B8_Nums scaled by 3.000000e-001
+WARNING: Shark_B9_Nums scaled by 3.000000e-001
+WARNING: Shark_B10_Nums scaled by 3.000000e-001
+WARNING: Shark_D1_Nums scaled by 1.700000e+000
+WARNING: Shark_D2_Nums scaled by 1.700000e+000
+WARNING: Shark_D3_Nums scaled by 1.700000e+000
+WARNING: Shark_D4_Nums scaled by 1.700000e+000
+WARNING: Shark_D5_Nums scaled by 1.700000e+000
+WARNING: Shark_D6_Nums scaled by 1.700000e+000
+WARNING: Shark_D7_Nums scaled by 1.700000e+000
+WARNING: Shark_D8_Nums scaled by 1.700000e+000
+WARNING: Shark_D9_Nums scaled by 1.700000e+000
+WARNING: Shark_D10_Nums scaled by 1.700000e+000
+WARNING: Shark_P1_Nums scaled by 1.880000e+001
+WARNING: Shark_P2_Nums scaled by 1.880000e+001
+WARNING: Shark_P3_Nums scaled by 1.880000e+001
+WARNING: Shark_P4_Nums scaled by 1.880000e+001
+WARNING: Shark_P5_Nums scaled by 1.880000e+001
+WARNING: Shark_P6_Nums scaled by 1.880000e+001
+WARNING: Shark_P7_Nums scaled by 1.880000e+001
+WARNING: Shark_P8_Nums scaled by 1.880000e+001
+WARNING: Shark_P9_Nums scaled by 1.880000e+001
+WARNING: Shark_P10_Nums scaled by 1.880000e+001
+WARNING: SkateRay1_Nums scaled by 3.000000e-001
+WARNING: SkateRay2_Nums scaled by 3.000000e-001
+WARNING: SkateRay3_Nums scaled by 3.000000e-001
+WARNING: SkateRay4_Nums scaled by 3.000000e-001
+WARNING: SkateRay5_Nums scaled by 3.000000e-001
+WARNING: SkateRay6_Nums scaled by 3.000000e-001
+WARNING: SkateRay7_Nums scaled by 3.000000e-001
+WARNING: SkateRay8_Nums scaled by 3.000000e-001
+WARNING: SkateRay9_Nums scaled by 3.000000e-001
+WARNING: SkateRay10_Nums scaled by 3.000000e-001
+WARNING: Seabird1_Nums scaled by 2.000000e-001
+WARNING: Seabird2_Nums scaled by 2.000000e-001
+WARNING: Seabird3_Nums scaled by 2.000000e-001
+WARNING: Seabird4_Nums scaled by 2.000000e-001
+WARNING: Seabird5_Nums scaled by 2.000000e-001
+WARNING: Seabird6_Nums scaled by 2.000000e-001
+WARNING: Seabird7_Nums scaled by 2.000000e-001
+WARNING: Seabird8_Nums scaled by 2.000000e-001
+WARNING: Seabird9_Nums scaled by 2.000000e-001
+WARNING: Seabird10_Nums scaled by 2.000000e-001
+WARNING: Reptile1_Nums scaled by 8.800000e+000
+WARNING: Reptile2_Nums scaled by 8.800000e+000
+WARNING: Reptile3_Nums scaled by 8.800000e+000
+WARNING: Reptile4_Nums scaled by 8.800000e+000
+WARNING: Reptile5_Nums scaled by 8.800000e+000
+WARNING: Reptile6_Nums scaled by 8.800000e+000
+WARNING: Reptile7_Nums scaled by 8.800000e+000
+WARNING: Reptile8_Nums scaled by 8.800000e+000
+WARNING: Reptile9_Nums scaled by 8.800000e+000
+WARNING: Reptile10_Nums scaled by 8.800000e+000
+WARNING: Pinniped1_Nums scaled by 2.300000e+000
+WARNING: Pinniped2_Nums scaled by 2.300000e+000
+WARNING: Pinniped3_Nums scaled by 2.300000e+000
+WARNING: Pinniped4_Nums scaled by 2.300000e+000
+WARNING: Pinniped5_Nums scaled by 2.300000e+000
+WARNING: Pinniped6_Nums scaled by 2.300000e+000
+WARNING: Pinniped7_Nums scaled by 2.300000e+000
+WARNING: Pinniped8_Nums scaled by 2.300000e+000
+WARNING: Pinniped9_Nums scaled by 2.300000e+000
+WARNING: Pinniped10_Nums scaled by 2.300000e+000
+WARNING: Whale_Baleen1_Nums scaled by 1.000000e-001
+WARNING: Whale_Baleen2_Nums scaled by 1.000000e-001
+WARNING: Whale_Baleen3_Nums scaled by 1.000000e-001
+WARNING: Whale_Baleen4_Nums scaled by 1.000000e-001
+WARNING: Whale_Baleen5_Nums scaled by 1.000000e-001
+WARNING: Whale_Baleen6_Nums scaled by 1.000000e-001
+WARNING: Whale_Baleen7_Nums scaled by 1.000000e-001
+WARNING: Whale_Baleen8_Nums scaled by 1.000000e-001
+WARNING: Whale_Baleen9_Nums scaled by 1.000000e-001
+WARNING: Whale_Baleen10_Nums scaled by 1.000000e-001
+WARNING: Whale_Tooth1_Nums scaled by 1.500000e-001
+WARNING: Whale_Tooth2_Nums scaled by 1.500000e-001
+WARNING: Whale_Tooth3_Nums scaled by 1.500000e-001
+WARNING: Whale_Tooth4_Nums scaled by 1.500000e-001
+WARNING: Whale_Tooth5_Nums scaled by 1.500000e-001
+WARNING: Whale_Tooth6_Nums scaled by 1.500000e-001
+WARNING: Whale_Tooth7_Nums scaled by 1.500000e-001
+WARNING: Whale_Tooth8_Nums scaled by 1.500000e-001
+WARNING: Whale_Tooth9_Nums scaled by 1.500000e-001
+WARNING: Whale_Tooth10_Nums scaled by 1.500000e-001
+WARNING: hydro_init: Starting from beginning of hydro inputs
+This will probably be incorrect for a 'hot' start of the model
+
+WARNING: skipToKeyEnd: key Precipitation not found
+WARNING: skipToKeyEnd: key Evaporation not found
+WARNING: skipToKeyEnd: key Tracer_area_inputs not found
+WARNING: skipToKeyEnd: key Recruitment_time_series not found
+WARNING: skipToKeyEnd: key LinearMort not found
+WARNING: skipToKeyEnd: key SizeChange not found
+WARNING: skipToKeyEnd: key GrowthRateChange not found
+WARNING: skipToKeyEnd: key FSPBChange not found
+WARNING: skipToKeyEnd: key use_force_tracers not found
+WARNING: tempsalt_init: Starting from beginning of salt and temp inputs
+This will probably be incorrect for a 'hot' start of the model
+
+WARNING: skipToKeyEnd: key BottomStress not found
+WARNING: Ecology_Init: Density- and food-based movement assumes Holling II feeding, but a different pred_case has been selected for SB
+WARNING: Ecology_Init: Density- and food-based movement assumes Holling II feeding, but a different pred_case has been selected for PIN
+WARNING: Ecology_Init: Density- and food-based movement assumes Holling II feeding, but a different pred_case has been selected for WHB
+WARNING: Ecology_Init: Density- and food-based movement assumes Holling II feeding, but a different pred_case has been selected for WHT
+WARN: Data for group CEP in box 27, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group CEP in box 27, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group CEP in box 28, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group CEP in box 28, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group CEP in box 29, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group CEP in box 29, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PWN in box 27, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PWN in box 27, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PWN in box 28, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PWN in box 28, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PWN in box 29, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PWN in box 29, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZL in box 27, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZL in box 27, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZL in box 28, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZL in box 28, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZL in box 29, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZL in box 29, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZG in box 27, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZG in box 27, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZG in box 28, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZG in box 28, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZG in box 29, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZG in box 29, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PL in box 27, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PL in box 27, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PL in box 28, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PL in box 28, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PL in box 29, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PL in box 29, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group DF in box 27, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group DF in box 27, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group DF in box 28, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group DF in box 28, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group DF in box 29, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group DF in box 29, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PS in box 27, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PS in box 27, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PS in box 28, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PS in box 28, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PS in box 29, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PS in box 29, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZM in box 27, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZM in box 27, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZM in box 28, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZM in box 28, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZM in box 29, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZM in box 29, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZS in box 27, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZS in box 27, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZS in box 28, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZS in box 28, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZS in box 29, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group ZS in box 29, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PB in box 27, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PB in box 27, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PB in box 28, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PB in box 28, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PB in box 29, layer 2 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARN: Data for group PB in box 29, layer 3 in your initial conditions file. There are only 2 layers in this box. Please check and updated your initial conditions file.
+
+WARNING: skipToKeyEnd: key use_larvalfiles not found
+WARNING: skipToKeyEnd: key use_external_scaling not found
+WARNING: Fishery netFD, Species PIN, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery netFD, Species WHT, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery plineFVO, Species WHT, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery trapBMS, Species WHB, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery dtrawlCEP, Species PIN, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery dtrawlFD, Species PIN, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery dtrawlFD, Species WHT, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery dtrawlFDB, Species PIN, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery dtrawlFDB, Species WHT, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery dlineFD, Species WHT, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery ptrawlPWN, Species PIN, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery dtrawlFBP, Species PIN, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery dtrawlFBP, Species WHT, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery trapFDE, Species PIN, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Fishery trapFDE, Species WHT, The selectivity curve is tailing off for large animals, but mammals often get tangled even when large fish don't, you may want to modify this curve if you are concerned by mammal bycatch
+WARNING: Port 16 will not start to day 3.144960e+010 - OK if delayed start intended
+WARNING: No market residual time series provided, this means that the pure market fish price model will be used rather than exact historical prices through any historical period
+WARNING: gasExchange: Can't find variable CO2
+
+
+ 
+

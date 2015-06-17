@@ -1,0 +1,97 @@
+        1 file(s) copied.
+convertedXMLFileName = at_run_neus_v15_DE.xml
+tstop: 18260.000000
+9 of 30 boxes are boundary boxes
+bm->dz[b][0]  = 1.760000e+001
+bm->dz[b][1]  = 0.000000e+000
+bm->dz[b][2]  = 0.000000e+000
+bm->dz[b][3]  = 0.000000e+000
+bm->dz[b][4]  = 1.000000e+000
+Creating general output file
+Create fisheries output file
+Check summary output file neusDynEffort_Test1_TOT.nc
+Create growth and consumption output file
+Initialise hydrodynamics
+Reading in size change time series forcing file with units seconds since 1964-01-01 00:00:00 +10
+Reading in growth rate time series forcing file with units seconds since 1964-01-01 00:00:00 +10
+Reading in FSPB time series forcing file with units seconds since 1964-01-01 00:00:00 +10
+Initialise temperature and salinity forcing
+Initialise physics
+flag_fine_ontogenetic_diets: 0 initarray
+Initialise biology
+Start reading biological parameters from at_biol_neus_v15_DE.prm.
+Biological parameter file loading
+0                                 100
+**flag_fine_ontogenetic_diets: 0 loaded
+Checking the loaded biology data
+**Create biological arrays
+Populate biological arrays
+Free unneeded memory
+Creating neusDynEffort_Test1_SpecificMort.txt
+Creating neusDynEffort_Test1_SpecificPredMort.txt
+Creating neusDynEffort_Test1_AgeBiomIndx.txt
+Creating neusDynEffort_Test1_BoxBiomass.txt
+Constructing home ranges
+Creating neusDynEffort_Test1_Catch.txt
+Creating neusDynEffort_Test1_RecCatch.txt
+Creating neusDynEffort_Test1_Discard.txt
+Creating neusDynEffort_Test1_CatchPerFishery.txt
+Creating neusDynEffort_Test1_DiscardPerFishery.txt
+Creating neusDynEffort_Test1_Effort.txt
+Start reading fisheries parameters from at_harvest_neus_v15_DE.xml.
+Read fisheries groups parameters GroupHabitat
+Read fisheries groups parameters GroupDiscard
+Read fisheries groups parameters GroupEscapement
+Read fisheries groups parameters GroupImposeCatch
+Read fisheries groups parameters GroupCatchTimeSeries
+Read fisheries groups parameters GroupCatchabilityChangesFlag
+Read fisheries groups parameters GroupMortalityChangesFlag
+Read fisheries groups parameters GroupDiscardingChangesFlag
+Read fisheries groups parameters GroupCatchability
+Read fisheries groups parameters GroupFisheryStartDay
+Read fisheries groups parameters GroupFisheryEndDay
+Read fisheries groups parameters CatchReportingScale
+Read fisheries groups parameters ForcedFishingMortality
+Read fisheries groups parameters GroupSelectivity
+Read fisheries groups parameters EscapeProportion
+Read fisheries groups parameters EscapeCoefficient
+Read fisheries groups parameters EscapeExponent
+Read fisheries groups parameters FixedDiscardProportion
+Read fisheries groups parameters AgeDependantDiscarding
+Read fisheries groups parameters IncidentalMortality
+Read fisheries groups parameters DiscardingChanges
+Read fisheries groups parameters CatchabilityChanges
+Read fisheries groups parameters FishingMortalityChanges
+Read fisheries groups parameters NumTACChanges
+Initialise management
+Creating neusDynEffort_Test1_HarvestIndx.txt
+Creating neusDynEffort_Test1_TAC.txt
+Creating neusDynEffort_Test1__BrokenStick.txt
+Start reading fisheries parameters from neusDynEffort_Test1__management.xml.
+Management parameter file loading
+0                                 100
+***Fisheries parameter file loading
+0                                 100
+***Read fisheries groups parameters CompanionSpeciesRatio
+Read fisheries groups parameters SecondCompanionSpeciesRatio
+Read fisheries groups parameters ProportionEffortRestricted
+Read fisheries groups parameters FCHighThreshold
+Setting up MPA lists
+Check array sizes needed
+Populate fisheries arrays
+Free unneeded memory
+FMM is smallest vertebrate (at 2.145000e-003 kg)
+WHB is largest vertebrate (at 7.375493e+005 kg)
+Create general output file
+Create fisheries output file
+Create summary output file neusDynEffort_Test1_TOT.nc
+Create growth and consumption output file
+Checking for cryptic vertebrate biomass
+t = 0, hd.t = 2.5, TofY: 0, % Done: 0.000000
+Call annual fisheries, management and economics related things (if appropriate)
+Creating neusDynEffort_Test1_VertSize.txt
+t = 0.5, hd.t = 2.5, TofY: 0, % Done: 0.002738
+t = 1, hd.t = 3.5, TofY: 1, % Done: 0.005476
+t = 1.5, hd.t = 3.5, TofY: 1, % Done: 0.008215
+Time: 1.500000e+000 The UNstable vari. 62 is Ref_Det_N in wc (offset: 0 Ref_Det_N in wc), its  Pool = 1.00387, Netflux =13.1151 on day: 1.500000e+000 in box: 3 layer 0
+Try setting ecotest to '4' in your biology input file. Redo your run and look at the bottom of your log.txt output file

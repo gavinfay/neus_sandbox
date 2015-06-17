@@ -134,7 +134,8 @@ if (param.type==2)  #all groups
   if (length(name2)>0) temptab[,1] <- paste(param.name,output$Child,name2,sep="")
   temptab[,2] <- output$x
   #temptab[,3] <- paste("weight at length a parameter for ",output[output$IsVertebrate==1,"Long.Name"],sep="")
-  write.table(temptab,file=outfile,col.names=FALSE,row.names=FALSE,quote=FALSE,sep=" ")
+  temptab <- na.omit(temptab)
+  write.table(format(temptab,scientific=FALSE),file=outfile,col.names=FALSE,row.names=FALSE,quote=FALSE,sep=" ")
   write(" ",file=outfile,append=TRUE)
  }
 if (param.type==3)  #just invertebrates
@@ -362,7 +363,7 @@ change.prm3 <- function(path,origfile,param.name,outfile,mapfile,param.type,
   for (irow in 1:nrow(output2))
   {
     output2[irow,] <-  
-      as.numeric(t(yy[matches[irow],1:ncol(output2)]))
+      as.numeric(as.character(t(yy[matches[irow],1:ncol(output2)])))
   }
   
   
@@ -383,11 +384,14 @@ change.prm3 <- function(path,origfile,param.name,outfile,mapfile,param.type,
       #for (irow in 1:nrow(temptab))
     {
       irow = which(rows.use==row)
+      if (is.na(temptab[irow,2])==FALSE)
+      {
       write.table(t(temptab[irow,]),file=outfile,col.names=FALSE,row.names=FALSE,
                   quote=FALSE,sep=" ",append=TRUE)
       write.table(t(output2[row,]),file=outfile,col.names=FALSE,row.names=FALSE,
                   quote=FALSE,sep=" ",append=TRUE)
       write(" ",file=outfile,append=TRUE)
+      }  
     }  
     
   }
@@ -402,11 +406,14 @@ change.prm3 <- function(path,origfile,param.name,outfile,mapfile,param.type,
     write(" ",file=outfile)
     for (irow in 1:nrow(temptab))
     {
+      if (is.na(temptab[irow,2])==FALSE)
+      {
       write.table(t(temptab[irow,]),file=outfile,col.names=FALSE,row.names=FALSE,
                   quote=FALSE,sep=" ",append=TRUE)
       write.table(t(output2[irow,]),file=outfile,col.names=FALSE,row.names=FALSE,
                   quote=FALSE,sep=" ",append=TRUE)
       write(" ",file=outfile,append=TRUE)
+      }
     }
   }
   if (param.type==3)  #just invertebrates
@@ -421,13 +428,181 @@ change.prm3 <- function(path,origfile,param.name,outfile,mapfile,param.type,
     for (row in rows.use)
       #for (irow in 1:nrow(temptab))
     {
-      irow = which(rows.use==row)
+      if (is.na(temptab[row,2])==FALSE)
+      {
+        irow = which(rows.use==row)
       write.table(t(temptab[irow,]),file=outfile,col.names=FALSE,row.names=FALSE,
                   quote=FALSE,sep=" ",append=TRUE)
       write.table(t(output2[row,]),file=outfile,col.names=FALSE,row.names=FALSE,
                   quote=FALSE,sep=" ",append=TRUE)
       write(" ",file=outfile,append=TRUE)
-      
+      }
+    }
+    #write.table(temptab,file=outfile,col.names=FALSE,row.names=FALSE,quote=FALSE,sep=" ")
+    #write(" ",file=outfile,append=TRUE)
+  }
+  
+  
+}
+
+change.prm4 <- function(path,origfile,param.name,outfile,mapfile,param.type,
+                        name2=NULL)
+{
+  ###### pPREY matrix
+  library(stringr)
+  #param.name <- "pPREY1"
+  #name2 <- "1"
+  #set working directory
+  setwd(path)
+  #Lookup table with new codes for functional groups along with 'parent' groups from Atlantis-neus v1.
+  CodeRelations <- read.csv(mapfile)
+  oldgroups <- read.csv("NeusGroups.csv")
+  
+  #read in orig param file
+  TheData <- read.table(origfile,col.names=1:100,comment.char="",fill=TRUE,header=FALSE)
+  
+  #additional columns in pPREY matrix
+  
+  old.codes <- c(as.character(oldgroups$Code),c("DLsed","DRsed","DCsed","CEPj","PWNj"))
+  mapvals <- match(CodeRelations$Parent,oldgroups$Code)
+  mapvals2 <- c(mapvals,63:65)
+  
+  #find the length-weight parameters from the old prm file, store them
+  if (param.name!= "") 
+    pick <- grep(param.name,TheData[,1])
+  if (length(name2)>0) pick <-pick[grep(name2,TheData[pick,1])]
+  if (param.name== "") pick <- grep(name2,TheData[,1])
+  xx <- TheData[pick,]
+  pick2 <- grep('#',xx[,1])
+  if(length(pick2)>0) xx <- xx[-pick2,]
+  yy <- TheData[pick+1,]
+  if(length(pick2)>0) yy <- yy[-pick2,]
+  
+  tempmat <- matrix(NA,nrow=nrow(xx),ncol=2)
+  if (param.name!="")
+  {
+    for (igroup in 1:nrow(tempmat)) tempmat[igroup,1] <- 
+      substr(xx[igroup,1],start=1+str_length(param.name),
+             stop=str_length(xx[igroup,1]))
+    #strsplit(as.character(xx[igroup,1]),param.name)[[1]][2]
+    if (length(name2)>0)
+    {
+      for (igroup in 1:nrow(tempmat)) tempmat[igroup,1] <- 
+        #strsplit(as.character(tempmat[igroup,1]),name2)[[1]][1]
+        substr(tempmat[igroup,1],stop=str_length(tempmat[igroup,1])-
+                 str_length(name2),start=1)
+    }
+  }
+  if (param.name=="")
+  {
+    for (igroup in 1:nrow(tempmat)) tempmat[igroup,1] <- 
+      strsplit(as.character(xx[igroup,1]),name2)[[1]][1]
+  }     
+  ###if (length(name2)>0) for (igroup in 1:nrow(tempmat)) tempmat[igroup,1] <- strsplit(tempmat[igroup,1],name2)[[1]][1]
+  tempmat[,2] <- as.numeric(as.character(xx[,2]))
+  ##pick <- grep("li_b_",TheData[,1])
+  ##tempmat[,3] <- as.numeric(as.character(TheData[pick,2]))
+  
+  
+  #as.numeric(t(yy[1,1:10]))
+  
+  #assign the old vals to the new codes, write a csv for data entry with columns to change highlighted and 'parent' group parameter values inserted.
+  output <- CodeRelations #list(Code=CodeRelations$Child,Parent=CodeRelations$Parent,Change=CodeRelations$Change)
+  output$x <- rep(NA,nrow(output))
+  #output$x <- tempmat[match(CodeRelations$Parent,tempmat[,1]),2]
+  output$x <- nrow(output)
+  
+  #output$x[] <- 11
+  #output$li_b <- rep(NA,nrow(output))
+  #output$li_b <- tempmat[match(CodeRelations$Parent,tempmat[,1]),3]
+  #output$source <- ""
+  #output$source[output$Change==0] <- "Atlantis-Neus v1"
+  #head(output)
+  #write.table(output,file="weightlength.csv",col.names=TRUE,row.names=FALSE,quote=FALSE,sep=",")
+  
+  matches <- match(CodeRelations$Parent,tempmat[,1])
+  match2 <- match(CodeRelations$Parent,old.codes)
+  numcols <- unique(as.numeric(output$x[which(is.na(output$x)==FALSE)]))
+  numcols <- nrow(output)
+  output2 <- matrix(NA,ncol=numcols,nrow=nrow(output))
+  for (irow in 1:nrow(output2))
+  {
+    output2[irow,] <-  
+      as.numeric(as.character(t(yy[matches[irow],match2])))
+  }
+  
+  ## assuming that the new values have been filled in, put back into format for the .prm file
+  if (param.type==1)  #just vertebrates
+  {
+    Nverts <- length(CodeRelations$IsVertebrate[CodeRelations$IsVertebrate==1])
+    temptab <- matrix(NA,nrow=Nverts,ncol=2)
+    temptab[,1] <- paste(param.name,output$Child[output$IsVertebrate==1],sep="")
+    if (length(name2)>0) temptab[,1] <- paste(param.name,output$Child[output$IsVertebrate==1],name2,sep="")
+    temptab[,2] <- output$x[output$IsVertebrate==1]
+    #temptab[,3] <- paste("weight at length a parameter for ",output[output$IsVertebrate==1,"Long.Name"],sep="")
+    #write.table(temptab,file=outfile,col.names=FALSE,row.names=FALSE,quote=FALSE,sep=" ")
+    #write(" ",file=outfile,append=TRUE)
+    rows.use <- which(output$IsVertebrate==1)
+    write(" ",file=outfile)
+    for (row in rows.use)
+      #for (irow in 1:nrow(temptab))
+    {
+      irow = which(rows.use==row)
+      if (is.na(output[row,1])==FALSE)
+      {
+        write.table(t(temptab[irow,]),file=outfile,col.names=FALSE,row.names=FALSE,
+                    quote=FALSE,sep=" ",append=TRUE)
+        write.table(t(output2[row,]),file=outfile,col.names=FALSE,row.names=FALSE,
+                    quote=FALSE,sep=" ",append=TRUE)
+        write(" ",file=outfile,append=TRUE)
+      }  
+    }  
+    
+  }
+  if (param.type==2)  #all groups
+  {
+    Ngroups <- nrow(CodeRelations)
+    temptab <- matrix(NA,nrow=Ngroups,ncol=2)
+    temptab[,1] <- paste(param.name,output$Child,sep="")
+    if (length(name2)>0) temptab[,1] <- paste(param.name,output$Child,name2,sep="")
+    temptab[,2] <- output$x
+    #temptab[,3] <- paste("weight at length a parameter for ",output[output$IsVertebrate==1,"Long.Name"],sep="")
+    write(" ",file=outfile)
+    rows.use <- 1:nrow(temptab)
+    for (row in rows.use)
+    {
+      irow = which(rows.use==row)
+      if (is.na(output2[row,1])==FALSE)
+      {
+        write.table(t(temptab[irow,]),file=outfile,col.names=FALSE,row.names=FALSE,
+                    quote=FALSE,sep=" ",append=TRUE)
+        write.table(t(output2[irow,]),file=outfile,col.names=FALSE,row.names=FALSE,
+                    quote=FALSE,sep=" ",append=TRUE)
+        write(" ",file=outfile,append=TRUE)
+      }
+    }
+  }
+  if (param.type==3)  #just invertebrates
+  {
+    Nverts <- length(CodeRelations$IsVertebrate[CodeRelations$IsVertebrate!=1])
+    temptab <- matrix(NA,nrow=Nverts,ncol=2)
+    temptab[,1] <- paste(param.name,output$Child[output$IsVertebrate!=1],sep="")
+    if (length(name2)>0) temptab[,1] <- paste(param.name,output$Child[output$IsVertebrate!=1],name2,sep="")
+    temptab[,2] <- output$x[output$IsVertebrate!=1]
+    rows.use <- which(output$IsVertebrate!=1)
+    write(" ",file=outfile)
+    for (row in rows.use)
+      #for (irow in 1:nrow(temptab))
+    {
+      if (is.na(output2[row,1])==FALSE)
+      {
+        irow = which(rows.use==row)
+        write.table(t(temptab[irow,]),file=outfile,col.names=FALSE,row.names=FALSE,
+                    quote=FALSE,sep=" ",append=TRUE)
+        write.table(t(output2[row,]),file=outfile,col.names=FALSE,row.names=FALSE,
+                    quote=FALSE,sep=" ",append=TRUE)
+        write(" ",file=outfile,append=TRUE)
+      }
     }
     #write.table(temptab,file=outfile,col.names=FALSE,row.names=FALSE,quote=FALSE,sep=" ")
     #write(" ",file=outfile,append=TRUE)
@@ -439,9 +614,11 @@ change.prm3 <- function(path,origfile,param.name,outfile,mapfile,param.type,
 
 
 
+library(stringr)
 outfile <- "newtable.out"
 path <- "C:/Atlantis/neus_sandbox/Test/test1/"
 path <- "/Volumes/MyPassport/NEFSC/Atlantis/neus_sandbox/Test/test1/"
+setwd("~/Atlantis/neus_sandbox")
 path <- getwd()
 mapfile <- "coderelations.csv"
 origfile <- "at_biol_neus_v15_DE.prm"
@@ -451,10 +628,17 @@ param.type=3
 #change.prm(path,origfile,param.name,outfile,mapfile,param.type)
 change.prm(path,origfile,param.name,outfile,mapfile,param.type,name2)
 change.prm3(path,origfile,param.name,outfile,mapfile,param.type,name2)
-change.prm2(path,origfile,param.name,outfile,mapfile,param.type)
+change.prm2(path,origfile,param.name,outfile,mapfile,param.type,name2)
+### 4 is for pPREY
+change.prm4(path,origfile,param.name,outfile,mapfile,param.type,name2)
+
+change.prm5(path,origfile,param.name,outfile,mapfile,param.type,name2)
 
 
-  setwd(path)
+
+
+
+setwd(path)
 
   #Lookup table with new codes for functional groups along with 'parent' groups from Atlantis-neus v1.
   CodeRelations <- read.csv(mapfile)
@@ -467,7 +651,8 @@ write.table(temptab,file=outfile,col.names=FALSE,row.names=FALSE,quote=FALSE,sep
 
 ###### pPREY matrix
 
-param.name <- "pPREY"
+param.name <- "pPREY1"
+name2 <- "1"
 #set working directory
 setwd(path)
 #Lookup table with new codes for functional groups along with 'parent' groups from Atlantis-neus v1.
@@ -482,7 +667,8 @@ mapvals2 <- c(mapvals,63:65)
 #read in orig param file
 TheData <- read.table(origfile,col.names=1:100,comment.char="",fill=TRUE,header=FALSE)
 #find the length-weight parameters from the old prm file, store them
-pick <- grep(paste(param.name,1,sep=""),TheData[,1])  
+pick <- grep(param.name,TheData[,1])
+
 xx <- TheData[pick+1,]
 xx2 <- TheData[pick,1]
 tempmat <- matrix(NA,nrow=length(which(CodeRelations$IsVertebrate==1)),
@@ -543,3 +729,21 @@ temp <- cbind(paste("flag",CodeRelations$Child,sep=""),
               oldgroups$IsTurnedOn[mapvals])
 write.table(temp,file=outfile,row.names=FALSE,col.names=FALSE,sep="         ",
             quote=FALSE)
+
+
+## Feb 12 2015
+name2 <- "_S1"
+write.table(cbind(substr(xx[,1],start=2,stop=str_length(xx[,1])),yy[,1:30]),
+            file=outfile,col.names=FALSE,
+            row.names=FALSE,quote=FALSE,append=FALSE)
+name2 <- "_S2"
+write.table(cbind(xx[,1],yy[,1:30]),file=outfile,col.names=FALSE,
+            row.names=FALSE,quote=FALSE,append=TRUE)
+name2 <- "_S3"
+write.table(cbind(xx[,1],yy[,1:30]),file=outfile,col.names=FALSE,
+            row.names=FALSE,quote=FALSE,append=TRUE)
+name2 <- "_S4"
+write.table(cbind(xx[,1],yy[,1:30]),file=outfile,col.names=FALSE,
+            row.names=FALSE,quote=FALSE,append=TRUE)
+
+

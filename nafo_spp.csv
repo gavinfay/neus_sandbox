@@ -1,0 +1,148 @@
+Species_ASFIS,Species,SPPGROUP,TL,NESPP3
+ALB,Albacore Tuna,Pelagics,4.5,470
+ALC,Baird's Slickhead,Other,3.8,0
+ALE,Alewife,Pelagics,3.3,1
+AMX,Amberjacks (ns),Pelagics,3.2,3
+ANB,Bay Anchovy,Pelagics,3.2,6
+ANG,American Angler,Principle,4.5,12
+ARG,Argentines (ns),Pelagics,3.2,0
+BBH,Blueback Shad,Pelagics,3.3,112
+BDM,Black Drum,Pelagics,3.8,106
+BET,Bigeye Tuna,Pelagics,4.5,469
+BFT,Northern Bluefin Tuna,Pelagics,4.5,467
+BLI,Blue Ling,Principle,4.3,0
+BLU,Bluefish,Other,4.5,23
+BON,Atlantic Bonito,Pelagics,4.5,33
+BSB,Black Seabass,Other,3.8,335
+BSH,Great Blue Shark,Elasmobranchs,4.5,493
+BUM,Atlantic Blue Marlin,Pelagics,4.5,217
+BUT,Atlantic Butterfish,Other,3.2,51
+CAP,Capelin,Other,3.8,361
+CAT,Wolffishes (catfish) (ns),Other,3.8,512
+CBA,Cobia,Other,3.8,57
+CKA,Atlantic Croaker,Other,3.8,90
+CLB,Surf Clam,Molluscs,1.9,769
+CLH,Hard Clam,Molluscs,1.9,748
+CLQ,Ocean Quahog,Molluscs,1.9,754
+CLR,Atlantic Razor Clam,Molluscs,1.9,760
+CLS,Soft Clam,Molluscs,1.9,763
+CLT,Stimpson's Surf Clam,Molluscs,1.9,765
+CLX,Clams (ns),Molluscs,1.9,764
+COA,American Conger,Other,3.2,116
+COD,Atlantic Cod,Principle,4.4,81
+CRA,Marine Crabs (ns),Crustaceans,2.9,713
+CRB,Blue Crab,Crustaceans,2.9,700
+CRG,Green Crab,Crustaceans,2.9,708
+CRJ,Jonah Crab,Crustaceans,2.9,711
+CRK,Atlantic Rock Crab,Crustaceans,2.9,712
+CRQ,Queen Crab,Crustaceans,2.9,0
+CRR,Red Crab,Crustaceans,2.9,710
+CRU,Marine Crustaceans (ns),Crustaceans,2.9,0
+CUN,Cunner,Other,3.2,93
+CVJ,Crevalle Jack,Pelagics,3.2,87
+DGS,Spiny (=picked) Dogfish,Elasmobranchs,4.3,352
+DGX,Dogfishes (ns),Other,4.3,350
+ELA,American Eel,Other,3.8,115
+FIN,Finfishes (ns),Flats,3.8,526
+FLD,Windowpane Flounder,Flats,3.2,125
+FLS,Summer Flounder,Flats,4.2,121
+FLW,Winter Flounder,Flats,3.2,120
+FLX,Flatfishes (ns),Flats,4,126
+FRI,Frigate Tuna,Pelagics,4.5,132
+GHL,Greenland Halibut,Flats,4.2,158
+GRO,Groundfishes (ns),Principle,3.8,0
+GRX,Grunts (ns),Other,3.2,144
+HAD,Haddock,Principle,4.1,147
+HAL,Atlantic Halibut,Flats,4.2,159
+HER,Atlantic Herring,Pelagics,3.2,168
+HKR,Red Hake,Principle,3.8,152
+HKS,Silver Hake,Principle,4.3,509
+HKW,White Hake,Principle,4.2,153
+HSC,Horseshoe Crab,Crustaceans,2.9,724
+HVF,N Atlantic Harvestfish,Other,3.2,165
+INV,Marine Invertebrates (ns),Crustaceans,2.9,0
+ISC,Icelandic Scallop,Molluscs,1.9,795
+KCT,Stone King Crab,Crustaceans,2.9,0
+KGF,Northern Kingfish,Other,3.2,196
+KGM,King Mackerel,Pelagics,3.2,194
+LBA,American Lobster,Crustaceans,3.1,727
+LIN,Ling,Principle,3.8,0
+LTA,Little Tunny,Pelagics,4,468
+LUM,Lumpfish (lumpsucker),Other,3.8,210
+MAC,Atlantic Mackerel,Pelagics,3.7,212
+MHA,Atlantic Menhaden,Pelagics,3.3,221
+MOL,Marine Molluscs (ns),Molluscs,1.9,804
+MUL,Mullets (ns),Other,3.2,234
+MUS,Blue Mussel,Molluscs,1.9,781
+MYG,Atlantic Hagefish,Other,3.2,150
+NFA,Atlantic Needlefish,Other,3.2,19
+OPT,Ocean Pout,Other,3.8,250
+OYA,American Cupped Oyster,Molluscs,1.9,789
+PAN,Pink (=pandalid) Shrimps,Crustaceans,2.9,736
+PEL,Pelagic Fishes (ns),Pelagics,3.8,525
+PEN,Penaeus Shrimps (ns),Crustaceans,2.9,736
+PER,Periwinkles (ns),Molluscs,2.9,798
+PES,Sand Perch,Other,3.2,311
+PEW,White Perch,Other,3.2,506
+PIG,Pigfish,Other,3.2,258
+PLA,American Plaice,Flats,4.2,124
+POK,Pollock (saithe),Principle,3.8,269
+POM,Common (florida) Pompano,Other,3.2,272
+POR,Porbeagle,Elasmobranchs,4.5,481
+PRA,Northern Prawn,Crustaceans,2.9,736
+PUF,Northern Puffer,Other,3.2,429
+RDM,Red Drum,Other,3.8,107
+RED,Atlantic Redfishes (ns),Principle,3.8,240
+RJD,Little Skate,Elasmobranchs,4,366
+RJL,Barndoor Skate,Elasmobranchs,4,368
+RJR,Thorny Skate (starry Ray),Elasmobranchs,4,370
+RJS,Smooth Skate,Elasmobranchs,4,369
+RNG,Roundnose Grenadier,Other,3.2,138
+RPG,Red Porgy,Other,3.2,330
+RSC,Rough Scad,Pelagics,3.2,331
+SAI,Sailfish,Pelagics,4.5,0
+SAL,Atlantic Salmon,Other,3.8,305
+SAN,Sandeels (sandlances),Molluscs,3.2,0
+SAU,Atlantic Saury,Other,3.2,319
+SCA,Sea Scallop,Molluscs,1.9,800
+SCB,Bay Scallop,Molluscs,1.9,799
+SCP,Scup,Other,3.2,329
+SCU,Sculpins (ns),Other,3.8,326
+SCX,Scallops (ns),Molluscs,1.9,796
+SHA,American Shad,Pelagics,3.3,347
+SHG,American Gizzard Shad,Pelagics,3.3,134
+SHH,Hickory Shad,Pelagics,3.3,173
+SHX,Large Sharks (ns),Elasmobranchs,4.5,359
+SKA,Skates (ns),Elasmobranchs,4,365
+SKJ,Skipjack Tuna,Pelagics,4.5,466
+SMA,Shortfin Mako Shark,Pelagics,4.5,355
+SMR,Rainbow Smelt,Other,3.3,371
+SPH,Sheepshead,Other,3.8,356
+SPT,Spot Croaker,Other,3.8,0
+SQI,(northern) Shortfin Squid,Molluscs,3.4,802
+SQL,Longfin Squid,Molluscs,3.4,801
+SQU,Squids (ns),Molluscs,3.4,803
+SRA,Atlantic Searobins,Other,3.8,341
+SSA,Atlantic Silverside,Pelagics,3.2,362
+SSM,Atlantic Spanish Mackerel,Pelagics,3.7,384
+STB,Striped Bass,Other,4.3,418
+STG,Squeteague (gray Weakfish),Other,3.8,344
+STU,Sturgeons (ns),Other,3.8,421
+SWF,Spotted Weakfish,Other,3.8,344
+SWO,Swordfish,Pelagics,4.5,432
+SWR,Red Seaweeds,Other,1,817
+SWX,Seaweeds (ns),Other,1,817
+TAR,Tarpon,Other,3.8,435
+TAU,Tautog,Other,3.8,438
+TIL,Tilefish,Other,3.8,447
+TOM,Atlantic Tomcod,Other,3.8,453
+TRO,Trouts (ns),Other,3.8,334
+TUN,Tunas (ns),Pelagics,4.5,465
+URC,Sea Urchin,Molluscs,2.9,805
+USK,Cusk (tusk),Other,3.8,96
+WHM,Atlantic White Marlin,Pelagics,4.5,216
+WHX,Whelks (ns),Molluscs,2.9,776
+WIT,Witch Flounder,Flats,3.2,122
+WOR,Marine Worms (ns),Other,2,0
+YEL,Yellowtail Flounder,Flats,3.2,123
+YFT,Yellowfin Tuna,Pelagics,4.5,471
