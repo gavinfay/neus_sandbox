@@ -635,6 +635,18 @@ change.prm4(path,origfile,param.name,outfile,mapfile,param.type,name2)
 change.prm5(path,origfile,param.name,outfile,mapfile,param.type,name2)
 
 
+########### now do some stuff for the harvest file
+setwd("~/Atlantis/neus_sandbox")
+path <- getwd()
+mapfile <- "coderelations.csv"
+origfile <- "at_harvest_neus_v15_DE.prm"
+param.name <- "EPlant_"
+name2 <- "_T15"
+param.type=3
+
+
+
+
 
 
 
