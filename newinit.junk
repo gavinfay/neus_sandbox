@@ -1,4 +1,4 @@
-netcdf inneus_2012 {
+netcdf new_init {
 dimensions:
 t = UNLIMITED ; // (3 currently)
 b = 30 ;
