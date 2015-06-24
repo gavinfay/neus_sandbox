@@ -1,4 +1,4 @@
-netcdf inneus_2012 {
+netcdf new_init {
 dimensions:
 t = UNLIMITED ; // (3 currently)
 b = 30 ;
@@ -14779,6 +14779,20 @@ DiagNFlux:dissol = 1 ;
 DiagNFlux:partic = 0 ;
 DiagNFlux:decay = 0. ;
 DiagNFlux:_FillValue = 0. ;
+double Macroalgae_N(t, b) ;
+Macroalgae_N:bmtype = "epibenthos" ;
+Macroalgae_N:units = "mg N m-2" ;
+Macroalgae_N:long_name = "Macroalgae Nitrogen" ;
+Macroalgae_N:dtype = 0 ;
+Macroalgae_N:sumtype = 1 ;
+Macroalgae_N:_FillValue = 0. ;
+double Seagrass_N(t, b) ;
+Seagrass_N:bmtype = "epibenthos" ;
+Seagrass_N:units = "mg N m-2" ;
+Seagrass_N:long_name = "Seagrass Nitrogen" ;
+Seagrass_N:dtype = 0 ;
+Seagrass_N:sumtype = 1 ;
+Seagrass_N:_FillValue = 0. ;
 double Scallop_N(t, b) ;
 Scallop_N:bmtype = "epibenthos" ;
 Scallop_N:units = "mg N m-2" ;
@@ -14814,6 +14828,20 @@ Benthic_grazer_N:long_name = "Benthic Grazer Nitrogen" ;
 Benthic_grazer_N:dtype = 0 ;
 Benthic_grazer_N:sumtype = 1 ;
 Benthic_grazer_N:_FillValue = 0. ;
+double Macroalgae_Cover(t, b) ;
+Macroalgae_Cover:bmtype = "epibenthos" ;
+Macroalgae_Cover:units = "mg N m-2" ;
+Macroalgae_Cover:long_name = "Percent cover by macroalgae" ;
+Macroalgae_Cover:dtype = 0 ;
+Macroalgae_Cover:sumtype = 1 ;
+Macroalgae_Cover:_FillValue = 0. ;
+double Seagrass_Cover(t, b) ;
+Seagrass_Cover:bmtype = "epibenthos" ;
+Seagrass_Cover:units = "mg N m-2" ;
+Seagrass_Cover:long_name = "Percent cover by seagrass" ;
+Seagrass_Cover:dtype = 0 ;
+Seagrass_Cover:sumtype = 1 ;
+Seagrass_Cover:_FillValue = 0. ;
 double MicroPB_Cover(t, b) ;
 MicroPB_Cover:bmtype = "epibenthos" ;
 MicroPB_Cover:units = "mg N m-2" ;
@@ -107584,6 +107612,20 @@ _, _, _, _, _,
 _, _, _, _, _,
 _, _, _, _, _,
 _, _, _, _, _ ;
+Macroalgae_N =
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _,
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _,
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _ ;
+Seagrass_N =
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _,
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _,
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _ ;
 Scallop_N =
 _, 0.00012, 1.187894736, 14.44578948, 0.00728421, 11.14263158, 0.85263156,
 1.920526314, 0.60526314, 0.102631578, 0.2357895, 0.010736844,
@@ -107647,6 +107689,20 @@ _, 55.96491228, 55.96491228, 55.96491228, 55.96491228, 55.96491228,
 167.1929825, 447.8947368, 447.8947368, 447.8947368, 447.8947368,
 167.1929825, 167.1929825, 167.1929825, 167.1929825, 167.1929825,
 167.1929825, 167.1929825, _, _, _, _, _, _, _,
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _ ;
+Macroalgae_Cover =
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _,
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _,
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _ ;
+Seagrass_Cover =
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _,
+_, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
+_, _, _, _, _,
 _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _,
 _, _, _, _, _ ;
 MicroPB_Cover =

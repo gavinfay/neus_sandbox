@@ -12,7 +12,7 @@ setwd("~/Atlantis/neus_sandbox")
 #old.init.nc$var[["Demersal_S_Fish1_StructN"]]
 
 
-olddat <- read.table("gav.junk",header=FALSE,col.names=1:20,fill=TRUE,sep="\t")
+#olddat <- read.table("gav.junk",header=FALSE,col.names=1:20,fill=TRUE,sep="\t")
 olddat <- read.table("gav.junk",header=FALSE,col.names=1:20,
                      colClasses=rep("character",20),fill=TRUE,strip.white=TRUE,sep='\t',quote="]]")
 #for (icol in 1:3) olddat[,icol] <- as.character(olddat[,icol])
@@ -33,8 +33,10 @@ newdat2 <- olddat[(pick:nrow(olddat)),1:3]
 
 #read old groups
 old.groups <- read.csv("NeusGroups.csv")
+old.groups$IsTurnedOn[49] <- 1
 old.groups$IsTurnedOn[48] <- 1
-new.groups <- read.csv("NeusGroups_v15.csv")
+old.groups$IsTurnedOn[47] <- 1
+new.groups <- read.csv("NeusGroups_v15_unix.csv")
 
 nold <- which(old.groups$Name=="Prawn")
 
@@ -138,4 +140,43 @@ newdat2 <- rbind(newdat2,lastrow)
 
 write.table(newdat2,file="newinit.junk",col.names=FALSE,row.names=FALSE,sep="",
             quote=FALSE,append=TRUE)
+
+
+# initial scale vectors for run file
+init.scales 
+tempdat <- read.table('at_run_neus_v15_DE.prm',col.names=1:200,fill=TRUE,
+                          blank.lines.skip=FALSE)
+irow <- grep('init_scalar',tempdat[,1]) +3
+
+init.scales <- tempdat[irow,which(is.na(tempdat[irow,])==FALSE)]
+
+matches <- match(CodeRelations$Parent,old.groups$Code)
+outfile <- "newtable.out"
+
+write.table(init.scales[matches],file=outfile,col.names=FALSE,row.names=FALSE,quote=FALSE)
+
+scaled.init.bio <- read.csv('init_bio_v1.csv',header=FALSE,skip=1)
+scaled.init.bio <- scan('init_bio_v1.csv',n=90,skip=1,sep=",")[-1]
+
+tempdat <- read.table('~/Atlantis/atneus/at_run_neus_v15.prm',col.names=1:200,fill=TRUE,
+                      blank.lines.skip=FALSE)
+irow <- grep('init_scalar',tempdat[,1])
+scales <- scan('~/Atlantis/atneus/at_run_neus_v15.prm',n=89,skip=irow)
+  
+old.init.bio <- scaled.init.bio
+old.init.bio[scales>0] <- scaled.init.bio[scales>0]/scales[scales>0]
+
+load('Totbiomass_Atl_1_5.RData')
+lrow <- nrow(atl.biomass)
+frow <- lrow-9
+new.bio <- colMeans(atl.biomass[lrow:frow,],na.rm=TRUE)
+matches <- match(names(atl.biomass[,-1]),new.groups$Code)
+new.init.bio <- old.init.bio
+new.init.bio[matches] <- new.bio[-1]
+
+new.scales <- scales*new.init.bio/scaled.init.bio
+new.scales[new.scales=="NaN"] <- 0
+
+write(new.scales,file='new_scalers.out',ncol=89)
+
 
