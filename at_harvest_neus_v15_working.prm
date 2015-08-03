@@ -956,2437 +956,1618 @@
 ## Flags and switches      
 
 # Period of activity for fisheries
-
-flagmidwcCEPday  2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagjigCEPday    1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagmidwcFPday   2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdredgeBFSday 2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagnetFDday     2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagnetSHday     1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagplineFVOday  2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagpseineFVOday 1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagpseineFPday  2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagtrapBMSday   2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagtrapFDday    1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdtrawlBMSday 1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdtrawlCEPday 2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdtrawlFDday  2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdtrawlFDBday 2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdtrawlFDOday 2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagmidwcFDday   2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdseineFDBday 1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdlineFDday   2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdlineFVSday  1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdlineSHday   1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdiveBGday    1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagpseineFVSday 1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagcullPINday   1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagrecfishday       2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagptrawlPWNday 2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdtrawlFBPday 2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagmidwcZLday   1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagtrapFDEday   2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagdlineFDEday  1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagnetFDEday    1         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagmidwcPWNday  2         Active: 2 = no preference, 1 = day, 0 = night               2
-
-flagmowMAday     0         Active: 2 = no preference, 1 = day, 0 = night                       2
-
-
+##flagmidwcCEPday  2         Active: 2 = no preference, 1 = day, 0 = night               2
+flagmidtrawlPELday 2                 
+flagdredgeSCAday   2                 
+flagdredgeQHGday   2                 
+flagnetDDEMday     2                 
+flagplineTUNday    2                 
+flagpseineTUNday   1                 
+flagpseinePELday   2                 
+flagtrapLOBday     2                 
+flagdtrawlGOOday   1                 
+flagdtrawlCEPday   2                 
+flagdtrawlDday     2                 
+flagdtrawlSday     2                 
+flagmidtrawlINTday 2                 
+flagdlineday       2                 
+flagrec1day        2                 
+flagrec2day        2                 
+flagptrawlNSHday   2                 
+flagdtrawlPELday   2                 
+flagdtrapday       2                 
+flagNewF1day       2                 
+flagNewF2day       2                 
+flagNewF3day       2   
 
 # Fisheries targeting options
-
-flagfishFPL      1         1=fishing of large planktivores, 0=off 1
-
-flagfishFPO      0         1=fishing of other planktivores, 0=off 0
-
-flagfishFPS      1         1=fishing of small planktivores, 0=off 1
-
-flagfishFVD      1         1=fishing of deep piscivorous fish, 0=off                           1
-
-flagfishFVV      0         1=fishing of vulnerable piscivorous fish, 0=off                     0
-
-flagfishFVS      1         1=fishing of shallow piscivorous fish, 0=off                        1
-
-flagfishFVT      1         1=fishing of large piscivorous fish, 0=off                          1
-
-flagfishFVO      1         1=fishing of other tuna, 0=off         1
-
-flagfishFVB      1         1=fishing of other piscivores, 0=off   1
-
-flagfishFMM      0         1=fishing of migratory mesopelagic fish, 0=off                      1
-
-flagfishFMN      0         1=fishing of non-migratory mesopelagic fish, 0=off                  1
-
-flagfishFBP      1         1=fishing of benthopelagics, 0=off     1
-
-flagfishFDD      1         1=fishing of deep demersal fish, 0=off 1
-
-flagfishFDS      1         1=fishing of shallow demersal fish, 0=off                           1
-
-flagfishFDB      1         1=fishing of other shalllow demersal, 0=off                         1
-
-flagfishFDE      1         1=fishing of estuarine demersals, 0=off1
-
-flagfishFDF      1         1=fishing of flat deep demersals, 0=off1
-
-flagfishFDC      1         1=fishing of other deep demersal, 0=off1
-
-flagfishFDO      1         1=fishing of longlived demersal, 0=off 1
-
-flagfishFDM      0         1=fishing of miscellaneous demersals, 1=off                         1
-
-flagfishFDP      0         1=fishing of protected demersals, 1=off1
-
-flagfishSHB      1         1=fishing of other shark, 0=off        1
-
-flagfishSHD      1         1=fishing of demersal sharks, 0=off    1
-
-flagfishSHP      1         1=fishing of pelagic sharks, 0=off     1
-
-flagfishSHR      0         1=fishing of reef sharks, 0=off        1
-
-flagfishSHC      0         1=fishing of reef sharks, 0=off        1
-
-flagfishSSK      1         1=fishing of skates and rays, 0=off    1
-
-flagfishREP      1         1=fishing of reptiles, 0=off           1
-
-flagfishSB       0         1=fishing of seabirds, 0=off           1
-
-flagfishSP       0         1=fishing of penguins, 0=off           1
-
-flagfishPIN      0         1=cull pinnipeds, 0=off                1
-
-flagfishWHB      0         1=fishing of baleen whales, 0=off      1
-
-flagfishWHS      0         1=fishing of toothed whales, 0=off     1
-
-flagfishWHT      0         1=fishing of toothed whales, 0=off     1
-
-flagfishWDG      0         1=fishing of dugongs, 0=off            1
-
-flagfishZG       0         1=fishing of gelatinous zooplankton, 0=off                          1 
-
-flagfishBG       0         1=fishing of benthic grazers, 0=off    1
-
-flagfishBFS      1         1=fishing of shallow filter feeders, 0=off                          1
-
-flagfishBFD      0         1=fishing of deep filter feeders, 0=off1
-
-flagfishBMS      1         1=fishing of shallow macrozoobenthos, 0=off                         1
-
-flagfishBMD      0         1=fishing of deep macrozoobenthos, 0=off                            1
-
-flagfishCEP      1         1=fishing of cephalopods, 0=off        1
-
-flagfishPWN      1         1=fishing of prawns, 0=off             1
-
-flagfishBFF      1         1=fishing of other filter feeders, 0=off                            1
-
-flagfishBML      1         1=fishing of megazoobenthos, 0=off     1
-
-flagfishZL       0         1=fishing of mesozooplankton, 0=off    1
-
-flagfishBD       0         1=fishing of deposit feeders, 0=off    0 
-
-flagfishMA       0         1=fishing of macroalgae, 0=off         0      
-
+#flagfishFPL      1         1=fishing of large planktivores, 0=off 1
+flagfishMAK 1          
+flagfishHER 1          
+flagfishWHK 1          
+flagfishBLF 1          
+flagfishWPF 1          
+flagfishSUF 1          
+flagfishWIF 1          
+flagfishWTF 1          
+flagfishHAL 1          
+flagfishPLA 1          
+flagfishFOU 1          
+flagfishFLA 1          
+flagfishBFT 1          
+flagfishTUN 1          
+flagfishBIL 1          
+flagfishMPF 0          
+flagfishBUT 1          
+flagfishANC 1          
+flagfishBPF 1          
+flagfishGOO 1          
+flagfishMEN 1          
+flagfishFDE 1          
+flagfishCOD 1          
+flagfishSHK 1          
+flagfishOHK 1          
+flagfishPOL 1          
+flagfishRHK 1          
+flagfishBSB 1          
+flagfishSCU 1          
+flagfishTYL 1          
+flagfishRED 1          
+flagfishOPT 1          
+flagfishSAL 1          
+flagfishDRM 1          
+flagfishSTB 1          
+flagfishTAU 1          
+flagfishWOL 1          
+flagfishSDF 1          
+flagfishFDF 1          
+flagfishHAD 1          
+flagfishYTF 1          
+flagfishDOG 1          
+flagfishSMO 1          
+flagfishSSH 1          
+flagfishDSH 1          
+flagfishBLS 1          
+flagfishPOR 1          
+flagfishPSH 1          
+flagfishWSK 1          
+flagfishLSK 1          
+flagfishSK  1          
+flagfishSB  0          
+flagfishPIN 0          
+flagfishREP 1          
+flagfishRWH 0          
+flagfishBWH 0          
+flagfishSWH 0          
+flagfishTWH 0          
+flagfishINV 1          
+flagfishLSQ 1          
+flagfishISQ 1          
+flagfishSCA 1          
+flagfishQHG 1          
+flagfishCLA 1          
+flagfishBFF 1          
+flagfishBG  0          
+flagfishLOB 1          
+flagfishRCB 1          
+flagfishBMS 1          
+flagfishNSH 1          
+flagfishOSH 1          
+flagfishZL  0          
+flagfishBD  0          
+flagfishMA  0          
+flagfishZG  0          
+ 
 
 
 # Fisheries habitat related - the vectors indicate which habitat patchiness equation
-
 # to use when applying fishing mortality related mortality. There are upto 13 fisheries
-
 # associated with each group (see Notes at the top of the file regarding which fisheries
-
 # are linked to which vertebrate groups) for those groups with less than 13 fisheries
-
 # associated enter 0 for the left over entries. 
-
 # 0=standard % overlap, 1=Ellis and Pantus based subgrid scale model
 
-flaghabitat_FPS  33
-
+ 
+flaghabitat_MAK 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FPL  33
-
+ 
+flaghabitat_HER 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FVD  33
-
+ 
+flaghabitat_WHK 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FVS  33
-
+ 
+flaghabitat_BLF 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FVT  33
-
+ 
+flaghabitat_WPF 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FMM  33
-
+ 
+flaghabitat_SUF 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FMN  33
-
+ 
+flaghabitat_WIF 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FDD  33
-
+ 
+flaghabitat_WTF 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FDS  33
-
+ 
+flaghabitat_HAL 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FDB  33
-
+ 
+flaghabitat_PLA 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_SHB  33
-
+ 
+flaghabitat_FOU 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FDC  33
-
+ 
+flaghabitat_FLA 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FDO  33
-
+ 
+flaghabitat_BFT 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FVO  33
-
+ 
+flaghabitat_TUN 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_SHD  33
-
+ 
+flaghabitat_BIL 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_SHP  33
-
+ 
+flaghabitat_MPF 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_SB   33
-
+ 
+flaghabitat_BUT 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_PIN  33
-
+ 
+flaghabitat_ANC 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_WHB  33
-
+ 
+flaghabitat_BPF 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_WHT  33
-
+ 
+flaghabitat_GOO 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_CEP  33
-
+ 
+flaghabitat_MEN 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_BFS  33
-
+ 
+flaghabitat_FDE 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_BFD  33
-
+ 
+flaghabitat_COD 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_BG   33
-
+ 
+flaghabitat_SHK 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_BMS  33
-
+ 
+flaghabitat_OHK 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_BMD  33
-
+ 
+flaghabitat_POL 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_ZG   33
-
+ 
+flaghabitat_RHK 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_BC   33
-
+ 
+flaghabitat_BSB 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_BD   33
-
+ 
+flaghabitat_SCU 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_MB   33
-
+ 
+flaghabitat_TYL 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_MA   33
-
+ 
+flaghabitat_RED 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_SG   33
-
+ 
+flaghabitat_OPT 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_PWN  33
-
+ 
+flaghabitat_SAL 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_BFF  33
-
+ 
+flaghabitat_DRM 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_BML  33
-
+ 
+flaghabitat_STB 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_ZL   33
-
+ 
+flaghabitat_TAU 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FBP  33
-
+ 
+flaghabitat_WOL 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FDE  33
-
+ 
+flaghabitat_SDF 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FDF  33
-
+ 
+flaghabitat_FDF 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FVB  33
-
+ 
+flaghabitat_HAD 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_SP   33
-
+ 
+flaghabitat_YTF 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_SHR  33
-
+ 
+flaghabitat_DOG 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_SSK  33
-
+ 
+flaghabitat_SMO 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_WDG  33
-
+ 
+flaghabitat_SSH 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_REP  33
-
+ 
+flaghabitat_DSH 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FPO  33
-
+ 
+flaghabitat_BLS 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FDP  33
-
+ 
+flaghabitat_POR 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FDM  33
-
+ 
+flaghabitat_PSH 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_FVV  33
-
+ 
+flaghabitat_WSK 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_SHC  33
-
+ 
+flaghabitat_LSK 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flaghabitat_WHS  33
-
+ 
+flaghabitat_SK 33
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
+ 
+flaghabitat_SB 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_PIN 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_REP 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_RWH 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_BWH 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_SWH 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_TWH 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_INV 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_LSQ 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_ISQ 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_SCA 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_QHG 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_CLA 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_BFF 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_BG 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_LOB 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_RCB 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_BMS 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_NSH 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_OSH 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_ZL 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_BD 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_MA 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_MB 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_SG 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_BC 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flaghabitat_ZG 33
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
 
 
 # This sets the flag for each group and fishery to show whether it is benthic or pelagic.
-
 # 0 = pelagic, 1 = demersal
-
-midwcCEP_flagdempelfishery  0               0
-
-jigCEP_flagdempelfishery    0               0
-
-midwcFP_flagdempelfishery   0               0
-
-dredgeBFS_flagdempelfishery 1               0
-
-netFD_flagdempelfishery     1               0
-
-netSH_flagdempelfishery     0               0
-
-plineFVO_flagdempelfishery  0               0
-
-pseineFVO_flagdempelfishery 0               0
-
-pseineFP_flagdempelfishery  0               0
-
-trapBMS_flagdempelfishery   1               0
-
-trapFD_flagdempelfishery    1               0
-
-dtrawlBMS_flagdempelfishery 1               0
-
-dtrawlCEP_flagdempelfishery 1               0
-
-dtrawlFD_flagdempelfishery  1               0
-
-dtrawlFDB_flagdempelfishery 1               0
-
-dtrawlFDO_flagdempelfishery 1               0
-
-midwcFD_flagdempelfishery   1               0
-
-dseineFDB_flagdempelfishery 1               0
-
-dlineFD_flagdempelfishery   1               0
-
-dlineFVS_flagdempelfishery  1               0
-
-dlineSH_flagdempelfishery   1               0
-
-diveBG_flagdempelfishery    1               0
-
-pseineFVS_flagdempelfishery 0               0
-
-cullPIN_flagdempelfishery   0               0
-
-recfish_flagdempelfishery       0               0
-
-ptrawlPWN_flagdempelfishery 1               0
-
-dtrawlFBP_flagdempelfishery 1               0
-
-midwcZL_flagdempelfishery   0               0
-
-trapFDE_flagdempelfishery   1               0
-
-dlineFDE_flagdempelfishery  1               0
-
-netFDE_flagdempelfishery    1               0
-
-midwcPWN_flagdempelfishery  0               0
-
-mowMA_flagdempelfishery     1               0
-
-
-
+midtrawlPEL_flagdempelfishery 0                            
+dredgeSCA_flagdempelfishery   1                            
+dredgeQHG_flagdempelfishery   1                            
+netDDEM_flagdempelfishery     1                            
+plineTUN_flagdempelfishery    0                            
+pseineTUN_flagdempelfishery   0                            
+pseinePEL_flagdempelfishery   0                            
+trapLOB_flagdempelfishery     1                            
+dtrawlGOO_flagdempelfishery   1                            
+dtrawlCEP_flagdempelfishery   1                            
+dtrawlD_flagdempelfishery     1                            
+dtrawlS_flagdempelfishery     1                            
+midtrawlINT_flagdempelfishery 1                            
+dline_flagdempelfishery       1                            
+rec1_flagdempelfishery        0                            
+rec2_flagdempelfishery        0                            
+ptrawlNSH_flagdempelfishery   1                            
+dtrawlPEL_flagdempelfishery   1                            
+dtrap_flagdempelfishery       1                            
+NewF1_flagdempelfishery       1                            
+NewF2_flagdempelfishery       1                            
+NewF3_flagdempelfishery       1                            
+ 
 # This sets the start date of a fishery in days after the start of the run
-
-
-
-midwcCEP_tStart  0               0
-
-jigCEP_tStart    0               0
-
-midwcFP_tStart   0               0
-
-dredgeBFS_tStart 0               0
-
-netFD_tStart     0               0
-
-netSH_tStart     0               0
-
-plineFVO_tStart  0               0
-
-pseineFVO_tStart 0               0
-
-pseineFP_tStart  0               0
-
-trapBMS_tStart   0               0
-
-trapFD_tStart    0               0
-
-dtrawlBMS_tStart 0               0
-
-dtrawlCEP_tStart 0               0
-
-dtrawlFD_tStart  0               0
-
-dtrawlFDB_tStart 0               0
-
-dtrawlFDO_tStart 0               0
-
-midwcFD_tStart   0               0
-
-dseineFDB_tStart 0               0
-
-dlineFD_tStart   0               0
-
-dlineFVS_tStart  0               0
-
-dlineSH_tStart   0               0
-
-diveBG_tStart    0               0
-
-pseineFVS_tStart 0               0
-
-cullPIN_tStart   0               0
-
-recfish_tStart       0               0
-
-ptrawlPWN_tStart 0               0
-
-dtrawlFBP_tStart 0               0
-
-midwcZL_tStart   0               0
-
-trapFDE_tStart   0               0
-
-dlineFDE_tStart  0               0
-
-netFDE_tStart    0               0
-
-midwcPWN_tStart  0               0
-
-mowMA_tStart     0               0
+midtrawlPEL_tStart 0                 
+dredgeSCA_tStart   0                 
+dredgeQHG_tStart   0                 
+netDDEM_tStart     0                 
+plineTUN_tStart    0                 
+pseineTUN_tStart   0                 
+pseinePEL_tStart   0                 
+trapLOB_tStart     0                 
+dtrawlGOO_tStart   0                 
+dtrawlCEP_tStart   0                 
+dtrawlD_tStart     0                 
+dtrawlS_tStart     0                 
+midtrawlINT_tStart 0                 
+dline_tStart       0                 
+rec1_tStart        0                 
+rec2_tStart        0                 
+ptrawlNSH_tStart   0                 
+dtrawlPEL_tStart   0                 
+dtrap_tStart       0                 
+NewF1_tStart       0                 
+NewF2_tStart       0                 
+NewF3_tStart       0                 
 
 
 
 # This sets the end date of a fishery in days after the start of the run
-
-
-
-midwcCEP_tEnd  1000000000               1000000000
-
-jigCEP_tEnd    1000000000               1000000000
-
-midwcFP_tEnd   1000000000               1000000000
-
-dredgeBFS_tEnd 1000000000               1000000000
-
-netFD_tEnd     1000000000               1000000000
-
-netSH_tEnd     1000000000               1000000000
-
-plineFVO_tEnd  1000000000               1000000000
-
-pseineFVO_tEnd 1000000000               1000000000
-
-pseineFP_tEnd  1000000000               1000000000
-
-trapBMS_tEnd   1000000000               1000000000
-
-trapFD_tEnd    1000000000               1000000000
-
-dtrawlBMS_tEnd 1000000000               1000000000
-
-dtrawlCEP_tEnd 1000000000               1000000000
-
-dtrawlFD_tEnd  1000000000               1000000000
-
-dtrawlFDB_tEnd 1000000000               1000000000
-
-dtrawlFDO_tEnd 1000000000               1000000000
-
-midwcFD_tEnd   4745                     1000000000
-
-dseineFDB_tEnd 1000000000               1000000000
-
-dlineFD_tEnd   1000000000               1000000000
-
-dlineFVS_tEnd  1000000000               1000000000
-
-dlineSH_tEnd   1000000000               1000000000
-
-diveBG_tEnd    1000000000               1000000000
-
-pseineFVS_tEnd 1000000000               1000000000
-
-cullPIN_tEnd   1000000000               1000000000
-
-recfish_tEnd       1000000000               1000000000
-
-ptrawlPWN_tEnd 1000000000               1000000000
-
-dtrawlFBP_tEnd 1000000000               1000000000
-
-midwcZL_tEnd   1000000000               1000000000
-
-trapFDE_tEnd   1000000000               1000000000
-
-dlineFDE_tEnd  1000000000               1000000000
-
-netFDE_tEnd    1000000000               1000000000
-
-midwcPWN_tEnd  1000000000               1000000000
-
-mowMA_tEnd     1000000000               1000000000
+midtrawlPEL_tEnd 1e+09           
+dredgeSCA_tEnd   1e+09           
+dredgeQHG_tEnd   1e+09           
+netDDEM_tEnd     1e+09           
+plineTUN_tEnd    1e+09           
+pseineTUN_tEnd   1e+09           
+pseinePEL_tEnd   1e+09           
+trapLOB_tEnd     1e+09           
+dtrawlGOO_tEnd   1e+09           
+dtrawlCEP_tEnd   1e+09           
+dtrawlD_tEnd     1e+09           
+dtrawlS_tEnd     1e+09           
+midtrawlINT_tEnd 4745            
+dline_tEnd       1e+09           
+rec1_tEnd        1e+09           
+rec2_tEnd        1e+09           
+ptrawlNSH_tEnd   1e+09           
+dtrawlPEL_tEnd   1e+09           
+dtrap_tEnd       1e+09           
+NewF1_tEnd       1e+09           
+NewF2_tEnd       1e+09           
+NewF3_tEnd       1e+09           
 
 
 
 # Flag to indicate whether want dynamic (=1) or pseudo (=0) movement if using pseudo assemssments and effortmodel = 8
-
 dynanyway 0
 
 
 
-# Flag indicating effort dynamics model to use. 0=Constant fishing pressure per quarter per cell 
-
-# (evenly distributed across cells), 1=Constant fishing pressure per quarter per cell (adjusted
-
-# by relative area of the cell), 2=Constant effort with spatial distribution based on location
-
-# of previous day's cpue, 3=Prescribed spatial effort matrices, 4=Effort based on cpue of previous day,
-
-# 5=full fleet dynamics model using ports, 6=human population-based recreational fishing
-
-# 7=alternative full fleet dynamics model using ports, 8=alternative fleet model but weighted by
-
-# prescribed effort matrices, 9=distribution based on distributions of target species (perfect knowledge)
-
-# 10=cpue based dynamic effort, 11=read effort timeseries, 12=recreational economic model, 
-
+# Flag indicating effort dynamics model to use. 
+# 0=Constant fishing pressure per quarter per cell (evenly distributed across cells),
+# 1=Constant fishing pressure per quarter per cell (adjusted by relative area of the cell), 
+# 2=Constant effort with spatial distribution based on location of previous day's cpue, 
+# 3=Prescribed spatial effort matrices, 
+# 4=Effort based on cpue of previous day,
+# 5=full fleet dynamics model using ports, 
+# 6=human population-based recreational fishing
+# 7=alternative full fleet dynamics model using ports, 
+# 8=alternative fleet model but weighted by prescribed effort matrices, 
+# 9=distribution based on distributions of target species (perfect knowledge)
+# 10=cpue based dynamic effort, 
+# 11=read effort timeseries, 
+# 12=recreational economic model, 
 # 13=dynamic economic commercial fleet model
 
-
-
-midwcCEP_effortmodel  8              0
-
-jigCEP_effortmodel    0              0
-
-midwcFP_effortmodel   8              0
-
-dredgeBFS_effortmodel 8              0
-
-netFD_effortmodel     8              0
-
-netSH_effortmodel     0              0
-
-plineFVO_effortmodel  8              0
-
-pseineFVO_effortmodel 8              0
-
-pseineFP_effortmodel  8              0
-
-trapBMS_effortmodel   8              0
-
-trapFD_effortmodel    0              0
-
-dtrawlBMS_effortmodel 0              0
-
-dtrawlCEP_effortmodel 8              0
-
-dtrawlFD_effortmodel  8              0
-
-dtrawlFDB_effortmodel 8              0
-
-dtrawlFDO_effortmodel 8              0
-
-midwcFD_effortmodel   8              0
-
-dseineFDB_effortmodel 0              0
-
-dlineFD_effortmodel   8              0
-
-dlineFVS_effortmodel  0              0
-
-dlineSH_effortmodel   0              0
-
-diveBG_effortmodel    0              0
-
-pseineFVS_effortmodel 0              0
-
-cullPIN_effortmodel   0              0
-
-recfish_effortmodel       6              0
-
-ptrawlPWN_effortmodel 8              0
-
-dtrawlFBP_effortmodel 8              0
-
-midwcZL_effortmodel   0              0
-
-trapFDE_effortmodel   8              0
-
-dlineFDE_effortmodel  0              0
-
-netFDE_effortmodel    0              0
-
-midwcPWN_effortmodel  0              0
-
-mowMA_effortmodel     0              5
-
+midtrawlPEL_effortmodel 8                      
+dredgeSCA_effortmodel   8                      
+dredgeQHG_effortmodel   8                      
+netDDEM_effortmodel     8                      
+plineTUN_effortmodel    8                      
+pseineTUN_effortmodel   8                      
+pseinePEL_effortmodel   8                      
+trapLOB_effortmodel     8                      
+dtrawlGOO_effortmodel   0                      
+dtrawlCEP_effortmodel   8                      
+dtrawlD_effortmodel     8                      
+dtrawlS_effortmodel     8                      
+midtrawlINT_effortmodel 8                      
+dline_effortmodel       8                      
+rec1_effortmodel        6                      
+rec2_effortmodel        6                      
+ptrawlNSH_effortmodel   8                      
+dtrawlPEL_effortmodel   8                      
+dtrap_effortmodel       8                      
+NewF1_effortmodel       8                      
+NewF2_effortmodel       8                      
+NewF3_effortmodel       8                      
+ 
 
 
 # Flag indicating whether fisheries will do exploratory fishing to expand their grounds (0=no, 1=yes)
-
-midwcCEP_explore  0              0
-
-jigCEP_explore    0              0
-
-midwcFP_explore   0              0
-
-dredgeBFS_explore 0              0
-
-netFD_explore     0              0
-
-netSH_explore     0              0
-
-plineFVO_explore  0              0
-
-pseineFVO_explore 0              0
-
-pseineFP_explore  0              0
-
-trapBMS_explore   0              0
-
-trapFD_explore    0              0
-
-dtrawlBMS_explore 0              0
-
-dtrawlCEP_explore 0              0
-
-dtrawlFD_explore  0              0
-
-dtrawlFDB_explore 0              0
-
-dtrawlFDO_explore 0              0
-
-midwcFD_explore   0              0
-
-dseineFDB_explore 0              0
-
-dlineFD_explore   0              0
-
-dlineFVS_explore  0              0
-
-dlineSH_explore   0              0
-
-diveBG_explore    0              0
-
-pseineFVS_explore 0              0
-
-cullPIN_explore   0              0
-
-recfish_explore       0              0
-
-ptrawlPWN_explore 0              0
-
-dtrawlFBP_explore 0              0
-
-midwcZL_explore   0              0
-
-trapFDE_explore   0              0
-
-dlineFDE_explore  0              0
-
-netFDE_explore    0              0
-
-midwcPWN_explore  0              0
-
-mowMA_explore     0              0
-
-
+midtrawlPEL_explore 0                  
+dredgeSCA_explore   0                  
+dredgeQHG_explore   0                  
+netDDEM_explore     0                  
+plineTUN_explore    0                  
+pseineTUN_explore   0                  
+pseinePEL_explore   0                  
+trapLOB_explore     0                  
+dtrawlGOO_explore   0                  
+dtrawlCEP_explore   0                  
+dtrawlD_explore     0                  
+dtrawlS_explore     0                  
+midtrawlINT_explore 0                  
+dline_explore       0                  
+rec1_explore        0                  
+rec2_explore        0                  
+ptrawlNSH_explore   0                  
+dtrawlPEL_explore   0                  
+dtrap_explore       0                  
+NewF1_explore       0                  
+NewF2_explore       0                  
+NewF3_explore       0                  
+ 
 
 # Flag indicating whether total effort can drop dynamically (without management) as stocks are depleted. 
-
 # 0=No, 1=Yes
-
-midwcCEP_effortdrop  1               1
-
-jigCEP_effortdrop    1               1
-
-midwcFP_effortdrop   1               1
-
-dredgeBFS_effortdrop 1               1
-
-netFD_effortdrop     1               1
-
-netSH_effortdrop     1               1
-
-plineFVO_effortdrop  1               1
-
-pseineFVO_effortdrop 1               1
-
-pseineFP_effortdrop  1               1
-
-trapBMS_effortdrop   1               1
-
-trapFD_effortdrop    1               1
-
-dtrawlBMS_effortdrop 1               1
-
-dtrawlCEP_effortdrop 1               1
-
-dtrawlFD_effortdrop  1               1
-
-dtrawlFDB_effortdrop 1               1
-
-dtrawlFDO_effortdrop 1               1
-
-midwcFD_effortdrop   1               1
-
-dseineFDB_effortdrop 1               1
-
-dlineFD_effortdrop   1               1
-
-dlineFVS_effortdrop  1               1
-
-dlineSH_effortdrop   1               1
-
-diveBG_effortdrop    1               1
-
-pseineFVS_effortdrop 1               1
-
-cullPIN_effortdrop   1               1
-
-recfish_effortdrop       1               1
-
-ptrawlPWN_effortdrop 1               1
-
-dtrawlFBP_effortdrop 1               1
-
-midwcZL_effortdrop   1               1
-
-trapFDE_effortdrop   1               1
-
-dlineFDE_effortdrop  1               1
-
-netFDE_effortdrop    1               1
-
-midwcPWN_effortdrop  1               1
-
-mowMA_effortdrop     1               1
-
-
+midtrawlPEL_effortdrop 1                     
+dredgeSCA_effortdrop   1                     
+dredgeQHG_effortdrop   1                     
+netDDEM_effortdrop     1                     
+plineTUN_effortdrop    1                     
+pseineTUN_effortdrop   1                     
+pseinePEL_effortdrop   1                     
+trapLOB_effortdrop     1                     
+dtrawlGOO_effortdrop   1                     
+dtrawlCEP_effortdrop   1                     
+dtrawlD_effortdrop     1                     
+dtrawlS_effortdrop     1                     
+midtrawlINT_effortdrop 1                     
+dline_effortdrop       1                     
+rec1_effortdrop        1                     
+rec2_effortdrop        1                     
+ptrawlNSH_effortdrop   1                     
+dtrawlPEL_effortdrop   1                     
+dtrap_effortdrop       1                     
+NewF1_effortdrop       1                     
+NewF2_effortdrop       1                     
+NewF3_effortdrop       1                     
+ 
 
 # Flag indicating what form of selectivity a fishery starts with (this can change through time
-
 # if the appropriate changeSEL is set to 1 below). 
-
-# 0=groups specific constant, 1=cohort specific constant for each group,
-
-# 2=size based logistic curve, 3=size based normal curve, 4=size based lognormal curve,
-
+# 0=groups specific constant, 
+# 1=cohort specific constant for each group,
+# 2=size based logistic curve,
+# 3=size based normal curve,
+# 4=size based lognormal curve,
 # 5=size based gamma curve
 
-midwcCEP_selcurve     0               0
+midtrawlPEL_selcurve 0                   
+dredgeSCA_selcurve   0                   
+dredgeQHG_selcurve   0                   
+netDDEM_selcurve     0                   
+plineTUN_selcurve    0                   
+pseineTUN_selcurve   0                   
+pseinePEL_selcurve   0                   
+trapLOB_selcurve     0                   
+dtrawlGOO_selcurve   0                   
+dtrawlCEP_selcurve   0                   
+dtrawlD_selcurve     0                   
+dtrawlS_selcurve     0                   
+midtrawlINT_selcurve 0                   
+dline_selcurve       0                   
+rec1_selcurve        0                   
+rec2_selcurve        0                   
+ptrawlNSH_selcurve   0                   
+dtrawlPEL_selcurve   0                   
+dtrap_selcurve       0                   
+NewF1_selcurve       0                   
+NewF2_selcurve       0                   
+NewF3_selcurve       0                   
+ 
 
-jigCEP_selcurve       0               0
+# Flag indicating which discarding formulation is used. 
+# 0=constant %,
+# 1=constant % per cohort,
+# 2=size based,
+# 3=loaded from timeseries file,
+# 4 = conditional on catch of other species.
+# Assumes fisheries in order
+ 
+flagdiscard_MAK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_HER 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_WHK 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_BLF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_WPF 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 1
+ 
+flagdiscard_SUF 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 1
+ 
+flagdiscard_WIF 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 1
+ 
+flagdiscard_WTF 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 1
+ 
+flagdiscard_HAL 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 1
+ 
+flagdiscard_PLA 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 1
+ 
+flagdiscard_FOU 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 1
+ 
+flagdiscard_FLA 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 1
+ 
+flagdiscard_BFT 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_TUN 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_BIL 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_MPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_BUT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_ANC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_BPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_GOO 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1
+ 
+flagdiscard_MEN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_FDE 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_COD 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_SHK 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_OHK 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_POL 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_RHK 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_BSB 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_SCU 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_TYL 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_RED 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_OPT 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_SAL 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_DRM 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_STB 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_TAU 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_WOL 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_SDF 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_FDF 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_HAD 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_YTF 22
+0 0 0 1 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_DOG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_SMO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0
+ 
+flagdiscard_SSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0
+ 
+flagdiscard_DSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0
+ 
+flagdiscard_BLS 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0
+ 
+flagdiscard_POR 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0
+ 
+flagdiscard_PSH 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0
+ 
+flagdiscard_WSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_LSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_SK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_SB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_PIN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_REP 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_RWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_BWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_SWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_TWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_INV 22
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 
+flagdiscard_LSQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_ISQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_SCA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_QHG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_CLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_BFF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_BG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_LOB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_RCB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_BMS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_NSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_OSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_ZL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_BD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_MA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_MB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_SG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_BC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagdiscard_ZG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
 
-midwcFP_selcurve      0               0
 
-dredgeBFS_selcurve    0               0
-
-netFD_selcurve        0               0
-
-netSH_selcurve        0               0
-
-plineFVO_selcurve     0               0
-
-pseineFVO_selcurve    0               0
-
-pseineFP_selcurve     0               0
-
-trapBMS_selcurve      0               0
-
-trapFD_selcurve       0               0
-
-dtrawlBMS_selcurve    0               0
-
-dtrawlCEP_selcurve    0               0
-
-dtrawlFD_selcurve     0               0
-
-dtrawlFDB_selcurve    0               0
-
-dtrawlFDO_selcurve    0               0
-
-midwcFD_selcurve      0               0
-
-dseineFDB_selcurve    0               0
-
-dlineFD_selcurve      0               0
-
-dlineFVS_selcurve     0               0
-
-dlineSH_selcurve      0               0
-
-diveBG_selcurve       0               0
-
-pseineFVS_selcurve    0               0
-
-cullPIN_selcurve      0               0
-
-recfish_selcurve          0               0
-
-ptrawlPWN_selcurve    0               0
-
-dtrawlFBP_selcurve    0               0
-
-midwcZL_selcurve      0               0
-
-trapFDE_selcurve      0               0
-
-dlineFDE_selcurve     0               0
-
-netFDE_selcurve       0               0
-
-midwcPWN_selcurve     0               0
-
-mowMA_selcurve        0               0
-
-
-
-# Flag indicating which discarding formulation is used. 0=constant %, 1=constant % per cohort,
-
-# 2=size based, 3=loaded from timeseries file, 4 = conditional on catch of other species.
-
+# Flag indicating which escapement formulation is used.
+# 0=no escapement,
+# 1=fixed proportion escape,
+# 2=size based. 
 # Assumes fisheries in order
 
-# midwcCEP_id jigCEP_id midwcFP_id dredgeBFS_id netFD_id netSH_id plineFVO_id pseineFVO_id
-
-# pseineFP_id trapBMS_id trapFD_id dtrawlBMS_id dtrawlCEP_id dtrawlFD_id dtrawlFDB_id 
-
-# dtrawlFDO_id midwcFD_id dseineFDB_id dlineFD_id dlineFVS_id dlineSH_id diveBG_id 
-
-# pseineFVS_id cullPIN_id recfish_id ptrawlPWN_id dtrawlFBP_id midwcZL_id trapFDE_id
-
-# dlineFDE_id netFDE_id midwcPWN_id mowMA_id
-
-
-
-flagdiscard_FPS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FPL  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FPO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FVD  33
-
-0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0
-
-
-
-flagdiscard_FVV  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FVS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FVT  33
-
-0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FVO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FVB  33
-
-0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0
-
-
-
-flagdiscard_FMM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FMN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FBP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FDD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagdiscard_FDS  33
-
-0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0
-
-
-
-flagdiscard_FDB  33
-
-0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0
-
-
-
-flagdiscard_FDC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0
-
-
-
-flagdiscard_FDO  33
-
-0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0
-
-
-
-flagdiscard_FDE  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FDF  33
-
-0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0
-
-
-
-flagdiscard_FDM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_FDP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_SHD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_SHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_SHC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_SHP  33
-
-0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_SHR  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_SSK  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_SB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_SP   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_REP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_WDG  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_PIN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_WHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_WHS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_WHT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_ZL   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_ZG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_BFS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_BFD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_BFF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_BG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_BMS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_BMD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_BML  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_CEP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_PWN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_BC   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_BD   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_MB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_MA   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagdiscard_SG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-# Flag indicating which escapement formulation is used. 0=no escapement, 1=fixed proportion escape,
-
-# 2=size based. Assumes fisheries in order
-
-# midwcCEP_id jigCEP_id midwcFP_id dredgeBFS_id netFD_id netSH_id plineFVO_id pseineFVO_id
-
-# pseineFP_id trapBMS_id trapFD_id dtrawlBMS_id dtrawlCEP_id dtrawlFD_id dtrawlFDB_id 
-
-# dtrawlFDO_id midwcFD_id dseineFDB_id dlineFD_id dlineFVS_id dlineSH_id diveBG_id 
-
-# pseineFVS_id cullPIN_id recfish_id ptrawlPWN_id dtrawlFBP_id midwcZL_id trapFDE_id
-
-# dlineFDE_id netFDE_id midwcPWN_id mowMA_id
-
-flagescapement_FPS  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FPL  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FVD  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FVS  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FVT  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FMM  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FMN  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FDD  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FDS  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FDB  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_SHB  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FDC  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FDO  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FVO  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_SHD  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_SHP  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_SB   33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_PIN  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_WHB  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_WHT  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_CEP  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_BFS  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_BFD  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_BG   33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_BMS  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_BMD  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_ZG   33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_BC   33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_BD   33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_MB   33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_MA   33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_SG   33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_PWN  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_BFF  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_BML  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_ZL   33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FBP  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FDE  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FDF  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FVB  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_SP   33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_SHR  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_SSK  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_WDG  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_REP  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FPO  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FDM  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FDP  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_FVV  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_SHC  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-
-
-flagescapement_WHS  33
-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
+ 
+flagescapement_MAK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_HER 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_WHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BLF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_WPF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SUF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_WIF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_WTF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_HAL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_PLA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_FOU 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_FLA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BFT 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_TUN 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BIL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_MPF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BUT 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_ANC 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BPF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_GOO 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_MEN 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_FDE 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_COD 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_OHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_POL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_RHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BSB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SCU 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_TYL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_RED 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_OPT 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SAL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_DRM 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_STB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_TAU 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_WOL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SDF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_FDF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_HAD 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_YTF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_DOG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SMO 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_DSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BLS 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_POR 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_PSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_WSK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_LSK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_PIN 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_REP 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_RWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_TWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_INV 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_LSQ 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_ISQ 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SCA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_QHG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_CLA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BFF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_LOB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_RCB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BMS 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_NSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_OSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_ZL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BD 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_MA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_MB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_SG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_BC 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+flagescapement_ZG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
 
 
 # Access identifier - whether a species can be accessed throughout the water column regardless 
-
 # of respective vertical distributions of fishery and group (1=yes, 0=no) 
-
-flag_access_thru_wc_FPL      1         1=can access large planktivores through the water column, 0=no                          0
-
-flag_access_thru_wc_FPS      1         1=can access small planktivores through the water column, 0=no                          0
-
-flag_access_thru_wc_FPO      0         1=can access other planktivores through the water column, 0=no                          0
-
-flag_access_thru_wc_FVD      0         1=can access deep piscivorous fish through the water column, 0=no                       0
-
-flag_access_thru_wc_FVV      0         1=can access vulnerable piscivorous fish through the water column, 0=no                 0
-
-flag_access_thru_wc_FVS      1         1=can access shallow piscivorous fish through the water column, 0=no                    0
-
-flag_access_thru_wc_FVT      0         1=can access large piscivorous fish through the water column, 0=no                      0
-
-flag_access_thru_wc_FVO      0         1=can access other tuna through the water column, 0=no     0
-
-flag_access_thru_wc_FVB      0         1=can access other piscivores through the water column, 0=no                            0
-
-flag_access_thru_wc_FMM      1         1=can access migratory mesopelagic fish through the water column, 0=no                  0
-
-flag_access_thru_wc_FMN      0         1=can access non-migratory mesopelagic fish through the water column, 0=no              0
-
-flag_access_thru_wc_FBP      1         1=can access benthopelagics through the water column, 0=no 0
-
-flag_access_thru_wc_FDD      0         1=can access deep demersal fish through the water column, 0=no                          0
-
-flag_access_thru_wc_FDS      0         1=can access shallow demersal fish through the water column, 0=no                       0
-
-flag_access_thru_wc_FDB      1         1=can access other shalllow demersals through the water column, 0=no                    0
-
-flag_access_thru_wc_FDC      0         1=can access other deep demersals through the water column, 0=no                        0
-
-flag_access_thru_wc_FDO      0         1=can access longlived demersals through the water column, 0=no                         0
-
-flag_access_thru_wc_FDE      1         1=can access estuarine demersals through the water column, 0=no                         0
-
-flag_access_thru_wc_FDF      0         1=can access flat deep demersals through the water column, 0=no                         0
-
-flag_access_thru_wc_FDM      0         1=can access miscellaneous demersals through the water column, 0=no                     0
-
-flag_access_thru_wc_FDP      0         1=can access protected demersals through the water column, 0=no                         0
-
-flag_access_thru_wc_SHB      1         1=can access other sharks through the water column, 0=no   0
-
-flag_access_thru_wc_SHD      0         1=can access demersal sharks through the water column, 0=no0
-
-flag_access_thru_wc_SHC      0         1=can access dogfish through the water column, 0=no        0
-
-flag_access_thru_wc_SHP      0         1=can access pelagic sharks through the water column, 0=no 0
-
-flag_access_thru_wc_SHR      0         1=can access reef sharks through the water column, 0=no    0
-
-flag_access_thru_wc_SSK      0         1=can access skates and rays through the water column, 0=no0
-
-flag_access_thru_wc_SB       0         1=can access seabirds through the water column, 0=no       0
-
-flag_access_thru_wc_SP       0         1=can access penguins through the water column, 0=no       0
-
-flag_access_thru_wc_REP      1         1=can access reptiles through the water column, 0=no       0
-
-flag_access_thru_wc_PIN      1         1=can access pinnipeds through the water column, 0=no      0          0
-
-flag_access_thru_wc_WDG      0         1=can access dugongs through the water column, 0=no        0
-
-flag_access_thru_wc_WHB      1         1=can access baleen whales through the water column, 0=no  0
-
-flag_access_thru_wc_WHS      0         1=can access small toothed whales through the water column, 0=no                        0
-
-flag_access_thru_wc_WHT      1         1=can access toothed whales through the water column, 0=no 0
-
-flag_access_thru_wc_ZL       1         1=can access mesozooplankton through the water column, 0=no0
-
-flag_access_thru_wc_ZG       1         1=can access gelatinous zooplankton through the water column, 0=no                      0 
-
-flag_access_thru_wc_BFS      0         1=can access shallow filter feeders through the water column, 0=no                      0
-
-flag_access_thru_wc_BFD      0         1=can access deep filter feeders through the water column, 0=no                         0
-
-flag_access_thru_wc_BFF      0         1=can access other filter feeders through the water column, 0=no                        0
-
-flag_access_thru_wc_BG       0         1=can access benthic grazers through the water column, 0=no0
-
-flag_access_thru_wc_BMS      0         1=can access shallow macrozoobenthos through the water column, 0=no                     0
-
-flag_access_thru_wc_BMD      0         1=can access deep macrozoobenthos through the water column, 0=no                        0
-
-flag_access_thru_wc_BML      0         1=can access megazoobenthos through the water column, 0=no 0
-
-flag_access_thru_wc_CEP      1         1=can access cephalopods through the water column, 0=no    0
-
-flag_access_thru_wc_PWN      1         1=can access prawns through the water column, 0=no         0
-
-flag_access_thru_wc_BD       0         1=can access deposit feeders through the water column, 0=no0 
-
-flag_access_thru_wc_MA       0         1=can access macroalgae through the water column, 0=no     0 
+flag_access_thru_wc_MAK 1                      
+flag_access_thru_wc_HER 1                      
+flag_access_thru_wc_WHK 0                      
+flag_access_thru_wc_BLF 1                      
+flag_access_thru_wc_WPF 0                      
+flag_access_thru_wc_SUF 0                      
+flag_access_thru_wc_WIF 0                      
+flag_access_thru_wc_WTF 0                      
+flag_access_thru_wc_HAL 0                      
+flag_access_thru_wc_PLA 0                      
+flag_access_thru_wc_FOU 0                      
+flag_access_thru_wc_FLA 0                      
+flag_access_thru_wc_BFT 0                      
+flag_access_thru_wc_TUN 0                      
+flag_access_thru_wc_BIL 0                      
+flag_access_thru_wc_MPF 1                      
+flag_access_thru_wc_BUT 1                      
+flag_access_thru_wc_ANC 1                      
+flag_access_thru_wc_BPF 1                      
+flag_access_thru_wc_GOO 0                      
+flag_access_thru_wc_MEN 1                      
+flag_access_thru_wc_FDE 1                      
+flag_access_thru_wc_COD 0                      
+flag_access_thru_wc_SHK 1                      
+flag_access_thru_wc_OHK 0                      
+flag_access_thru_wc_POL 0                      
+flag_access_thru_wc_RHK 0                      
+flag_access_thru_wc_BSB 0                      
+flag_access_thru_wc_SCU 0                      
+flag_access_thru_wc_TYL 0                      
+flag_access_thru_wc_RED 0                      
+flag_access_thru_wc_OPT 0                      
+flag_access_thru_wc_SAL 0                      
+flag_access_thru_wc_DRM 0                      
+flag_access_thru_wc_STB 0                      
+flag_access_thru_wc_TAU 0                      
+flag_access_thru_wc_WOL 0                      
+flag_access_thru_wc_SDF 0                      
+flag_access_thru_wc_FDF 0                      
+flag_access_thru_wc_HAD 0                      
+flag_access_thru_wc_YTF 0                      
+flag_access_thru_wc_DOG 1                      
+flag_access_thru_wc_SMO 0                      
+flag_access_thru_wc_SSH 0                      
+flag_access_thru_wc_DSH 0                      
+flag_access_thru_wc_BLS 0                      
+flag_access_thru_wc_POR 0                      
+flag_access_thru_wc_PSH 0                      
+flag_access_thru_wc_WSK 0                      
+flag_access_thru_wc_LSK 0                      
+flag_access_thru_wc_SK  0                      
+flag_access_thru_wc_SB  0                      
+flag_access_thru_wc_PIN 1                      
+flag_access_thru_wc_REP 1                      
+flag_access_thru_wc_RWH 1                      
+flag_access_thru_wc_BWH 1                      
+flag_access_thru_wc_SWH 1                      
+flag_access_thru_wc_TWH 1                      
+flag_access_thru_wc_INV 0                      
+flag_access_thru_wc_LSQ 1                      
+flag_access_thru_wc_ISQ 1                      
+flag_access_thru_wc_SCA 0                      
+flag_access_thru_wc_QHG 0                      
+flag_access_thru_wc_CLA 0                      
+flag_access_thru_wc_BFF 0                      
+flag_access_thru_wc_BG  0                      
+flag_access_thru_wc_LOB 0                      
+flag_access_thru_wc_RCB 0                      
+flag_access_thru_wc_BMS 0                      
+flag_access_thru_wc_NSH 1                      
+flag_access_thru_wc_OSH 1                      
+flag_access_thru_wc_ZL  1                      
+flag_access_thru_wc_BD  0                      
+flag_access_thru_wc_MA  0                      
+flag_access_thru_wc_ZG  1                      
 
 
 
 # Fisheries catch time series used.
-
 # This flag indicates whether generally there is
-
 # 0 = no imposed catch
-
 # 1 = imposed catch matches global biomass distribution
-
 # 2 = imposed catch is spatially explicit
-
 # 3 = imposed catch is spatially explicit but will "steal" from the stock if can't fill local catch
-
 # 4 = imposed catch is spatially explicit but will from adjacent cells only if cant' fill local catch time series
-
 flagimposeglobal    0
 
 
 
 # The vectors indicate whether a catch time
-
 # series is used for catch rather than fleet dynamics model (0=no, 1=yes)
-
 # Assumes fisheries in order
-
-# midwcCEP_id jigCEP_id midwcFP_id dredgeBFS_id netFD_id netSH_id plineFVO_id pseineFVO_id
-
-# pseineFP_id trapBMS_id trapFD_id dtrawlBMS_id dtrawlCEP_id dtrawlFD_id dtrawlFDB_id 
-
-# dtrawlFDO_id midwcFD_id dseineFDB_id dlineFD_id dlineFVS_id dlineSH_id diveBG_id 
-
-# pseineFVS_id cullPIN_id recfish_id ptrawlPWN_id dtrawlFBP_id midwcZL_id trapFDE_id
-
-# dlineFDE_id netFDE_id midwcPWN_id mowMA_id
-
-
-
-flagimposecatch_FPS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FPL  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FPO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FVD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FVV  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FVS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FVT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FVO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FVB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FMM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FMN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FBP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FDD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FDS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FDB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FDC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FDO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FDE  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FDF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FDM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_FDP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_SHD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_SHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_SHC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_SHP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_SHR  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_SSK  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_SB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_SP   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_REP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_WDG  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_PIN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_WHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_WHS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_WHT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_ZL   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_ZG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_BFS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_BFD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_BFF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_BG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_BMS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_BMD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_BML  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_CEP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_PWN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_BC   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_BD   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_MB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_MA   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagimposecatch_SG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-# The vectors indicate whether a catch time
-
+ 
+flagimposecatch_MAK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_HER 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_WHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BLF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_WPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SUF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_WIF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_WTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_HAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_PLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_FOU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_FLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BFT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_TUN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BIL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_MPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BUT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_ANC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_GOO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_MEN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_FDE 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_COD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_OHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_POL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_RHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BSB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SCU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_TYL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_RED 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_OPT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_DRM 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_STB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_TAU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_WOL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_FDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_HAD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_YTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_DOG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SMO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_DSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BLS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_POR 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_PSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_WSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_LSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_PIN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_REP 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_RWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_TWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_INV 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_LSQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_ISQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SCA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_QHG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_CLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BFF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_LOB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_RCB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BMS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_NSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_OSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_ZL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_MA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_MB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_SG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_BC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagimposecatch_ZG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+
+
+# The vectors indicate whether a fishing mortality time
 # series is used for catch rather than fleet dynamics model (0=no, 1=yes)
-
-# Assumes fisheries in order
-
-# midwcCEP_id jigCEP_id midwcFP_id dredgeBFS_id netFD_id netSH_id plineFVO_id pseineFVO_id
-
-# pseineFP_id trapBMS_id trapFD_id dtrawlBMS_id dtrawlCEP_id dtrawlFD_id dtrawlFDB_id 
-
-# dtrawlFDO_id midwcFD_id dseineFDB_id dlineFD_id dlineFVS_id dlineSH_id diveBG_id 
-
-# pseineFVS_id cullPIN_id recfish_id ptrawlPWN_id dtrawlFBP_id midwcZL_id trapFDE_id
-
-# dlineFDE_id netFDE_id midwcPWN_id mowMA_id
-
-
-
-flagF_FPS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FPL  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FPO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FVD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FVV  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FVS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FVT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FVO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FVB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FMM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FMN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FBP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FDD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FDS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FDB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FDC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FDO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FDE  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FDF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FDM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_FDP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_SHD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_SHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_SHC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_SHP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_SHR  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_SSK  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_SB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_SP   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_REP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_WDG  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_PIN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_WHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_WHS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_WHT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_ZL   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_ZG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_BFS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_BFD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_BFF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_BG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_BMS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_BMD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_BML  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_CEP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_PWN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_BC   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_BD   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_MB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_MA   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagF_SG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
+ 
+flagF_MAK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_HER 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_WHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BLF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_WPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SUF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_WIF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_WTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_HAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_PLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_FOU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_FLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BFT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_TUN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BIL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_MPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BUT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_ANC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_GOO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_MEN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_FDE 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_COD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_OHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_POL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_RHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BSB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SCU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_TYL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_RED 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_OPT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_DRM 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_STB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_TAU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_WOL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_FDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_HAD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_YTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_DOG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SMO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_DSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BLS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_POR 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_PSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_WSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_LSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_PIN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_REP 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_RWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_TWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_INV 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_LSQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_ISQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SCA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_QHG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_CLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BFF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_LOB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_RCB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BMS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_NSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_OSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_ZL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_MA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_MB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_SG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_BC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagF_ZG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
 
 ### Management flags 
-
 # General fisheries options
 
 flagfinfish      1         1=finfish fisheries active, 0=off      0
@@ -3396,8 +2577,6 @@ flagincidmort    1         1=fisheries cause incidental mortality (take bycatch)
 flaghighgrading  0         1=high grading, 0=no high grading      0
 
 flagmarketdiscard 0        1=market-based discarding, 0=not on    0
-
-
 
 flagendangered   0         1=endangered group status effect effort allocation, 0=off           0
 
@@ -3436,399 +2615,158 @@ pseudo_assess    0         1=use pseudo assessment not assessment library code  
 
 
 # Flag indicating whether or not TAC includes discards or just landed catch (1=yes, 0=no)
-
 flagTACincludeDiscard 0
 
-
-
-# Flag indicating whether or not trade off spatial closures for TAC reductions (i.e. no/less reduction as close area instead)
-
+# Flag indicating whether or not trade off spatial closures for TAC reductions 
+#(i.e. no/less reduction as close area instead)
 flagTradeTACvsMPA    0
 
-
-
-# Flag indicating whether fixed ratio of catches for companion species given in co_sp_catch is used throughout the run (0) or
-
-# whether it is updated dynamically (1)
-
+# Flag indicating whether fixed ratio of catches for companion species 
+# given in co_sp_catch is used throughout the run (0) or whether it is updated dynamically (1)
 flagdyn_coupdate     0
 
-
-
-# Flags indicating form of adaptive management used. 0=none, 1=simple adaptive management which responds
-
-# to the size of the target groups for this fishery. If a population has fallen to critical % of virgin
-
-# stock size reduce overall effort (done gradually over a specified time period rather than as a
-
-# sudden drop). If stock size is still too low after a set period its reduced again. 2=TACs in place.
-
+# Flags indicating form of adaptive management used. 
+# 0=none,
+# 1=simple adaptive management which responds to the size of the target groups for this fishery. 
+#   If a population has fallen to critical % of virgin stock size reduce overall effort 
+#   (done gradually over a specified time period rather than as a sudden drop). 
+#   If stock size is still too low after a set period its reduced again. 
+# 2=TACs in place.
 # "3", "Basket TACone");
-
 # "4", "Regional TAC (only for multiple stock groups so far)");
-
 # "5", "Companion TAC");
-
 # "6", "Companion TACs and basket quotas");
-
 # "7", "Basket and regional quotas");
-
 # "8", "Companion, regional and basket TACs");
-
 # "9", "Companion, regional and basket TACs and basket groups can transition to individual TAC");
 
-midwcCEP_flagmanage  0               0
-
-jigCEP_flagmanage    0               0
-
-midwcFP_flagmanage   0               0
-
-dredgeBFS_flagmanage 2               0
-
-netFD_flagmanage     2               0
-
-netSH_flagmanage     0               0
-
-plineFVO_flagmanage  0               0
-
-pseineFVO_flagmanage 0               0
-
-pseineFP_flagmanage  0               0
-
-trapBMS_flagmanage   0               0
-
-trapFD_flagmanage    0               0
-
-dtrawlBMS_flagmanage 0               0
-
-dtrawlCEP_flagmanage 0               0
-
-dtrawlFD_flagmanage  2               0
-
-dtrawlFDB_flagmanage 2               0
-
-dtrawlFDO_flagmanage 2               0
-
-midwcFD_flagmanage   3               0
-
-dseineFDB_flagmanage 0               0
-
-dlineFD_flagmanage   2               0
-
-dlineFVS_flagmanage  0               0
-
-dlineSH_flagmanage   0               0
-
-diveBG_flagmanage    0               0
-
-pseineFVS_flagmanage 0               0
-
-cullPIN_flagmanage   0               0
-
-recfish_flagmanage       0               0
-
-ptrawlPWN_flagmanage 0               0
-
-dtrawlFBP_flagmanage 2               0
-
-midwcZL_flagmanage   0               0
-
-trapFDE_flagmanage   0               0
-
-dlineFDE_flagmanage  0               0
-
-netFDE_flagmanage    0               0
-
-midwcPWN_flagmanage  0               0
-
-mowMA_flagmanage     0               0
-
-
-
+midtrawlPEL_flagmanage 0                     
+dredgeSCA_flagmanage   2                     
+dredgeQHG_flagmanage   2                     
+netDDEM_flagmanage     2                     
+plineTUN_flagmanage    0                     
+pseineTUN_flagmanage   0                     
+pseinePEL_flagmanage   0                     
+trapLOB_flagmanage     0                     
+dtrawlGOO_flagmanage   0                     
+dtrawlCEP_flagmanage   0                     
+dtrawlD_flagmanage     2                     
+dtrawlS_flagmanage     2                     
+midtrawlINT_flagmanage 3                     
+dline_flagmanage       2                     
+rec1_flagmanage        0                     
+rec2_flagmanage        0                     
+ptrawlNSH_flagmanage   0                     
+dtrawlPEL_flagmanage   2                     
+dtrap_flagmanage       0                     
+NewF1_flagmanage       2                     
+NewF2_flagmanage       2                     
+NewF3_flagmanage       2                     
 
 
 # If using a common pool TAC (so all participating fleets compare to a single TAC) set =1 (if not set =0)
-
-flagTACparticipate_midwcCEP  0               0
-
-flagTACparticipate_jigCEP    0               0
-
-flagTACparticipate_midwcFP   0               0
-
-flagTACparticipate_dredgeBFS 0               0
-
-flagTACparticipate_netFD     0               0
-
-flagTACparticipate_netSH     0               0
-
-flagTACparticipate_plineFVO  0               0
-
-flagTACparticipate_pseineFVO 0               0
-
-flagTACparticipate_pseineFP  0               0
-
-flagTACparticipate_trapBMS   0               0
-
-flagTACparticipate_trapFD    0               0
-
-flagTACparticipate_dtrawlBMS 0               0
-
-flagTACparticipate_dtrawlCEP 0               0
-
-flagTACparticipate_dtrawlFD  0               0
-
-flagTACparticipate_dtrawlFDB 0               0
-
-flagTACparticipate_dtrawlFDO 0               0
-
-flagTACparticipate_midwcFD   0               0
-
-flagTACparticipate_dseineFDB 0               0
-
-flagTACparticipate_dlineFD   0               0
-
-flagTACparticipate_dlineFVS  0               0
-
-flagTACparticipate_dlineSH   0               0
-
-flagTACparticipate_diveBG    0               0
-
-flagTACparticipate_pseineFVS 0               0
-
-flagTACparticipate_cullPIN   0               0
-
-flagTACparticipate_recfish       0               0
-
-flagTACparticipate_ptrawlPWN 0               0
-
-flagTACparticipate_dtrawlFBP 0               0
-
-flagTACparticipate_midwcZL   0               0
-
-flagTACparticipate_trapFDE   0               0
-
-flagTACparticipate_dlineFDE  0               0
-
-flagTACparticipate_netFDE    0               0
-
-flagTACparticipate_midwcPWN  0               0
-
-flagTACparticipate_mowMA     0               0
-
+flagTACparticipate_midtrawlPEL 0                             
+flagTACparticipate_dredgeSCA   0                             
+flagTACparticipate_dredgeQHG   0                             
+flagTACparticipate_netDDEM     0                             
+flagTACparticipate_plineTUN    0                             
+flagTACparticipate_pseineTUN   0                             
+flagTACparticipate_pseinePEL   0                             
+flagTACparticipate_trapLOB     0                             
+flagTACparticipate_dtrawlGOO   0                             
+flagTACparticipate_dtrawlCEP   0                             
+flagTACparticipate_dtrawlD     0                             
+flagTACparticipate_dtrawlS     0                             
+flagTACparticipate_midtrawlINT 0                             
+flagTACparticipate_dline       0                             
+flagTACparticipate_rec1        0                             
+flagTACparticipate_rec2        0                             
+flagTACparticipate_ptrawlNSH   0                             
+flagTACparticipate_dtrawlPEL   0                             
+flagTACparticipate_dtrap       0                             
+flagTACparticipate_NewF1       0                             
+flagTACparticipate_NewF2       0                             
+flagTACparticipate_NewF3       0                             
 
 
 # Flags indicating whether effort caps are used. 0=none, 1=yes.
-
-midwcCEP_flagcap  0               0
-
-jigCEP_flagcap    0               0
-
-midwcFP_flagcap   0               0
-
-dredgeBFS_flagcap 0               0
-
-netFD_flagcap     0               0
-
-netSH_flagcap     0               0
-
-plineFVO_flagcap  0               0
-
-pseineFVO_flagcap 0               0
-
-pseineFP_flagcap  0               0
-
-trapBMS_flagcap   0               0
-
-trapFD_flagcap    0               0
-
-dtrawlBMS_flagcap 0               0
-
-dtrawlCEP_flagcap 0               0
-
-dtrawlFD_flagcap  0               0
-
-dtrawlFDB_flagcap 0               0
-
-dtrawlFDO_flagcap 0               0
-
-midwcFD_flagcap   0               0
-
-dseineFDB_flagcap 0               0
-
-dlineFD_flagcap   0               0
-
-dlineFVS_flagcap  0               0
-
-dlineSH_flagcap   0               0
-
-diveBG_flagcap    0               0
-
-pseineFVS_flagcap 0               0
-
-cullPIN_flagcap   0               0
-
-recfish_flagcap       0               0
-
-ptrawlPWN_flagcap 0               0
-
-dtrawlFBP_flagcap 0               0
-
-midwcZL_flagcap   0               0
-
-trapFDE_flagcap   0               0
-
-dlineFDE_flagcap  0               0
-
-netFDE_flagcap    0               0
-
-midwcPWN_flagcap  0               0
-
-mowMA_flagcap     0               0
-
-
+midtrawlPEL_flagcap 0                  
+dredgeSCA_flagcap   0                  
+dredgeQHG_flagcap   0                  
+netDDEM_flagcap     0                  
+plineTUN_flagcap    0                  
+pseineTUN_flagcap   0                  
+pseinePEL_flagcap   0                  
+trapLOB_flagcap     0                  
+dtrawlGOO_flagcap   0                  
+dtrawlCEP_flagcap   0                  
+dtrawlD_flagcap     0                  
+dtrawlS_flagcap     0                  
+midtrawlINT_flagcap 0                  
+dline_flagcap       0                  
+rec1_flagcap        0                  
+rec2_flagcap        0                  
+ptrawlNSH_flagcap   0                  
+dtrawlPEL_flagcap   0                  
+dtrap_flagcap       0                  
+NewF1_flagcap       0                  
+NewF2_flagcap       0                  
+NewF3_flagcap       0                  
+ 
 
 # Flag indicating whether the fishery is seasonal. 0=no seasonal closures, 1=fishery has seasonal closures.
+midtrawlPEL_flagseasonal 0                       
+dredgeSCA_flagseasonal   0                       
+dredgeQHG_flagseasonal   0                       
+netDDEM_flagseasonal     0                       
+plineTUN_flagseasonal    0                       
+pseineTUN_flagseasonal   0                       
+pseinePEL_flagseasonal   0                       
+trapLOB_flagseasonal     0                       
+dtrawlGOO_flagseasonal   0                       
+dtrawlCEP_flagseasonal   0                       
+dtrawlD_flagseasonal     0                       
+dtrawlS_flagseasonal     0                       
+midtrawlINT_flagseasonal 0                       
+dline_flagseasonal       0                       
+rec1_flagseasonal        0                       
+rec2_flagseasonal        0                       
+ptrawlNSH_flagseasonal   0                       
+dtrawlPEL_flagseasonal   0                       
+dtrap_flagseasonal       0                       
+NewF1_flagseasonal       0                       
+NewF2_flagseasonal       0                       
+NewF3_flagseasonal       0                       
 
-midwcCEP_flagseasonal  0              0
-
-jigCEP_flagseasonal    0              0
-
-midwcFP_flagseasonal   0              0
-
-dredgeBFS_flagseasonal 0              0
-
-netFD_flagseasonal     0              0
-
-netSH_flagseasonal     0              0
-
-plineFVO_flagseasonal  0              0
-
-pseineFVO_flagseasonal 0              0
-
-pseineFP_flagseasonal  0              0
-
-trapBMS_flagseasonal   0              0
-
-trapFD_flagseasonal    0              0
-
-dtrawlBMS_flagseasonal 0              0
-
-dtrawlCEP_flagseasonal 0              0
-
-dtrawlFD_flagseasonal  0              0
-
-dtrawlFDB_flagseasonal 0              0
-
-dtrawlFDO_flagseasonal 0              0
-
-midwcFD_flagseasonal   0              0
-
-dseineFDB_flagseasonal 0              0
-
-dlineFD_flagseasonal   0              0
-
-dlineFVS_flagseasonal  0              0
-
-dlineSH_flagseasonal   0              0
-
-diveBG_flagseasonal    0              0
-
-pseineFVS_flagseasonal 0              0
-
-cullPIN_flagseasonal   0              0
-
-recfish_flagseasonal       0              0
-
-ptrawlPWN_flagseasonal 0              0
-
-dtrawlFBP_flagseasonal 0              0
-
-midwcZL_flagseasonal   0              0
-
-trapFDE_flagseasonal   0              0
-
-dlineFDE_flagseasonal  0              0
-
-netFDE_flagseasonal    0              0
-
-midwcPWN_flagseasonal  0              0
-
-mowMA_flagseasonal     0               0
-
-
-
-# Flag indicating whether the fishery has spatial management. 0=no spatial management, 1=fixed mpas,
-
-# 2=rotating/rolling mpas, 3=area closures when stock low, 4=area closures when endangered groups depleted,
-
+# Flag indicating whether the fishery has spatial management.
+# 0=no spatial management,
+# 1=fixed mpas,
+# 2=rotating/rolling mpas,
+# 3=area closures when stock low,
+# 4=area closures when endangered groups depleted,
 # 5 = area closures when stock low and/or when endangered groups depleted
-
-midwcCEP_flagmpa  0                  0
-
-jigCEP_flagmpa    0                  0
-
-midwcFP_flagmpa   0                  0
-
-dredgeBFS_flagmpa 0                  0
-
-netFD_flagmpa     0                  0
-
-netSH_flagmpa     0                  0
-
-plineFVO_flagmpa  0                  0
-
-pseineFVO_flagmpa 0                  0
-
-pseineFP_flagmpa  0                  0
-
-trapBMS_flagmpa   0                  0
-
-trapFD_flagmpa    0                  0
-
-dtrawlBMS_flagmpa 0                  0
-
-dtrawlCEP_flagmpa 0                  0
-
-dtrawlFD_flagmpa  0                  0
-
-dtrawlFDB_flagmpa 0                  0
-
-dtrawlFDO_flagmpa 0                  0
-
-midwcFD_flagmpa   0                  0
-
-dseineFDB_flagmpa 0                  0
-
-dlineFD_flagmpa   0                  0
-
-dlineFVS_flagmpa  0                  0
-
-dlineSH_flagmpa   0                  0
-
-diveBG_flagmpa    0                  0
-
-pseineFVS_flagmpa 0                  0
-
-cullPIN_flagmpa   0                  0
-
-recfish_flagmpa       0                  0
-
-ptrawlPWN_flagmpa 0                  0
-
-dtrawlFBP_flagmpa 0                  0
-
-midwcZL_flagmpa   0                  0
-
-trapFDE_flagmpa   0                  0
-
-dlineFDE_flagmpa  0                  0
-
-netFDE_flagmpa    0                  0
-
-midwcPWN_flagmpa  0                  0
-
-mowMA_flagmpa     0                  0
-
+midtrawlPEL_flagmpa 0                  
+dredgeSCA_flagmpa   0                  
+dredgeQHG_flagmpa   0                  
+netDDEM_flagmpa     0                  
+plineTUN_flagmpa    0                  
+pseineTUN_flagmpa   0                  
+pseinePEL_flagmpa   0                  
+trapLOB_flagmpa     0                  
+dtrawlGOO_flagmpa   0                  
+dtrawlCEP_flagmpa   0                  
+dtrawlD_flagmpa     0                  
+dtrawlS_flagmpa     0                  
+midtrawlINT_flagmpa 0                  
+dline_flagmpa       0                  
+rec1_flagmpa        0                  
+rec2_flagmpa        0                  
+ptrawlNSH_flagmpa   0                  
+dtrawlPEL_flagmpa   0                  
+dtrap_flagmpa       0                  
+NewF1_flagmpa       0                  
+NewF2_flagmpa       0                  
+NewF3_flagmpa       0                  
 
 
 # Flag indicating whether the selectivity for the specific fishery changes through time. 0=no, 0=yes
