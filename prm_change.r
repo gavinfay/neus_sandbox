@@ -725,7 +725,8 @@ change.prm4b <- function(path,origfile,param.name,outfile,mapfile,param.type,
       {
         write.table(t(temptab[irow,]),file=outfile,col.names=FALSE,row.names=FALSE,
                     quote=FALSE,sep=" ",append=TRUE)
-        write.table(t(output2[irow,]),file=outfile,col.names=FALSE,row.names=FALSE,
+        write.table(format(t(output2[irow,]),scientific=FALSE),
+                           file=outfile,col.names=FALSE,row.names=FALSE,
                     quote=FALSE,sep=" ",append=TRUE)
         write(" ",file=outfile,append=TRUE)
       }
@@ -777,6 +778,10 @@ change.prm3(path,origfile,param.name,outfile,mapfile,param.type,name2)
 
 change.prm4b(path,origfile,param.name,outfile,mapfile,param.type,name2,
              mapfile2,ogfile1,ogfile2)
+
+
+temp <- read.csv("coderelations.csv")
+write(rep(0,nrow(temp)),file="newtable.out",ncol=nrow(temp))
 
 
 
