@@ -78,8 +78,10 @@ change.prm <- function(path,origfile,param.name,outfile,mapfile,param.type,
 
   #find the length-weight parameters from the old prm file, store them
   if (param.name!= "") 
+  {
     pick <- grep(param.name,TheData[,1])
-  if (length(name2)>0) pick <-pick[grep(name2,TheData[pick,1])]
+    if (length(name2)>0) pick <-pick[grep(name2,TheData[pick,1])]        
+  }
   if (param.name== "") pick <- grep(name2,TheData[,1])
   xx <- TheData[pick,]
   tempmat <- matrix(NA,nrow=nrow(xx),ncol=2)
@@ -468,7 +470,7 @@ change.prm4 <- function(path,origfile,param.name,outfile,mapfile,param.type,
   mapvals2 <- c(mapvals,63:65)
   
   #find the length-weight parameters from the old prm file, store them
-  if (param.name!= "") 
+  if (param.name!= "")
     pick <- grep(param.name,TheData[,1])
   if (length(name2)>0) pick <-pick[grep(name2,TheData[pick,1])]
   if (param.name== "") pick <- grep(name2,TheData[,1])

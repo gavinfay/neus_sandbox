@@ -2772,1609 +2772,958 @@ NewF3_flagmpa       0
 # Flag indicating whether the selectivity for the specific fishery changes through time. 0=no, 0=yes
 
 # If any of these are set flagchangesel to 0 then set to 0 too
-
-midwcCEP_changeSEL  0                  0
-
-jigCEP_changeSEL    0                  0
-
-midwcFP_changeSEL   0                  0
-
-dredgeBFS_changeSEL 0                  0
-
-netFD_changeSEL     0                  0
-
-netSH_changeSEL     0                  0
-
-plineFVO_changeSEL  0                  0
-
-pseineFVO_changeSEL 0                  0
-
-pseineFP_changeSEL  0                  0
-
-trapBMS_changeSEL   0                  0
-
-trapFD_changeSEL    0                  0
-
-dtrawlBMS_changeSEL 0                  0
-
-dtrawlCEP_changeSEL 0                  0
-
-dtrawlFD_changeSEL  0                  0
-
-dtrawlFDB_changeSEL 0                  0
-
-dtrawlFDO_changeSEL 0                  0
-
-midwcFD_changeSEL   0                  0
-
-dseineFDB_changeSEL 0                  0
-
-dlineFD_changeSEL   0                  0
-
-dlineFVS_changeSEL  0                  0
-
-dlineSH_changeSEL   0                  0
-
-diveBG_changeSEL    0                  0
-
-pseineFVS_changeSEL 0                  0
-
-cullPIN_changeSEL   0                  0
-
-recfish_changeSEL       0                  0
-
-ptrawlPWN_changeSEL 0                  0
-
-dtrawlFBP_changeSEL 0                  0
-
-midwcZL_changeSEL   0                  0
-
-trapFDE_changeSEL   0                  0
-
-dlineFDE_changeSEL  0                  0
-
-netFDE_changeSEL    0                  0
-
-midwcPWN_changeSEL  0                  0
-
-mowMA_changeSEL     0                  0
-
+midtrawlPEL_changeSEL 0                    
+dredgeSCA_changeSEL   0                    
+dredgeQHG_changeSEL   0                    
+netDDEM_changeSEL     0                    
+plineTUN_changeSEL    0                    
+pseineTUN_changeSEL   0                    
+pseinePEL_changeSEL   0                    
+trapLOB_changeSEL     0                    
+dtrawlGOO_changeSEL   0                    
+dtrawlCEP_changeSEL   0                    
+dtrawlD_changeSEL     0                    
+dtrawlS_changeSEL     0                    
+midtrawlINT_changeSEL 0                    
+dline_changeSEL       0                    
+rec1_changeSEL        0                    
+rec2_changeSEL        0                    
+ptrawlNSH_changeSEL   0                    
+dtrawlPEL_changeSEL   0                    
+dtrap_changeSEL       0                    
+NewF1_changeSEL       0                    
+NewF2_changeSEL       0                    
+NewF3_changeSEL       0                     
 
 
 # Flag indicating whether the coverage of a specific fishery changes through time. 0=no, 1=yes
-
 # If any of these are set flagchangep to 1 then set to 1 too
-
-midwcCEP_changeP  0                  0
-
-jigCEP_changeP    0                  0
-
-midwcFP_changeP   0                  0
-
-dredgeBFS_changeP 0                  0
-
-netFD_changeP     0                  0
-
-netSH_changeP     0                  0
-
-plineFVO_changeP  0                  0
-
-pseineFVO_changeP 0                  0
-
-pseineFP_changeP  0                  0
-
-trapBMS_changeP   0                  0
-
-trapFD_changeP    0                  0
-
-dtrawlBMS_changeP 0                  0
-
-dtrawlCEP_changeP 0                  0
-
-dtrawlFD_changeP  0                  0
-
-dtrawlFDB_changeP 0                  0
-
-dtrawlFDO_changeP 0                  0
-
-midwcFD_changeP   0                  0
-
-dseineFDB_changeP 0                  0
-
-dlineFD_changeP   0                  0
-
-dlineFVS_changeP  0                  0
-
-dlineSH_changeP   0                  0
-
-diveBG_changeP    0                  0
-
-pseineFVS_changeP 0                  0
-
-cullPIN_changeP   0                  0
-
-recfish_changeP       0                  0
-
-ptrawlPWN_changeP 0                  0
-
-dtrawlFBP_changeP 0                  0
-
-midwcZL_changeP   0                  0
-
-trapFDE_changeP   0                  0
-
-dlineFDE_changeP  0                  0
-
-netFDE_changeP    0                  0
-
-midwcPWN_changeP  0                  0
-
-mowMA_changeP     0                  0
-
-
+midtrawlPEL_changeP 0                  
+dredgeSCA_changeP   0                  
+dredgeQHG_changeP   0                  
+netDDEM_changeP     0                  
+plineTUN_changeP    0                  
+pseineTUN_changeP   0                  
+pseinePEL_changeP   0                  
+trapLOB_changeP     0                  
+dtrawlGOO_changeP   0                  
+dtrawlCEP_changeP   0                  
+dtrawlD_changeP     0                  
+dtrawlS_changeP     0                  
+midtrawlINT_changeP 0                  
+dline_changeP       0                  
+rec1_changeP        0                  
+rec2_changeP        0                  
+ptrawlNSH_changeP   0                  
+dtrawlPEL_changeP   0                  
+dtrap_changeP       0                  
+NewF1_changeP       0                  
+NewF2_changeP       0                  
+NewF3_changeP       0                  
+ 
 
 # Flag indicating whether the swept area of the gear used by a specific fishery changes through
-
 # time. 0=no, 1=yes. If any of these are set to 1 then set flagchangeswept to 1 too
 
-midwcCEP_changeSWEPT  0              0
-
-jigCEP_changeSWEPT    0              0
-
-midwcFP_changeSWEPT   0              0
-
-dredgeBFS_changeSWEPT 0              0
-
-netFD_changeSWEPT     0              0
-
-netSH_changeSWEPT     0              0
-
-plineFVO_changeSWEPT  0              0
-
-pseineFVO_changeSWEPT 0              0
-
-pseineFP_changeSWEPT  0              0
-
-trapBMS_changeSWEPT   0              0
-
-trapFD_changeSWEPT    0              0
-
-dtrawlBMS_changeSWEPT 0              0
-
-dtrawlCEP_changeSWEPT 0              0
-
-dtrawlFD_changeSWEPT  0              0
-
-dtrawlFDB_changeSWEPT 0              0
-
-dtrawlFDO_changeSWEPT 0              0
-
-midwcFD_changeSWEPT   0              0
-
-dseineFDB_changeSWEPT 0              0
-
-dlineFD_changeSWEPT   0              0
-
-dlineFVS_changeSWEPT  0              0
-
-dlineSH_changeSWEPT   0              0
-
-diveBG_changeSWEPT    0              0
-
-pseineFVS_changeSWEPT 0              0
-
-cullPIN_changeSWEPT   0              0
-
-recfish_changeSWEPT       0              0
-
-ptrawlPWN_changeSWEPT 0              0
-
-dtrawlFBP_changeSWEPT 0              0
-
-midwcZL_changeSWEPT   0              0
-
-trapFDE_changeSWEPT   0              0
-
-dlineFDE_changeSWEPT  0              0
-
-netFDE_changeSWEPT    0              0
-
-midwcPWN_changeSWEPT  0              0
-
-mowMA_changeSWEPT     0              0
-
-
+midtrawlPEL_changeSWEPT 0                      
+dredgeSCA_changeSWEPT   0                      
+dredgeQHG_changeSWEPT   0                      
+netDDEM_changeSWEPT     0                      
+plineTUN_changeSWEPT    0                      
+pseineTUN_changeSWEPT   0                      
+pseinePEL_changeSWEPT   0                      
+trapLOB_changeSWEPT     0                      
+dtrawlGOO_changeSWEPT   0                      
+dtrawlCEP_changeSWEPT   0                      
+dtrawlD_changeSWEPT     0                      
+dtrawlS_changeSWEPT     0                      
+midtrawlINT_changeSWEPT 0                      
+dline_changeSWEPT       0                      
+rec1_changeSWEPT        0                      
+rec2_changeSWEPT        0                      
+ptrawlNSH_changeSWEPT   0                      
+dtrawlPEL_changeSWEPT   0                      
+dtrap_changeSWEPT       0                      
+NewF1_changeSWEPT       0                      
+NewF2_changeSWEPT       0                      
+NewF3_changeSWEPT       0                      
 
 # Flag indicating whether the effort of a specific fishery changes through time. 0=no, 1=yes
-
 # If any of these are set flagchangeeffort to 1 then set to 1 too
 
-midwcCEP_changeEFF  1                  0
-
-jigCEP_changeEFF    1                  0
-
-midwcFP_changeEFF   1                  0
-
-dredgeBFS_changeEFF 1                  0
-
-netFD_changeEFF     1                  0
-
-netSH_changeEFF     1                  0
-
-plineFVO_changeEFF  1                  0
-
-pseineFVO_changeEFF 1                  0
-
-pseineFP_changeEFF  1                  0
-
-trapBMS_changeEFF   1                  0
-
-trapFD_changeEFF    1                  0
-
-dtrawlBMS_changeEFF 1                  0
-
-dtrawlCEP_changeEFF 1                  0
-
-dtrawlFD_changeEFF  1                  0
-
-dtrawlFDB_changeEFF 1                  0
-
-dtrawlFDO_changeEFF 1                  0
-
-midwcFD_changeEFF   1                  0
-
-dseineFDB_changeEFF 1                  0
-
-dlineFD_changeEFF   1                  0
-
-dlineFVS_changeEFF  1                  0
-
-dlineSH_changeEFF   1                  0
-
-diveBG_changeEFF    1                  0
-
-pseineFVS_changeEFF 1                  0
-
-cullPIN_changeEFF   1                  0
-
-recfish_changeEFF       1                  0
-
-ptrawlPWN_changeEFF 1                  0
-
-dtrawlFBP_changeEFF 1                  0
-
-midwcZL_changeEFF   1                  0
-
-trapFDE_changeEFF   1                  0
-
-dlineFDE_changeEFF  1                  0
-
-netFDE_changeEFF    1                  0
-
-midwcPWN_changeEFF  1                  0
-
-mowMA_changeEFF     1                  0
-
-
+midtrawlPEL_changeEFF 1                    
+dredgeSCA_changeEFF   1                    
+dredgeQHG_changeEFF   1                    
+netDDEM_changeEFF     1                    
+plineTUN_changeEFF    1                    
+pseineTUN_changeEFF   1                    
+pseinePEL_changeEFF   1                    
+trapLOB_changeEFF     1                    
+dtrawlGOO_changeEFF   1                    
+dtrawlCEP_changeEFF   1                    
+dtrawlD_changeEFF     1                    
+dtrawlS_changeEFF     1                    
+midtrawlINT_changeEFF 1                    
+dline_changeEFF       1                    
+rec1_changeEFF        1                    
+rec2_changeEFF        1                    
+ptrawlNSH_changeEFF   1                    
+dtrawlPEL_changeEFF   1                    
+dtrap_changeEFF       1                    
+NewF1_changeEFF       1                    
+NewF2_changeEFF       1                    
+NewF3_changeEFF       1                    
+ 
 
 # Flag indicating whether the length of the fishing season changes for a specific fishery changes
-
 # through time. 0=no, 1=yes
-
-midwcCEP_changeseason  0                  0
-
-jigCEP_changeseason    0                  0
-
-midwcFP_changeseason   0                  0
-
-dredgeBFS_changeseason 0                  0
-
-netFD_changeseason     0                  0
-
-netSH_changeseason     0                  0
-
-plineFVO_changeseason  0                  0
-
-pseineFVO_changeseason 0                  0
-
-pseineFP_changeseason  0                  0
-
-trapBMS_changeseason   0                  0
-
-trapFD_changeseason    0                  0
-
-dtrawlBMS_changeseason 0                  0
-
-dtrawlCEP_changeseason 0                  0
-
-dtrawlFD_changeseason  0                  0
-
-dtrawlFDB_changeseason 0                  0
-
-dtrawlFDO_changeseason 0                  0
-
-midwcFD_changeseason   0                  0
-
-dseineFDB_changeseason 0                  0
-
-dlineFD_changeseason   0                  0
-
-dlineFVS_changeseason  0                  0
-
-dlineSH_changeseason   0                  0
-
-diveBG_changeseason    0                  0
-
-pseineFVS_changeseason 0                  0
-
-cullPIN_changeseason   0                  0
-
-recfish_changeseason       0                  0
-
-ptrawlPWN_changeseason 0                  0
-
-dtrawlFBP_changeseason 0                  0
-
-midwcZL_changeseason   0                  0
-
-trapFDE_changeseason   0                  0
-
-dlineFDE_changeseason  0                  0
-
-netFDE_changeseason    0                  0
-
-midwcPWN_changeseason  0                  0
-
-mowMA_changeseason     0                  0
-
-
+midtrawlPEL_changeseason 0                       
+dredgeSCA_changeseason   0                       
+dredgeQHG_changeseason   0                       
+netDDEM_changeseason     0                       
+plineTUN_changeseason    0                       
+pseineTUN_changeseason   0                       
+pseinePEL_changeseason   0                       
+trapLOB_changeseason     0                       
+dtrawlGOO_changeseason   0                       
+dtrawlCEP_changeseason   0                       
+dtrawlD_changeseason     0                       
+dtrawlS_changeseason     0                       
+midtrawlINT_changeseason 0                       
+dline_changeseason       0                       
+rec1_changeseason        0                       
+rec2_changeseason        0                       
+ptrawlNSH_changeseason   0                       
+dtrawlPEL_changeseason   0                       
+dtrap_changeseason       0                       
+NewF1_changeseason       0                       
+NewF2_changeseason       0                       
+NewF3_changeseason       0                       
 
 # Flag indicating whether the TACs for a fishery change through time. 0=no, 1=yes (dynamic), 2=yes (forced)
 
-midwcCEP_TACchange  0                  0
-
-jigCEP_TACchange    0                  0
-
-midwcFP_TACchange   0                  0
-
-dredgeBFS_TACchange 1                  0
-
-netFD_TACchange     1                  0
-
-netSH_TACchange     0                  0
-
-plineFVO_TACchange  0                  0
-
-pseineFVO_TACchange 0                  0
-
-pseineFP_TACchange  0                  0
-
-trapBMS_TACchange   0                  0
-
-trapFD_TACchange    0                  0
-
-dtrawlBMS_TACchange 0                  0
-
-dtrawlCEP_TACchange 0                  0
-
-dtrawlFD_TACchange  1                  0
-
-dtrawlFDB_TACchange 1                  0
-
-dtrawlFDO_TACchange 1                  0
-
-midwcFD_TACchange   0                  0
-
-dseineFDB_TACchange 0                  0
-
-dlineFD_TACchange   1                  0
-
-dlineFVS_TACchange  0                  0
-
-dlineSH_TACchange   0                  0
-
-diveBG_TACchange    0                  0
-
-pseineFVS_TACchange 0                  0
-
-cullPIN_TACchange   0                  0
-
-recfish_TACchange       0                  0
-
-ptrawlPWN_TACchange 0                  0
-
-dtrawlFBP_TACchange 1                  0
-
-midwcZL_TACchange   0                  0
-
-trapFDE_TACchange   0                  0
-
-dlineFDE_TACchange  0                  0
-
-netFDE_TACchange    0                  0
-
-midwcPWN_TACchange  0                  0
-
-mowMA_TACchange     0                  0
-
-
-
-
+midtrawlPEL_TACchange 0                    
+dredgeSCA_TACchange   1                    
+dredgeQHG_TACchange   1                    
+netDDEM_TACchange     1                    
+plineTUN_TACchange    0                    
+pseineTUN_TACchange   0                    
+pseinePEL_TACchange   0                    
+trapLOB_TACchange     0                    
+dtrawlGOO_TACchange   0                    
+dtrawlCEP_TACchange   0                    
+dtrawlD_TACchange     1                    
+dtrawlS_TACchange     1                    
+midtrawlINT_TACchange 0                    
+dline_TACchange       1                    
+rec1_TACchange        0                    
+rec2_TACchange        0                    
+ptrawlNSH_TACchange   0                    
+dtrawlPEL_TACchange   1                    
+dtrap_TACchange       0                    
+NewF1_TACchange       1                    
+NewF2_TACchange       1                    
+NewF3_TACchange       1                    
+ 
 
 # Flag indicating whether catchabiity of a group to a fishery changes through time. 0=no, 1=yes,
-
 # Assumes fisheries in order
 
-# midwcCEP_id jigCEP_id midwcFP_id dredgeBFS_id netFD_id netSH_id plineFVO_id pseineFVO_id
-
-# pseineFP_id trapBMS_id trapFD_id dtrawlBMS_id dtrawlCEP_id dtrawlFD_id dtrawlFDB_id 
-
-# dtrawlFDO_id midwcFD_id dseineFDB_id dlineFD_id dlineFVS_id dlineSH_id diveBG_id 
-
-# pseineFVS_id cullPIN_id recfish_id ptrawlPWN_id dtrawlFBP_id midwcZL_id trapFDE_id
-
-# dlineFDE_id netFDE_id midwcPWN_id mowMA_id
-
-
-
-flagQchange_FPS  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FPL  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FVD  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FVS  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FVT  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FMM  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FMN  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FDD  33
-
-1 0 0 0 0 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FDS  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FDB  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_SHB  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FDC  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FDO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagQchange_FVO  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_SHD  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_SHP  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_SB   33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_PIN  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_WHB  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_WHT  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_CEP  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_BFS  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_BFD  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_BG   33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_BMS  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_BMD  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_ZG   33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_BC   33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_BD   33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_MB   33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_MA   33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_SG   33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_PWN  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_BFF  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_BML  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_ZL   33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FBP  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FDE  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FDF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagQchange_FVB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagQchange_SP   33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_SHR  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_SSK  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_WDG  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_REP  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FPO  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FDM  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FDP  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_FVV  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_SHC  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagQchange_WHS  33
-
-1 0 0 0 1 0 1 0 0 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
+ 
+flagQchange_MAK 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_HER 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_WHK 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BLF 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_WPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagQchange_SUF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagQchange_WIF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagQchange_WTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagQchange_HAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagQchange_PLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagQchange_FOU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagQchange_FLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagQchange_BFT 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_TUN 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BIL 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_MPF 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BUT 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_ANC 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BPF 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_GOO 22
+0 0 0 0 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_MEN 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_FDE 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_COD 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_SHK 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_OHK 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_POL 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_RHK 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BSB 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_SCU 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_TYL 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_RED 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_OPT 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_SAL 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_DRM 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_STB 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_TAU 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_WOL 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_SDF 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_FDF 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_HAD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagQchange_YTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagQchange_DOG 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_SMO 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_SSH 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_DSH 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BLS 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_POR 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_PSH 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_WSK 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_LSK 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_SK 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_SB 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_PIN 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_REP 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_RWH 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BWH 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_SWH 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_TWH 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_INV 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_LSQ 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_ISQ 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_SCA 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_QHG 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_CLA 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BFF 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BG 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_LOB 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_RCB 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BMS 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_NSH 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_OSH 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_ZL 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BD 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_MA 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_MB 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_SG 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_BC 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
+flagQchange_ZG 22
+0 0 0 1 1 0 0 1 0 1 1 0 0 1 0 0 0 0 1 0 0 0
+ 
 
 # Flag indicating whether fishing mortality value of a group (if being used to force the model) changes
 
 # for a fishery changes through time. 0=no, 1=yes,
 
-# Assumes fisheries in order
-
-# midwcCEP_id jigCEP_id midwcFP_id dredgeBFS_id netFD_id netSH_id plineFVO_id pseineFVO_id
-
-# pseineFP_id trapBMS_id trapFD_id dtrawlBMS_id dtrawlCEP_id dtrawlFD_id dtrawlFDB_id 
-
-# dtrawlFDO_id midwcFD_id dseineFDB_id dlineFD_id dlineFVS_id dlineSH_id diveBG_id 
-
-# pseineFVS_id cullPIN_id recfish_id ptrawlPWN_id dtrawlFBP_id midwcZL_id trapFDE_id
-
-# dlineFDE_id netFDE_id midwcPWN_id mowMA_id
-
-
-
-flagFchange_FPS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FPL  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FVD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FVS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FVT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FMM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FMN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FDD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FDS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FDB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_SHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FDC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FDO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FVO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_SHD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_SHP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_SB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_PIN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_WHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_WHT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_CEP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_BFS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_BFD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_BG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_BMS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_BMD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_ZG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_BC   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_BD   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_MB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_MA   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_SG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_PWN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_BFF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_BML  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_ZL   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FBP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FDE  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FDF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FVB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_SP   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_SHR  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_SSK  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_WDG  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_REP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FPO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FDM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FDP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_FVV  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_SHC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagFchange_WHS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-## Flag indicating whether discarding of a group by a fishery changes through time. 0=no, 1=yes,
-
-# There are upto 13 fisheries associated with each group (see Notes at the top of the file regarding
-
-# which fisheries are linked to which vertebrate groups) for those groups with less than 13 fisheries
-
-# associated enter 0 for the left over entries. 
-
-flagchangeDISCRD_FPS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FPL  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FVD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FVS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FVT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FMM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FMN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FDD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FDS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FDB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_SHB  33
-
-0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagchangeDISCRD_FDC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FDO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FVO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_SHD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_SHP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_SB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_PIN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_WHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_WHT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_CEP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_BFS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_BFD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_BG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_BMS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_BMD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_ZG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_BC   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_BD   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_MB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_MA   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_SG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_PWN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0
-
-
-
-flagchangeDISCRD_BFF  33
-
-0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-
-
-flagchangeDISCRD_BML  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_ZL   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FBP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FDE  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FDF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FVB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_SP   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_SHR  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_SSK  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_WDG  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_REP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FPO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FDP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FDM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_FVV  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_SHC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-flagchangeDISCRD_WHS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
+# Assumes fisheries in order.
+
+ 
+flagFchange_MAK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_HER 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_WHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BLF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_WPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SUF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_WIF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_WTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_HAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_PLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_FOU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_FLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BFT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_TUN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BIL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_MPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BUT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_ANC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_GOO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_MEN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_FDE 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_COD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_OHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_POL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_RHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BSB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SCU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_TYL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_RED 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_OPT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_DRM 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_STB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_TAU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_WOL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_FDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_HAD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_YTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_DOG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SMO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_DSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BLS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_POR 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_PSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_WSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_LSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_PIN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_REP 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_RWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_TWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_INV 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_LSQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_ISQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SCA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_QHG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_CLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BFF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_LOB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_RCB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BMS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_NSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_OSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_ZL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_MA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_MB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_SG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_BC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagFchange_ZG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+
+## Flag indicating whether discarding of a group by a fishery changes through time. 0=no, 1=yes.
+
+ 
+flagchangeDISCRD_MAK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_HER 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_WHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_BLF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_WPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_SUF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_WIF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_WTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_HAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_PLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_FOU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_FLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_BFT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_TUN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_BIL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_MPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_BUT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_ANC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_BPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_GOO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_MEN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_FDE 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_COD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_SHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_OHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_POL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_RHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_BSB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_SCU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_TYL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_RED 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_OPT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_SAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_DRM 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_STB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_TAU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_WOL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_SDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_FDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_HAD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_YTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_DOG 22
+0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1
+ 
+flagchangeDISCRD_SMO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_SSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_DSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_BLS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_POR 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_PSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_WSK 22
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 1
+ 
+flagchangeDISCRD_LSK 22
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 1
+ 
+flagchangeDISCRD_SK 22
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 1
+ 
+flagchangeDISCRD_SB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_PIN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_REP 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_RWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_BWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_SWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_TWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_INV 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_LSQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_ISQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_SCA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_QHG 22
+0 1 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1
+ 
+flagchangeDISCRD_CLA 22
+0 1 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1
+ 
+flagchangeDISCRD_BFF 22
+0 1 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1
+ 
+flagchangeDISCRD_BG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_LOB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_RCB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_BMS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_NSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0
+ 
+flagchangeDISCRD_OSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0
+ 
+flagchangeDISCRD_ZL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_BD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_MA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_MB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_SG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_BC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+flagchangeDISCRD_ZG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
 
 ## Fisheries parameters
 
 # Reduction in effectiveness of gear due to mismatch in watercolumn of gear and vertebrates
-
 k_mismatch       0.25
-
 
 
 # Identify chief target species for each fishery - when determining effort allocation,
 
 # the expected CPUE of these species is used to select (or weight) potential fishing sites
 
-# The list assumes the following order of groups
-
-# FPL FPO FPS FVD FVV FVS FVB FVT FVO FMM FMN FBP FDD FDE FDS FDM FDP FDB FDC FDO FDF SHB SHD SHC
-
-# SHP SHR SSK SB SP PIN WDG REP WHB WHS WHT CEP BFS BFF BFD BG BMS BMD BML PWN ZL BD MA MB SG BC ZG
-
-target_midwcCEP 62
-
-0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_jigCEP 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_midwcFP 62
-
-1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dredgeBFS 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_netFD 62
-
-0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_netSH 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_plineFVO 62
-
-0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_pseineFVO 62
-
-0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_pseineFP 62
-
-0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_trapBMS 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-target_trapFD 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dtrawlBMS 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dtrawlCEP 62
-
-0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dtrawlFD 62
-
-0 0 0 1 0 1 1 0 0 0 0 0 0 0 1 0 0 1 1 1 1 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dtrawlFDO 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dtrawlFDB 62
-
-0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_midwcFD 62
-
-1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dseineFDB 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dlineFD 62
-
-0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dlineFVS 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dlineSH 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_diveBG 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_pseineFVS 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_cullPIN 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_recfish 62
-
-0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-target_ptrawlPWN 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dtrawlFBP 62
-
-1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_midwcZL 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_trapFDE 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_dlineFDE 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_netFDE 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_midwcPWN 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
-
-
-target_mowMA 62
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-
+# 08/03/2015, Gavin Fay @umassD, These targeting parameters need changing to reflect the changed fleets, and to correct errors from version 1.  (errors are inconsistencies between fleet determinations and the values in these vectors) 
+
+ 
+target_midtrawlPEL 89
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_dredgeSCA 89
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_dredgeQHG 89
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_netDDEM 89
+0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_plineTUN 89
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_pseineTUN 89
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_pseinePEL 89
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_trapLOB 89
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_dtrawlGOO 89
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_dtrawlCEP 89
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_dtrawlD 89
+0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_dtrawlS 89
+0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_midtrawlINT 89
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_dline 89
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_rec1 89
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_rec2 89
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_ptrawlNSH 89
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_dtrawlPEL 89
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_dtrap 89
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_NewF1 89
+0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_NewF2 89
+0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+target_NewF3 89
+0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
 
 
 # General vessel characteristics (specific characteristics are in the economics parameter file )
@@ -4395,916 +3744,579 @@ KDEP_fishery     0.1       Sediment penetration depth of fishing gear        m  
 
 # The list of habitats are BFS, BFF, BFD, MA, SG, MB, reef, flat, soft, canyon
 
-habitat_midwcCEP 10        
-
+ 
+habitat_midtrawlPEL 10
 1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_jigCEP 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_midwcFP 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_dredgeBFS 10        
-
+ 
+habitat_dredgeSCA 10
 1 1 1 1 1 1 0 1 1 0
-
-
-
-habitat_netFD 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_netSH 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_plineFVO 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_pseineFVO 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_pseineFP 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_trapBMS 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_trapFD 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_dtrawlBMS 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_dtrawlCEP 10        
-
-1 1 1 1 1 1 0 1 1 1
-
-
-
-habitat_dtrawlFD 10        
-
-1 1 1 1 1 1 0 1 1 1
-
-
-
-habitat_dtrawlFDO 10        
-
-1 1 1 1 1 1 0 1 1 1
-
-
-
-habitat_dtrawlFDB 10        
-
-1 1 1 1 1 1 0 1 1 1
-
-
-
-habitat_midwcFD 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_dseineFDB 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_dlineFD 10        
-
+ 
+habitat_dredgeQHG 10
 1 1 1 1 1 1 0 1 1 0
-
-
-
-habitat_dlineFVS 10        
-
+ 
+habitat_netDDEM 10
 1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_dlineSH 10        
-
+ 
+habitat_plineTUN 10
 1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_diveBG 10        
-
+ 
+habitat_pseineTUN 10
 1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_pseineFVS 10        
-
+ 
+habitat_pseinePEL 10
 1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_cullPIN 10        
-
+ 
+habitat_trapLOB 10
 1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_recfish 10        
-
+ 
+habitat_dtrawlGOO 10
 1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_ptrawlPWN 10        
-
+ 
+habitat_dtrawlCEP 10
 1 1 1 1 1 1 0 1 1 1
-
-
-
-habitat_dtrawlFBP 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_midwcZL 10        
-
-1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_trapFDE 10          
-
+ 
+habitat_dtrawlD 10
 1 1 1 1 1 1 0 1 1 1
-
-
-
-habitat_dlineFDE 10        
-
+ 
+habitat_dtrawlS 10
+1 1 1 1 1 1 0 1 1 1
+ 
+habitat_midtrawlINT 10
 1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_netFDE 10        
-
+ 
+habitat_dline 10
+1 1 1 1 1 1 0 1 1 0
+ 
+habitat_rec1 10
 1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_midwcPWN 10        
-
+ 
+habitat_rec2 10
 1 1 1 1 1 1 1 1 1 1
-
-
-
-habitat_mowMA     10
-
+ 
+habitat_ptrawlNSH 10
+1 1 1 1 1 1 0 1 1 1
+ 
+habitat_dtrawlPEL 10
 1 1 1 1 1 1 1 1 1 1
-
-
+ 
+habitat_dtrap 10
+1 1 1 1 1 1 0 1 1 1
+ 
+habitat_NewF1 10
+1 1 1 1 1 1 0 1 1 1
+ 
+habitat_NewF2 10
+1 1 1 1 1 1 0 1 1 1
+ 
+habitat_NewF3 10
+1 1 1 1 1 1 0 1 1 1
+ 
 
 # Maximum seafloor depths fishery will act over (so if won't fish deeper than 1500m put 1500 here)
 
-midwcCEP_maxdepth  1805
-
-jigCEP_maxdepth    1805
-
-midwcFP_maxdepth   1805 
-
-dredgeBFS_maxdepth 1805
-
-netFD_maxdepth     1805
-
-netSH_maxdepth     1805
-
-plineFVO_maxdepth  1805
-
-pseineFVO_maxdepth 1805
-
-pseineFP_maxdepth  1805
-
-trapBMS_maxdepth   1805
-
-trapFD_maxdepth    1805
-
-dtrawlBMS_maxdepth 1805
-
-dtrawlCEP_maxdepth 1805
-
-dtrawlFD_maxdepth  1805
-
-dtrawlFDB_maxdepth 1805
-
-dtrawlFDO_maxdepth 1805
-
-midwcFD_maxdepth   1805
-
-dseineFDB_maxdepth 1805
-
-dlineFD_maxdepth   1805
-
-dlineFVS_maxdepth  1805
-
-dlineSH_maxdepth   1805
-
-diveBG_maxdepth    1805
-
-pseineFVS_maxdepth 1805
-
-cullPIN_maxdepth   1805
-
-recfish_maxdepth       1805
-
-ptrawlPWN_maxdepth 1805
-
-dtrawlFBP_maxdepth 1805
-
-midwcZL_maxdepth   1805
-
-trapFDE_maxdepth   1805
-
-dlineFDE_maxdepth  1805
-
-netFDE_maxdepth    1805
-
-midwcPWN_maxdepth  1805
-
-mowMA_maxdepth     1805
-
-
+midtrawlPEL_maxdepth 1805                
+dredgeSCA_maxdepth   1805                
+dredgeQHG_maxdepth   1805                
+netDDEM_maxdepth     1805                
+plineTUN_maxdepth    1805                
+pseineTUN_maxdepth   1805                
+pseinePEL_maxdepth   1805                
+trapLOB_maxdepth     1805                
+dtrawlGOO_maxdepth   1805                
+dtrawlCEP_maxdepth   1805                
+dtrawlD_maxdepth     1805                
+dtrawlS_maxdepth     1805                
+midtrawlINT_maxdepth 1805                
+dline_maxdepth       1805                
+rec1_maxdepth        1805                
+rec2_maxdepth        1805                
+ptrawlNSH_maxdepth   1805                
+dtrawlPEL_maxdepth   1805                
+dtrap_maxdepth       1805                
+NewF1_maxdepth       1805                
+NewF2_maxdepth       1805                
+NewF3_maxdepth       1805                
+ 
 
 # Catch time series start dates (day from run start)
 
 # Assumes fisheries in order
 
-# midwcCEP_id jigCEP_id midwcFP_id dredgeBFS_id netFD_id netSH_id plineFVO_id pseineFVO_id
-
-# pseineFP_id trapBMS_id trapFD_id dtrawlBMS_id dtrawlCEP_id dtrawlFD_id dtrawlFDB_id 
-
-# dtrawlFDO_id midwcFD_id dseineFDB_id dlineFD_id dlineFVS_id dlineSH_id diveBG_id 
-
-# pseineFVS_id cullPIN_id recfish_id ptrawlPWN_id dtrawlFBP_id midwcZL_id trapFDE_id
-
-# dlineFDE_id netFDE_id midwcPWN_id mowMA_id
-
-
-
-imposecatchstart_FPS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FPL  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FPO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FVD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FVV  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FVS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FVT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FVO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FVB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FMM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FMN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FBP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FDD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FDS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FDB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FDC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FDO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FDE  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FDF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FDM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_FDP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_SHD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_SHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_SHC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_SHP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_SHR  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_SSK  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_SB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_SP   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_REP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_WDG  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_PIN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_WHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_WHS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_WHT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_ZL   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_ZG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_BFS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_BFD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_BFF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_BG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_BMS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_BMD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_BML  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_CEP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_PWN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_BC   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_BD   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_MB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_MA   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchstart_SG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
+ 
+imposecatchstart_MAK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_HER 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_WHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BLF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_WPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SUF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_WIF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_WTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_HAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_PLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_FOU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_FLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BFT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_TUN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BIL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_MPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BUT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_ANC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_GOO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_MEN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_FDE 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_COD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_OHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_POL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_RHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BSB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SCU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_TYL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_RED 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_OPT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_DRM 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_STB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_TAU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_WOL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_FDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_HAD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_YTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_DOG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SMO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_DSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BLS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_POR 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_PSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_WSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_LSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_PIN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_REP 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_RWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_TWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_INV 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_LSQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_ISQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SCA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_QHG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_CLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BFF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_LOB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_RCB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BMS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_NSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_OSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_ZL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_MA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_MB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_SG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_BC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchstart_ZG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
 
 # Catch time series end dates (day from run start)
 
 # Assumes fisheries in order
 
-# midwcCEP_id jigCEP_id midwcFP_id dredgeBFS_id netFD_id netSH_id plineFVO_id pseineFVO_id
-
-# pseineFP_id trapBMS_id trapFD_id dtrawlBMS_id dtrawlCEP_id dtrawlFD_id dtrawlFDB_id 
-
-# dtrawlFDO_id midwcFD_id dseineFDB_id dlineFD_id dlineFVS_id dlineSH_id diveBG_id 
-
-# pseineFVS_id cullPIN_id recfish_id ptrawlPWN_id dtrawlFBP_id midwcZL_id trapFDE_id
-
-# dlineFDE_id netFDE_id midwcPWN_id mowMA_id
-
-
-
-imposecatchend_FPS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FPL  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FPO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FVD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FVV  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FVS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FVT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FVO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FVB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FMM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FMN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FBP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FDD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FDS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FDB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FDC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FDO  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FDE  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FDF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FDM  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_FDP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_SHD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_SHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_SHC  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_SHP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_SHR  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_SSK  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_SB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_SP   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_REP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_WDG  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_PIN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_WHB  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_WHS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_WHT  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_ZL   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_ZG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_BFS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_BFD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_BFF  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_BG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_BMS  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_BMD  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_BML  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_CEP  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_PWN  33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_BC   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_BD   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_MB   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_MA   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-imposecatchend_SG   33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
+ 
+imposecatchend_MAK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_HER 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_WHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BLF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_WPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SUF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_WIF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_WTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_HAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_PLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_FOU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_FLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BFT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_TUN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BIL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_MPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BUT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_ANC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_GOO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_MEN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_FDE 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_COD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_OHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_POL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_RHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BSB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SCU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_TYL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_RED 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_OPT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_DRM 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_STB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_TAU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_WOL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_FDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_HAD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_YTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_DOG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SMO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_DSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BLS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_POR 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_PSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_WSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_LSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_PIN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_REP 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_RWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_TWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_INV 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_LSQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_ISQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SCA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_QHG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_CLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BFF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_LOB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_RCB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BMS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_NSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_OSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_ZL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_MA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_MB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_SG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_BC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+imposecatchend_ZG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
 
 
 # Scalar for imposed catches to scale from reported catches to total catches (including misreporting)
@@ -5313,1078 +4325,869 @@ imposecatchend_SG   33
 
 # was equal to 125% of official reported catch then the scalar should be set to 1.25 here.
 
-reportscale_FPL            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FPS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FVD            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FVS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FVT            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FMM            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FMN            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FDD            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FDS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FDB            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_SHB            33
-
-1.0 1.0 1.0 1.0 1.0 1.08 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FDC            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FDO            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FVO            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_SHD            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_SHP            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_SB             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_PIN            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_WHB            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_WHT            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_CEP            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_BFS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_BFD            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_BG             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_BMS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_BMD            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_ZG             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_BC             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_BD             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_MB             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_MA             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_SG             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_PWN            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_BFF            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_BML            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_ZL             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FBP            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FDE            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FDF            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FVB            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_SP             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_SHR            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_SSK            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_WDG            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_REP            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FPO            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FDM            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FDP            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_FVV            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_SHC            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-reportscale_WHS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
+ 
+reportscale_MAK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_HER 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_WHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BLF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_WPF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SUF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_WIF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_WTF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_HAL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_PLA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_FOU 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_FLA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BFT 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_TUN 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BIL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_MPF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BUT 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_ANC 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BPF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_GOO 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_MEN 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_FDE 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_COD 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_OHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_POL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_RHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BSB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SCU 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_TYL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_RED 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_OPT 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SAL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_DRM 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_STB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_TAU 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_WOL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SDF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_FDF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_HAD 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_YTF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_DOG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SMO 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_DSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BLS 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_POR 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_PSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_WSK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_LSK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_PIN 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_REP 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_RWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_TWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_INV 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_LSQ 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_ISQ 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SCA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_QHG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_CLA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BFF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_LOB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_RCB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BMS 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_NSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_OSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_ZL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BD 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_MA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_MB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_SG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_BC 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+reportscale_ZG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
 
 # Catch by age distribution for conditioning time series of catch (if used)
 
 # Note that for CEP and PWN only the first 2 entries are effective.
 
-CatchTS_agedistribFPL 10
-
+ 
+CatchTS_agedistribMAK 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFPS 10
-
-0 0 0 0 0 0 0 0 0 0         
-
-
-
-CatchTS_agedistribFPO 10
-
+ 
+CatchTS_agedistribHER 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFVD 10
-
+ 
+CatchTS_agedistribWHK 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFVV 10
-
+ 
+CatchTS_agedistribBLF 10
 0 0 0 0 0 0 0 0 0 0
-
-         
-
-CatchTS_agedistribFVS 10
-
+ 
+CatchTS_agedistribWPF 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFVT 10
-
+ 
+CatchTS_agedistribSUF 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFVO 10
-
+ 
+CatchTS_agedistribWIF 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFVB 10
-
+ 
+CatchTS_agedistribWTF 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFMM 10
-
+ 
+CatchTS_agedistribHAL 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFMN 10
-
+ 
+CatchTS_agedistribPLA 10
 0 0 0 0 0 0 0 0 0 0
-
-         
-
-CatchTS_agedistribFBP 10
-
+ 
+CatchTS_agedistribFOU 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFDD 10
-
+ 
+CatchTS_agedistribFLA 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFDS 10
-
+ 
+CatchTS_agedistribBFT 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFDB 10
-
+ 
+CatchTS_agedistribTUN 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFDC 10
-
+ 
+CatchTS_agedistribBIL 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFDO 10
-
+ 
+CatchTS_agedistribMPF 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
+ 
+CatchTS_agedistribBUT 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribANC 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribBPF 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribGOO 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribMEN 10
+0 0 0 0 0 0 0 0 0 0
+ 
 CatchTS_agedistribFDE 10
-
 0 0 0 0 0 0 0 0 0 0
-
-
-
+ 
+CatchTS_agedistribCOD 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribSHK 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribOHK 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribPOL 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribRHK 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribBSB 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribSCU 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribTYL 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribRED 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribOPT 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribSAL 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribDRM 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribSTB 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribTAU 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribWOL 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribSDF 10
+0 0 0 0 0 0 0 0 0 0
+ 
 CatchTS_agedistribFDF 10
-
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribFDM 10
-
+ 
+CatchTS_agedistribHAD 10
 0 0 0 0 0 0 0 0 0 0
-
-         
-
-CatchTS_agedistribFDP 10
-
+ 
+CatchTS_agedistribYTF 10
 0 0 0 0 0 0 0 0 0 0
-
-         
-
-CatchTS_agedistribSHD 10
-
+ 
+CatchTS_agedistribDOG 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribSHB 10
-
+ 
+CatchTS_agedistribSMO 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribSHC 10
-
+ 
+CatchTS_agedistribSSH 10
 0 0 0 0 0 0 0 0 0 0
-
-         
-
-CatchTS_agedistribSHP 10
-
+ 
+CatchTS_agedistribDSH 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribSHR 10
-
+ 
+CatchTS_agedistribBLS 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribSSK 10
-
+ 
+CatchTS_agedistribPOR 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
+ 
+CatchTS_agedistribPSH 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribWSK 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribLSK 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribSK 10
+0 0 0 0 0 0 0 0 0 0
+ 
 CatchTS_agedistribSB 10
-
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribSP 10
-
-0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribREP 10
-
-0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribWDG 10
-
-0 0 0 0 0 0 0 0 0 0
-
-
-
+ 
 CatchTS_agedistribPIN 10
-
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribWHB 10
-
+ 
+CatchTS_agedistribREP 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribWHS 10
-
+ 
+CatchTS_agedistribRWH 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribWHT 10
-
+ 
+CatchTS_agedistribBWH 10
 0 0 0 0 0 0 0 0 0 0
-
-
-
-#GFay 22 Apr 2014
-
-#Filled vector for Inverts to suppress warning even though only first two entries are used.
-
-CatchTS_agedistribPWN    10
-
-0.0 0.0 0 0 0 0 0 0 0 0
-
-
-
-CatchTS_agedistribCEP    10
-
-0.0 0.0 0 0 0 0 0 0 0 0
-
-
+ 
+CatchTS_agedistribSWH 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribTWH 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribINV 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribLSQ 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribISQ 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribNSH 10
+0 0 0 0 0 0 0 0 0 0
+ 
+CatchTS_agedistribOSH 10
+0 0 0 0 0 0 0 0 0 0
+ 
 
 # Proportion of catch which defines perferred target size (so if CatchTS value > highgrade_thresh this is preferred cohort)
 
 highgrade_thresh 1.0
 
 
-
 # Forced fishing mortality rates - one entry per fishery
-
-mFC_FPL            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FPS            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FVD            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FVS            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FVT            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FMM            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FMN            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FDD            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FDS            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FDB            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_SHB            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FDC            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FDO            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FVO            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_SHD            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_SHP            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_SB             33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_PIN            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_WHB            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_WHT            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_CEP            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_BFS            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_BFD            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_BG             33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_BMS            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_BMD            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_ZG             33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_BC             33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_BD             33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_MB             33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_MA             33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_SG             33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_PWN            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_BFF            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_BML            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_ZL             33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FBP            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FDE            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FDF            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FVB            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_SP             33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_SHR            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_SSK            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_WDG            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_REP            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FPO            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FDM            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FDP            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_FVV            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_SHC            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-mFC_WHS            33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-# Forced fishing mortality rates - one entry per fishery
-
-FPL_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FPS_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FVD_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FVS_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FVT_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FMM_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FMN_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FDD_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FDS_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FDB_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-SHB_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FDC_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FDO_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FVO_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-SHD_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-SHP_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-SB_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-PIN_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-WHB_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-WHT_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-CEP_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-PWN_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FBP_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FDE_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FDF_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FVB_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-SP_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-SHR_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-SSK_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-WDG_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-REP_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FPO_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FDM_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FDP_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-FVV_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-SHC_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-WHS_mFC_startage            33
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
+ 
+mFC_MAK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_HER 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_WHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BLF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_WPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SUF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_WIF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_WTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_HAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_PLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_FOU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_FLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BFT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_TUN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BIL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_MPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BUT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_ANC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BPF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_GOO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_MEN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_FDE 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_COD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_OHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_POL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_RHK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BSB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SCU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_TYL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_RED 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_OPT 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SAL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_DRM 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_STB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_TAU 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_WOL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_FDF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_HAD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_YTF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_DOG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SMO 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_DSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BLS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_POR 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_PSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_WSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_LSK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SK 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_PIN 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_REP 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_RWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_TWH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_INV 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_LSQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_ISQ 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SCA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_QHG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_CLA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BFF 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_LOB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_RCB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BMS 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_NSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_OSH 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_ZL 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BD 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_MA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_MB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_SG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_BC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+mFC_ZG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+# Forced fishing mortality rates, first age - one entry per fishery
+ 
+MAK_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+HER_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+WHK_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+BLF_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+WPF_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+SUF_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+WIF_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+WTF_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+HAL_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+PLA_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+FOU_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+FLA_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+BFT_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+TUN_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+BIL_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+MPF_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+BUT_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+ANC_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+BPF_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+GOO_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+MEN_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+FDE_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+COD_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+SHK_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+OHK_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+POL_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+RHK_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+BSB_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+SCU_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+TYL_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+RED_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+OPT_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+SAL_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+DRM_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+STB_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+TAU_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+WOL_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+SDF_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+FDF_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+HAD_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+YTF_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+DOG_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+SMO_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+SSH_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+DSH_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+BLS_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+POR_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+PSH_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+WSK_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+LSK_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+SK_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+SB_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+PIN_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+REP_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+RWH_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+BWH_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+SWH_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+TWH_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+INV_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+LSQ_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+ISQ_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+NSH_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+OSH_mFC_startage 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
 
 
 # Catchability per group per fishery. There are upto 13 fisheries associated with each group 
@@ -6400,314 +5203,241 @@ WHS_mFC_startage            33
 # q_FPS dropped by 9x (as too high for gillnet and putting it in line with Mackerel) 
 
 
-
-q_FPL 33  
-
-0 0 0.07 0 0 0 0 0 0.01 0 0 0 0 0.008 0 0 0.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0	           	
-
-
-
-q_FPS 33  
-
-0 0 0.3 0 0 0 0 0 0.3 0 0 0 0 0 0 0 0.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0			
-
-   
-
-q_FPO 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_FVD 33  
-
-0 0 0 0 0.1 0 0.0001 0 0 0 0 0 0.00008 0.2 0.04 0 0 0 0.5 0 0 0 0 0 0.0000001 0.006 0 0 0.001 0 0 0 0	
-
-   
-
-q_FVV 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_FVS 33  
-
-0 0 0 0 0.07 0 0 0 0.08 0 0 0 0 0.007 0.002 0.05 0 0 0 0 0 0 0 0 0.000008 0 0.03 0 0.000008 0 0 0 0
-
-
-
-q_FVT 33  
-
-0 0 0 0 0 0 0.9 0.9 0 0 0 0 0 0 0 0 0 0 0.04 0 0 0 0 0 0.000000008 0 0 0 0 0 0 0 0		
-
-   
-
-q_FVB 33  
-
-0 0 0 0 0.1 0 0 0 0 0.004 0 0 0.001 0.2 0.0003 0 0 0 0.00002 0 0 0 0 0 0.000000000005 0.00001 0 0 0 0 0 0 0		
-
-   
-
-q_FVO 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_FMM 33  
-
-0 0 0.04 0 0 0 0 0 0.04 0 0 0 0.04 0 0 0 0.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_FMN 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_FBP 33  
-
-0 0 0.05 0 0.005 0 0 0 0.005 0.0005 0 0 0.002 0.04 0.3 0 0 0 0 0 0 0 0 0 0.0000000005 0.08 0.000006 0 0 0 0 0 0		
-
-
-
-q_FDD 33  
-
-0 0 0 0.001 0.002 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.6 0 0 0 0
-
-
-
-q_FDS 33  
-
-0 0 0 0 0.002 0 0 0 0 0 0 0 0.00002 0.01 0.9 0.4 0 0 0.02 0 0 0 0 0 0.000000002 0 0 0 0.00002 0 0 0 0	
-
-   
-
-q_FDB 33  
-
-0 0 0.05 0 0 0 0 0 0 0 0 0 0.00005 0.08 0.2 0.6 0.6 0 0 0 0 0 0 0 0 0 0.000001 0 0.0001 0 0 0 0		
-
-   
-
-q_FDC 33  
-
-0 0 0 0.6 0.003 0 0 0 0 0 0 0 0.00001 0.04 0.002 0.002 0 0 0.0001 0 0 0 0 0 0.000000001 0.0002 0.0000001 0 0 0 0 0 0	
-
-   
-
-q_FDO 33  
-
-0 0 0 0 0.00002 0 0 0 0 0 0 0 0 0.05 0.1 0 0 0 0.005 0 0 0 0 0 0 0.0005 0 0 0.005 0 0 0 0		
-
-   
-
-q_FDE 33  
-
-0.9 0 0.1 0 0 0 0 0 0.99 0 0 0 0 0 0 0 0.000002 0 0 0 0 0 0 0 0.00002 0 0.9 0 0 0 0 0 0		
-
-   									
-
-q_FDF 33  
-
-0 0 0 0.0001 0.0002 0 0 0 0 0.0001 0 0 0.0001 0.1 0.001 0 0 0 0 0 0 0 0 0 0 0.002 0 0 0.0005 0 0 0 0	
-
-   
-
-q_FDP 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_FDM 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_SHB 33  
-
-0 0 0.0006 0 0.0006 0 0 0 0 0 0 0 0.00001 0 0.8 0.00001 0 0 0.00001 0 0 0 0 0 0 0 0.005 0 0 0 0 0 0	
-
-   
-
-q_SHD 33  
-
-0 0 0 0 0.00003 0 0.5 0.000003 0 0 0 0 0 0.0006 0.06 0.0000002 0.0002 0 0.00003 0 0 0 0 0 0.000000003 0 0.0006 0 0 0 0 0 0
-
-   
-
-q_SHP 33  
-
-0 0 0 0 0 0 0.0001 0 0.00003 0 0 0 0 0 0 0 0 0 0.000001 0 0 0 0 0 0.0000001 0 0.0000001 0 0 0 0 0 0
-
-   
-
-q_SHR 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_SHC 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_SSK 33  
-
-0 0 0 0 0.001 0 0 0 0 0 0 0 0.004 0.002 0.4 0 0 0 0.002 0 0 0 0 0 0.0000004 0.00001 0.04 0 0 0 0 0 0		
-
-   
-
-q_SP 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_SB 33  
-
-0 0 0 0 0.000001 0 0.1 0 0 0 0 0 0 0 0 0 0 0 0.000001 0 0 0 0 0 0 0 0.000001 0 0 0 0 0 0
-
-   
-
-q_PIN 33  
-
-0 0 0 0 0.01 0 0 0 0 0 0 0 0.000001 0.000001 0.000001 0 0 0 0 0 0 0 0 0 0 0.0000001 0.001 0 0.000001 0 0 0 0
-
-   
-
-q_WDG 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_REP 33  
-
-0 0 0 0 0.01 0 0.05 0 0 0 0 0 0.000001 0.000001 0.000001 0 0 0 0.000001 0 0 0 0 0 0 0.0000001 0.000001 0 0.000001 0 0 0 0
-
-
-
-q_WHB 33  
-
-0 0 0 0 0 0 0 0 0 0.001 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_WHS 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_WHT 33  
-
-0 0 0 0 0.05 0 0.01 0 0 0 0 0 0 0.0001 0.0001 0 0 0 0.0001 0 0 0 0 0 0 0 0.01 0 0.0001 0 0 0 0
-
-   
-
-q_CEP 33  
-
-0.9 0.9 0 0.9 0 0 0 0 0 0 0 0 0.9 0 0 0 0 0 0 0 0 0 0 0 0.00002 0.9 0 0 0 0 0 0 0
-
-
-
-q_BFS 33  
-
-0 0 0 0.9 0 0 0 0 0 0 0 0 0.0003 0.0001 0.005 0 0 0 0 0 0 0 0 0 0 0.0005 0 0 0.0005 0 0 0 0		
-
-
-
-q_BFD 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_BG 33  
-
-0 0 0 0.25 0 0 0 0 0 0.001 0 0 0.1 0.05 0.1 0 0 0 0 0 0 0 0 0 0 0.0005 0 0 0.1 0 0 0 0
-
-   
-
-q_BMS 33  
-
-0 0 0 0.000005 0 0 0 0 0 0 0 0 0 0.001 0.02 0 0 0 0 0 0 0 0 0 0 0.005 0 0 0.0001 0 0 0 0		
-
-   
-
-q_BMD 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-#GFay 22 Apr 2014, added 3 extra zeroes to q_BML to fill vector
-
-q_BML 33  
-
-0 0 0 0 0 0 0 0 0 0.01 0 0 0 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-
-
-q_ZG 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_BC 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_BD 33  
-
-0 0 0 0.0015 0 0 0 0 0 0.0001 0 0 0.001 0.001 0.001 0 0 0 0 0 0 0 0 0 0 0.00001 0 0 0.001 0 0 0 0
-
-
-
-q_MB 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_MA 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_SG 33  
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-   
-
-q_PWN 33  
-
-0 0 0 0 0.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0 0 0 0 0 0.9 0
-
  
-
-q_BFF 33  
-
-0 0 0 0.25 0 0 0 0 0 0 0 0 0.01 0.01 0.01 0 0 0 0 0 0 0 0 0 0 0.0005 0 0 0.0001 0 0 0 0		
-
-
-
-q_ZL 33  
-
-0 0 0.001 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0.001 0 0 0 0 0 0 0 0 0.02 0 0 0 0 0 0 0
-
-   
+q_MAK 22
+0.07 0 0 0 0 0 0.01 0 0 0 0.008 0 0.3 0 0 0 0 0 0 0 0 0
+ 
+q_HER 22
+0.3 0 0 0 0 0 0.3 0 0 0 0 0 0.4 0 0 0 0 0 0 0 0 0
+ 
+q_WHK 22
+0 0 0 0.1 1e-04 0 0 0 0 8e-05 0.2 0.04 0 0.5 1e-07 1e-07 0.006 0 0.001 0.04 0.04 0.04
+ 
+q_BLF 22
+0 0 0 0.07 0 0 0.08 0 0 0 0.007 0.002 0 0 8e-06 8e-06 0 0.03 8e-06 0.002 0.002 0.002
+ 
+q_WPF 22
+0 0 0 0.1 0 0 0 0.004 0 0.001 0.2 3e-04 0 2e-05 5e-12 5e-12 1e-05 0 0 3e-04 3e-04 3e-04
+ 
+q_SUF 22
+0 0 0 0.1 0 0 0 0.004 0 0.001 0.2 3e-04 0 2e-05 5e-12 5e-12 1e-05 0 0 3e-04 3e-04 3e-04
+ 
+q_WIF 22
+0 0 0 0.1 0 0 0 0.004 0 0.001 0.2 3e-04 0 2e-05 5e-12 5e-12 1e-05 0 0 3e-04 3e-04 3e-04
+ 
+q_WTF 22
+0 0 0 0.1 0 0 0 0.004 0 0.001 0.2 3e-04 0 2e-05 5e-12 5e-12 1e-05 0 0 3e-04 3e-04 3e-04
+ 
+q_HAL 22
+0 0 0 0.1 0 0 0 0.004 0 0.001 0.2 3e-04 0 2e-05 5e-12 5e-12 1e-05 0 0 3e-04 3e-04 3e-04
+ 
+q_PLA 22
+0 0 0 0.1 0 0 0 0.004 0 0.001 0.2 3e-04 0 2e-05 5e-12 5e-12 1e-05 0 0 3e-04 3e-04 3e-04
+ 
+q_FOU 22
+0 0 0 0.1 0 0 0 0.004 0 0.001 0.2 3e-04 0 2e-05 5e-12 5e-12 1e-05 0 0 3e-04 3e-04 3e-04
+ 
+q_FLA 22
+0 0 0 0.1 0 0 0 0.004 0 0.001 0.2 3e-04 0 2e-05 5e-12 5e-12 1e-05 0 0 3e-04 3e-04 3e-04
+ 
+q_BFT 22
+0 0 0 0 0.9 0.9 0 0 0 0 0 0 0 0.04 8e-09 8e-09 0 0 0 0 0 0
+ 
+q_TUN 22
+0 0 0 0 0.9 0.9 0 0 0 0 0 0 0 0.04 8e-09 8e-09 0 0 0 0 0 0
+ 
+q_BIL 22
+0 0 0 0 0.9 0.9 0 0 0 0 0 0 0 0.04 8e-09 8e-09 0 0 0 0 0 0
+ 
+q_MPF 22
+0.04 0 0 0 0 0 0.04 0 0 0.04 0 0 0.04 0 0 0 0 0 0 0 0 0
+ 
+q_BUT 22
+0.05 0 0 0.005 0 0 0.005 5e-04 0 0.002 0.04 0.3 0 0 5e-10 5e-10 0.08 6e-06 0 0.3 0.3 0.3
+ 
+q_ANC 22
+0.05 0 0 0.005 0 0 0.005 5e-04 0 0.002 0.04 0.3 0 0 5e-10 5e-10 0.08 6e-06 0 0.3 0.3 0.3
+ 
+q_BPF 22
+0.05 0 0 0.005 0 0 0.005 5e-04 0 0.002 0.04 0.3 0 0 5e-10 5e-10 0.08 6e-06 0 0.3 0.3 0.3
+ 
+q_GOO 22
+0 0.001 0.001 0.002 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.6 0 0 0
+ 
+q_MEN 22
+0.1 0 0 0 0 0 0.99 0 0 0 0 0 2e-06 0 2e-05 2e-05 0 0.9 0 0 0 0
+ 
+q_FDE 22
+0.1 0 0 0 0 0 0.99 0 0 0 0 0 2e-06 0 2e-05 2e-05 0 0.9 0 0 0 0
+ 
+q_COD 22
+0 0 0 0.002 0 0 0 0 0 2e-05 0.01 0.9 0 0.02 2e-09 2e-09 0 0 2e-05 0.9 0.9 0.9
+ 
+q_SHK 22
+0.05 0 0 0 0 0 0 0 0 5e-05 0.08 0.2 0.6 0 0 0 0 1e-06 1e-04 0.2 0.2 0.2
+ 
+q_OHK 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_POL 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_RHK 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_BSB 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_SCU 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_TYL 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_RED 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_OPT 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_SAL 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_DRM 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_STB 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_TAU 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_WOL 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_SDF 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_FDF 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_HAD 22
+0 0 0 2e-05 0 0 0 0 0 0 0.05 0.1 0 0.005 0 0 5e-04 0 0.005 0.1 0.1 0.1
+ 
+q_YTF 22
+0 1e-04 1e-04 2e-04 0 0 0 1e-04 0 1e-04 0.1 0.001 0 0 0 0 0.002 0 5e-04 0.001 0.001 0.001
+ 
+q_DOG 22
+6e-04 0 0 6e-04 0 0 0 0 0 1e-05 0 0.8 0 1e-05 0 0 0 0.005 0 0.8 0.8 0.8
+ 
+q_SMO 22
+0 0 0 3e-05 0.5 3e-06 0 0 0 0 6e-04 0.06 2e-04 3e-05 3e-09 3e-09 0 6e-04 0 0.06 0.06 0.06
+ 
+q_SSH 22
+0 0 0 3e-05 0.5 3e-06 0 0 0 0 6e-04 0.06 2e-04 3e-05 3e-09 3e-09 0 6e-04 0 0.06 0.06 0.06
+ 
+q_DSH 22
+0 0 0 3e-05 0.5 3e-06 0 0 0 0 6e-04 0.06 2e-04 3e-05 3e-09 3e-09 0 6e-04 0 0.06 0.06 0.06
+ 
+q_BLS 22
+0 0 0 0 1e-04 0 3e-05 0 0 0 0 0 0 1e-06 1e-07 1e-07 0 1e-07 0 0 0 0
+ 
+q_POR 22
+0 0 0 0 1e-04 0 3e-05 0 0 0 0 0 0 1e-06 1e-07 1e-07 0 1e-07 0 0 0 0
+ 
+q_PSH 22
+0 0 0 0 1e-04 0 3e-05 0 0 0 0 0 0 1e-06 1e-07 1e-07 0 1e-07 0 0 0 0
+ 
+q_WSK 22
+0 0 0 0.001 0 0 0 0 0 0.004 0.002 0.4 0 0.002 4e-07 4e-07 1e-05 0.04 0 0.4 0.4 0.4
+ 
+q_LSK 22
+0 0 0 0.001 0 0 0 0 0 0.004 0.002 0.4 0 0.002 4e-07 4e-07 1e-05 0.04 0 0.4 0.4 0.4
+ 
+q_SK 22
+0 0 0 0.001 0 0 0 0 0 0.004 0.002 0.4 0 0.002 4e-07 4e-07 1e-05 0.04 0 0.4 0.4 0.4
+ 
+q_SB 22
+0 0 0 1e-06 0.1 0 0 0 0 0 0 0 0 1e-06 0 0 0 1e-06 0 0 0 0
+ 
+q_PIN 22
+0 0 0 0.01 0 0 0 0 0 1e-06 1e-06 1e-06 0 0 0 0 1e-07 0.001 1e-06 1e-06 1e-06 1e-06
+ 
+q_REP 22
+0 0 0 0.01 0.05 0 0 0 0 1e-06 1e-06 1e-06 0 1e-06 0 0 1e-07 1e-06 1e-06 1e-06 1e-06 1e-06
+ 
+q_RWH 22
+0 0 0 0 0 0 0 0.001 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+q_BWH 22
+0 0 0 0 0 0 0 0.001 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+q_SWH 22
+0 0 0 0.05 0.01 0 0 0 0 0 1e-04 1e-04 0 1e-04 0 0 0 0.01 1e-04 1e-04 1e-04 1e-04
+ 
+q_TWH 22
+0 0 0 0.05 0.01 0 0 0 0 0 1e-04 1e-04 0 1e-04 0 0 0 0.01 1e-04 1e-04 1e-04 1e-04
+ 
+q_INV 22
+0 0.6 0.6 0.003 0 0 0 0 0 1e-05 0.04 0.002 0 1e-04 1e-09 1e-09 2e-04 1e-07 0 0.002 0.002 0.002
+ 
+q_LSQ 22
+0 0.9 0.9 0 0 0 0 0 0 0.9 0 0 0 0 2e-05 2e-05 0.9 0 0 0 0 0
+ 
+q_ISQ 22
+0 0.9 0.9 0 0 0 0 0 0 0.9 0 0 0 0 2e-05 2e-05 0.9 0 0 0 0 0
+ 
+q_SCA 22
+0 0.9 0.9 0 0 0 0 0 0 3e-04 1e-04 0.005 0 0 0 0 5e-04 0 5e-04 0.005 0.005 0.005
+ 
+q_QHG 22
+0 0.25 0.25 0 0 0 0 0 0 0.01 0.01 0.01 0 0 0 0 5e-04 0 1e-04 0.01 0.01 0.01
+ 
+q_CLA 22
+0 0.25 0.25 0 0 0 0 0 0 0.01 0.01 0.01 0 0 0 0 5e-04 0 1e-04 0.01 0.01 0.01
+ 
+q_BFF 22
+0 0.25 0.25 0 0 0 0 0 0 0.01 0.01 0.01 0 0 0 0 5e-04 0 1e-04 0.01 0.01 0.01
+ 
+q_BG 22
+0 0.25 0.25 0 0 0 0 0.001 0 0.1 0.05 0.1 0 0 0 0 5e-04 0 0.1 0.1 0.1 0.1
+ 
+q_LOB 22
+0 0 0 0 0 0 0 0.01 0 0 0.01 0 0 0 0 0 0 0 0 0 0 0
+ 
+q_RCB 22
+0 5e-06 5e-06 0 0 0 0 0 0 0 0.001 0.02 0 0 0 0 0.005 0 1e-04 0.02 0.02 0.02
+ 
+q_BMS 22
+0 5e-06 5e-06 0 0 0 0 0 0 0 0.001 0.02 0 0 0 0 0.005 0 1e-04 0.02 0.02 0.02
+ 
+q_NSH 22
+0 0 0 0.9 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0 0 0 0 0
+ 
+q_OSH 22
+0 0 0 0.9 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0 0 0 0 0
+ 
+q_ZL 22
+0.001 0.01 0.01 0 0 0 0 0 0 0 0 0 0.001 0 0 0 0.02 0 0 0 0 0
+ 
+q_BD 22
+0 0.0015 0.0015 0 0 0 0 1e-04 0 0.001 0.001 0.001 0 0 0 0 1e-05 0 0.001 0.001 0.001 0.001
+ 
+q_MA 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+q_MB 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+q_SG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+q_BC 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+q_ZG 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
 
 ## Selectivity parameters per fishery per group
 
@@ -6723,311 +5453,241 @@ q_ZL 33
 
 # scallops so the selectivity is set below what it would be for scallops alone)
 
-sel_FPL            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FPS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FVD            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FVS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FVT            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FMM            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FMN            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FDD            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FDS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FDB            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_SHB            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FDC            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FDO            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FVO            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_SHD            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_SHP            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_SB             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_PIN            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_WHB            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_WHT            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_CEP            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_BFS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_BFD            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_BG             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_BMS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_BMD            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_ZG             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_BC             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_BD             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_MB             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_MA             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_SG             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_PWN            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_BFF            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_BML            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_ZL             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FBP            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FDE            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FDF            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FVB            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_SP             33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_SHR            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_SSK            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_WDG            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_REP            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FPO            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FDM            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FDP            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_FVV            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_SHC            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
-
-sel_WHS            33
-
-1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
-
-
+ 
+sel_MAK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_HER 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_WHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BLF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_WPF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SUF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_WIF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_WTF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_HAL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_PLA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_FOU 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_FLA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BFT 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_TUN 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BIL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_MPF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BUT 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_ANC 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BPF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_GOO 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_MEN 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_FDE 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_COD 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_OHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_POL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_RHK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BSB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SCU 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_TYL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_RED 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_OPT 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SAL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_DRM 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_STB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_TAU 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_WOL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SDF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_FDF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_HAD 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_YTF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_DOG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SMO 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_DSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BLS 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_POR 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_PSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_WSK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_LSK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SK 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_PIN 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_REP 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_RWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_TWH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_INV 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_LSQ 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_ISQ 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SCA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_QHG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_CLA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BFF 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_LOB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_RCB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BMS 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_NSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_OSH 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_ZL 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BD 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_MA 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_MB 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_SG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_BC 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
+sel_ZG 22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 
 
 # Constant selectivity per cohort or stage for each group (for the invertebrates it is identical to
 
@@ -7037,870 +5697,535 @@ sel_WHS            33
 
 # captured in. The first entry is for juveniles, the second for adults.
 
-sel_CEPad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_CEPjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_PWNad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_PWNjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FPLad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FPLjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FPSad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FPSjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FPOad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FPOjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FBPad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FBPjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FMMad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FMMjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FMNad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FMNjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDDad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDDjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDSad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDSjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDBad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDBjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDCad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDCjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDOad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDOjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDEad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDEjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDFad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDFjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDMad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDMjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDPad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FDPjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVOad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVOjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVDad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVDjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVVad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVVjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVSad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVSjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVTad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVTjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVBad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_FVBjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SBad         33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SBjuv        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SPad         33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SPjuv        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_PINad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_PINjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SHBad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SHBjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SHDad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SHDjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SHPad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SHPjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SHCad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SHCjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SHRad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SHRjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SSKad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_SSKjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_WDGad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_WDGjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_REPad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_REPjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_WHBad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_WHBjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_WHSad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_WHSjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_WHTad        33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
-
-sel_WHTjuv       33
-
-0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-
-
+ 
+sel_MAKjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_HERjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WHKjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BLFjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WPFjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SUFjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WIFjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WTFjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_HALjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_PLAjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_FOUjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_FLAjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BFTjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_TUNjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BILjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_MPFjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BUTjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_ANCjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BPFjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_GOOjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_MENjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_FDEjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_CODjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SHKjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_OHKjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_POLjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_RHKjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BSBjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SCUjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_TYLjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_REDjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_OPTjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SALjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_DRMjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_STBjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_TAUjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WOLjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SDFjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_FDFjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_HADjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_YTFjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_DOGjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SMOjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SSHjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_DSHjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BLSjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_PORjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_PSHjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WSKjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_LSKjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SKjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SBjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_PINjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_REPjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_RWHjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BWHjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SWHjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_TWHjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_INVjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_LSQjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_ISQjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_NSHjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_OSHjuv 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+ 
+sel_MAKad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_HERad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WHKad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BLFad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WPFad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SUFad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WIFad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WTFad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_HALad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_PLAad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_FOUad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_FLAad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BFTad 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_TUNad 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BILad 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_MPFad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BUTad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_ANCad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BPFad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_GOOad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_MENad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_FDEad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_CODad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SHKad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_OHKad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_POLad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_RHKad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BSBad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SCUad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_TYLad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_REDad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_OPTad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SALad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_DRMad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_STBad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_TAUad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WOLad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SDFad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_FDFad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_HADad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_YTFad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_DOGad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SMOad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SSHad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_DSHad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BLSad 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_PORad 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_PSHad 22
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_WSKad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_LSKad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SKad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SBad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_PINad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_REPad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_RWHad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_BWHad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_SWHad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_TWHad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_INVad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_LSQad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_ISQad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_NSHad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+sel_OSHad 22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
 
 ## Selectivity curve parameters
-
 # Logistic selectivity curve parameters
-
-midwcCEPsel_b     0.0
-
-jigCEPsel_b       0.0
-
-midwcFPsel_b      0.2
-
-dredgeBFSsel_b    0.2
-
-netFDsel_b        0.1
-
-netSHsel_b        0.05
-
-plineFVOsel_b     0.1
-
-pseineFVOsel_b    0.1
-
-pseineFPsel_b     0.25
-
-trapBMSsel_b      0.0
-
-trapFDsel_b       0.1
-
-dtrawlBMSsel_b    0.0
-
-dtrawlCEPsel_b    0.0
-
-dtrawlFDsel_b     0.1
-
-dtrawlFDBsel_b    0.15
-
-dtrawlFDOsel_b    0.15
-
-midwcFDsel_b      0.1
-
-dseineFDBsel_b    0.15
-
-dlineFDsel_b      0.08
-
-dlineFVSsel_b     0.08
-
-dlineSHsel_b      0.06
-
-diveBGsel_b       0.0
-
-pseineFVSsel_b    0.15
-
-cullPINsel_b      0.0
-
-recfishsel_b          0.0
-
-ptrawlPWNsel_b    0.0
-
-dtrawlFBPsel_b    0.0
-
-midwcZLsel_b      0.0
-
-trapFDEsel_b      0.0
-
-dlineFDEsel_b     0.0
-
-netFDEsel_b       0.0
-
-midwcPWNsel_b     0.0
-
-mowMAsel_b        0.0
-
-
-
+midtrawlPELsel_b 0.2             
+dredgeSCAsel_b   0.2             
+dredgeQHGsel_b   0.2             
+netDDEMsel_b     0.1             
+plineTUNsel_b    0.1             
+pseineTUNsel_b   0.1             
+pseinePELsel_b   0.25            
+trapLOBsel_b     0               
+dtrawlGOOsel_b   0.1             
+dtrawlCEPsel_b   0               
+dtrawlDsel_b     0.1             
+dtrawlSsel_b     0.15            
+midtrawlINTsel_b 0.1             
+dlinesel_b       0.08            
+rec1sel_b        0               
+rec2sel_b        0               
+ptrawlNSHsel_b   0               
+dtrawlPELsel_b   0               
+dtrapsel_b       0               
+NewF1sel_b       0.15            
+NewF2sel_b       0.15            
+NewF3sel_b       0.15            
+ 
 # Inflexion point of the logistic selectivity curve
-
-midwcCEPsel_lsm   0.0
-
-jigCEPsel_lsm     0.0
-
-midwcFPsel_lsm    4.0
-
-dredgeBFSsel_lsm  2.0
-
-netFDsel_lsm      20.0
-
-netSHsel_lsm      30.0
-
-plineFVOsel_lsm   30.0
-
-pseineFVOsel_lsm  40.0
-
-pseineFPsel_lsm   20.0
-
-trapBMSsel_lsm    0.0
-
-trapFDsel_lsm     20.0
-
-dtrawlBMSsel_lsm  0.0
-
-dtrawlCEPsel_lsm  0.0
-
-dtrawlFDsel_lsm   37.0
-
-dtrawlFDBsel_lsm  1.0
-
-dtrawlFDOsel_lsm  1.0
-
-midwcFDsel_lsm    20.0
-
-dseineFDBsel_lsm  1.0
-
-dlineFDsel_lsm    35.0
-
-dlineFVSsel_lsm   35.0
-
-dlineSHsel_lsm    30.0
-
-diveBGsel_lsm     0.0
-
-pseineFVSsel_lsm  35.0
-
-cullPINsel_lsm    0.0
-
-recfishsel_lsm        0.0
-
-ptrawlPWNsel_lsm  0.0
-
-dtrawlFBPsel_lsm  0.0
-
-midwcZLsel_lsm    0.0
-
-trapFDEsel_lsm    0.0
-
-dlineFDEsel_lsm   0.0
-
-netFDEsel_lsm     0.0
-
-midwcPWNsel_lsm   0.0
-
-mowMAsel_lsm      0.0
-
-
+midtrawlPELsel_lsm 4                 
+dredgeSCAsel_lsm   2                 
+dredgeQHGsel_lsm   2                 
+netDDEMsel_lsm     20                
+plineTUNsel_lsm    30                
+pseineTUNsel_lsm   40                
+pseinePELsel_lsm   20                
+trapLOBsel_lsm     0                 
+dtrawlGOOsel_lsm   20                
+dtrawlCEPsel_lsm   0                 
+dtrawlDsel_lsm     37                
+dtrawlSsel_lsm     1                 
+midtrawlINTsel_lsm 20                
+dlinesel_lsm       35                
+rec1sel_lsm        0                 
+rec2sel_lsm        0                 
+ptrawlNSHsel_lsm   0                 
+dtrawlPELsel_lsm   0                 
+dtrapsel_lsm       0                 
+NewF1sel_lsm       1                 
+NewF2sel_lsm       1                 
+NewF3sel_lsm       1                 
+ 
 
 # Measure of spread of normal selectivity curve
-
-midwcCEPsel_normsigma   0.0
-
-jigCEPsel_normsigma     0.0
-
-midwcFPsel_normsigma    20.0
-
-dredgeBFSsel_normsigma  0.0
-
-netFDsel_normsigma      40.0
-
-netSHsel_normsigma      55.0
-
-plineFVOsel_normsigma   0.0
-
-pseineFVOsel_normsigma  0.0
-
-pseineFPsel_normsigma   0.0
-
-trapBMSsel_normsigma    0.0
-
-trapFDsel_normsigma     0.0
-
-dtrawlBMSsel_normsigma  0.0
-
-dtrawlCEPsel_normsigma  0.0
-
-dtrawlFDsel_normsigma   90.0
-
-dtrawlFDBsel_normsigma  50.0
-
-dtrawlFDOsel_normsigma  30.0
-
-midwcFDsel_normsigma    70.0
-
-dseineFDBsel_normsigma  50.0
-
-dlineFDsel_normsigma    0.0
-
-dlineFVSsel_normsigma   0.0
-
-dlineSHsel_normsigma    0.0
-
-diveBGsel_normsigma     0.0
-
-pseineFVSsel_normsigma  0.0
-
-cullPINsel_normsigma    0.0
-
-recfishsel_normsigma        0.0
-
-ptrawlPWNsel_normsigma  0.0
-
-dtrawlFBPsel_normsigma  0.0
-
-midwcZLsel_normsigma    0.0
-
-trapFDEsel_normsigma    0.0
-
-dlineFDEsel_normsigma   0.0
-
-netFDEsel_normsigma     0.0
-
-midwcPWNsel_normsigma   0.0
-
-mowMAsel_normsigma      0.0
-
-
+midtrawlPELsel_normsigma 20                      
+dredgeSCAsel_normsigma   0                       
+dredgeQHGsel_normsigma   0                       
+netDDEMsel_normsigma     40                      
+plineTUNsel_normsigma    0                       
+pseineTUNsel_normsigma   0                       
+pseinePELsel_normsigma   0                       
+trapLOBsel_normsigma     0                       
+dtrawlGOOsel_normsigma   0                       
+dtrawlCEPsel_normsigma   0                       
+dtrawlDsel_normsigma     90                      
+dtrawlSsel_normsigma     50                      
+midtrawlINTsel_normsigma 70                      
+dlinesel_normsigma       0                       
+rec1sel_normsigma        0                       
+rec2sel_normsigma        0                       
+ptrawlNSHsel_normsigma   0                       
+dtrawlPELsel_normsigma   0                       
+dtrapsel_normsigma       0                       
+NewF1sel_normsigma       50                      
+NewF2sel_normsigma       50                      
+NewF3sel_normsigma       50                      
+ 
 
 # Modal length of the normal selectivity curve
-
-midwcCEPsel_normlsm   0.0
-
-jigCEPsel_normlsm     0.0
-
-midwcFPsel_normlsm    25.0
-
-dredgeBFSsel_normlsm  0.0
-
-netFDsel_normlsm      65.0
-
-netSHsel_normlsm      100.0
-
-plineFVOsel_normlsm   0.0
-
-pseineFVOsel_normlsm  0.0
-
-pseineFPsel_normlsm   0.0
-
-trapBMSsel_normlsm    0.0
-
-trapFDsel_normlsm     0.0
-
-dtrawlBMSsel_normlsm  0.0
-
-dtrawlCEPsel_normlsm  0.0
-
-dtrawlFDsel_normlsm   50.0
-
-dtrawlFDBsel_normlsm  40.0
-
-dtrawlFDOsel_normlsm  30.0
-
-midwcFDsel_normlsm    80.0
-
-dseineFDBsel_normlsm  40.0
-
-dlineFDsel_normlsm    0.0
-
-dlineFVSsel_normlsm   0.0
-
-dlineSHsel_normlsm    0.0
-
-diveBGsel_normlsm     0.0
-
-pseineFVSsel_normlsm  0.0
-
-cullPINsel_normlsm    0.0
-
-recfishsel_normlsm        0.0
-
-ptrawlPWNsel_normlsm  0.0
-
-dtrawlFBPsel_normlsm  0.0
-
-midwcZLsel_normlsm    0.0
-
-trapFDEsel_normlsm    0.0
-
-dlineFDEsel_normlsm   0.0
-
-netFDEsel_normlsm     0.0
-
-midwcPWNsel_normlsm   0.0
-
-mowMAsel_normlsm      0.0
-
-
+midtrawlPELsel_normlsm 25                    
+dredgeSCAsel_normlsm   0                     
+dredgeQHGsel_normlsm   0                     
+netDDEMsel_normlsm     65                    
+plineTUNsel_normlsm    0                     
+pseineTUNsel_normlsm   0                     
+pseinePELsel_normlsm   0                     
+trapLOBsel_normlsm     0                     
+dtrawlGOOsel_normlsm   0                     
+dtrawlCEPsel_normlsm   0                     
+dtrawlDsel_normlsm     50                    
+dtrawlSsel_normlsm     40                    
+midtrawlINTsel_normlsm 80                    
+dlinesel_normlsm       0                     
+rec1sel_normlsm        0                     
+rec2sel_normlsm        0                     
+ptrawlNSHsel_normlsm   0                     
+dtrawlPELsel_normlsm   0                     
+dtrapsel_normlsm       0                     
+NewF1sel_normlsm       40                    
+NewF2sel_normlsm       40                    
+NewF3sel_normlsm       40                    
+ 
 
 # Measure of spread of lognormal selectivity curve
-
-midwcCEPsel_lognormsigma   0.0
-
-jigCEPsel_lognormsigma     0.0
-
-midwcFPsel_lognormsigma    0.0
-
-dredgeBFSsel_lognormsigma  0.0
-
-netFDsel_lognormsigma      0.0
-
-netSHsel_lognormsigma      0.0
-
-plineFVOsel_lognormsigma   0.0
-
-pseineFVOsel_lognormsigma  0.0
-
-pseineFPsel_lognormsigma   0.0
-
-trapBMSsel_lognormsigma    0.0
-
-trapFDsel_lognormsigma     0.0
-
-dtrawlBMSsel_lognormsigma  0.0
-
-dtrawlCEPsel_lognormsigma  0.0
-
-dtrawlFDsel_lognormsigma   0.0
-
-dtrawlFDBsel_lognormsigma  0.0
-
-dtrawlFDOsel_lognormsigma  0.0
-
-midwcFDsel_lognormsigma    0.0
-
-dseineFDBsel_lognormsigma  0.0
-
-dlineFDsel_lognormsigma    0.0
-
-dlineFVSsel_lognormsigma   0.0
-
-dlineSHsel_lognormsigma    0.0
-
-diveBGsel_lognormsigma     0.0
-
-pseineFVSsel_lognormsigma  0.0
-
-cullPINsel_lognormsigma    0.0
-
-recfishsel_lognormsigma        0.0
-
-ptrawlPWNsel_lognormsigma  0.0
-
-dtrawlFBPsel_lognormsigma  0.0
-
-midwcZLsel_lognormsigma    0.0
-
-trapFDEsel_lognormsigma    0.0
-
-dlineFDEsel_lognormsigma   0.0
-
-netFDEsel_lognormsigma     0.0
-
-midwcPWNsel_lognormsigma    0.0
-
-mowMAsel_lognormsigma      0.0
-
-
+midtrawlPELsel_lognormsigma 0                          
+dredgeSCAsel_lognormsigma   0                          
+dredgeQHGsel_lognormsigma   0                          
+netDDEMsel_lognormsigma     0                          
+plineTUNsel_lognormsigma    0                          
+pseineTUNsel_lognormsigma   0                          
+pseinePELsel_lognormsigma   0                          
+trapLOBsel_lognormsigma     0                          
+dtrawlGOOsel_lognormsigma   0                          
+dtrawlCEPsel_lognormsigma   0                          
+dtrawlDsel_lognormsigma     0                          
+dtrawlSsel_lognormsigma     0                          
+midtrawlINTsel_lognormsigma 0                          
+dlinesel_lognormsigma       0                          
+rec1sel_lognormsigma        0                          
+rec2sel_lognormsigma        0                          
+ptrawlNSHsel_lognormsigma   0                          
+dtrawlPELsel_lognormsigma   0                          
+dtrapsel_lognormsigma       0                          
+NewF1sel_lognormsigma       0                          
+NewF2sel_lognormsigma       0                          
+NewF3sel_lognormsigma       0                          
+ 
 
 # Modal length of the lognormal selectivity curve
-
-midwcCEPsel_lognormlsm   0.0
-
-jigCEPsel_lognormlsm     0.0
-
-midwcFPsel_lognormlsm    0.0
-
-dredgeBFSsel_lognormlsm  0.0
-
-netFDsel_lognormlsm      0.0
-
-netSHsel_lognormlsm      0.0
-
-plineFVOsel_lognormlsm   0.0
-
-pseineFVOsel_lognormlsm  0.0
-
-pseineFPsel_lognormlsm   0.0
-
-trapBMSsel_lognormlsm    0.0
-
-trapFDsel_lognormlsm     0.0
-
-dtrawlBMSsel_lognormlsm  0.0
-
-dtrawlCEPsel_lognormlsm  0.0
-
-dtrawlFDsel_lognormlsm   0.0
-
-dtrawlFDBsel_lognormlsm  0.0
-
-dtrawlFDOsel_lognormlsm  0.0
-
-midwcFDsel_lognormlsm    0.0
-
-dseineFDBsel_lognormlsm  0.0
-
-dlineFDsel_lognormlsm    0.0
-
-dlineFVSsel_lognormlsm   0.0
-
-dlineSHsel_lognormlsm    0.0
-
-diveBGsel_lognormlsm     0.0
-
-pseineFVSsel_lognormlsm  0.0
-
-cullPINsel_lognormlsm    0.0
-
-recfishsel_lognormlsm        0.0
-
-ptrawlPWNsel_lognormlsm  0.0
-
-dtrawlFBPsel_lognormlsm  0.0
-
-midwcZLsel_lognormlsm    0.0
-
-trapFDEsel_lognormlsm    0.0
-
-dlineFDEsel_lognormlsm   0.0
-
-netFDEsel_lognormlsm     0.0
-
-midwcPWNsel_lognormlsm   0.0
-
-mowMAsel_lognormlsm      0.0
-
+midtrawlPELsel_lognormlsm 0                        
+dredgeSCAsel_lognormlsm   0                        
+dredgeQHGsel_lognormlsm   0                        
+netDDEMsel_lognormlsm     0                        
+plineTUNsel_lognormlsm    0                        
+pseineTUNsel_lognormlsm   0                        
+pseinePELsel_lognormlsm   0                        
+trapLOBsel_lognormlsm     0                        
+dtrawlGOOsel_lognormlsm   0                        
+dtrawlCEPsel_lognormlsm   0                        
+dtrawlDsel_lognormlsm     0                        
+dtrawlSsel_lognormlsm     0                        
+midtrawlINTsel_lognormlsm 0                        
+dlinesel_lognormlsm       0                        
+rec1sel_lognormlsm        0                        
+rec2sel_lognormlsm        0                        
+ptrawlNSHsel_lognormlsm   0                        
+dtrawlPELsel_lognormlsm   0                        
+dtrapsel_lognormlsm       0                        
+NewF1sel_lognormlsm       0                        
+NewF2sel_lognormlsm       0                        
+NewF3sel_lognormlsm       0                        
 
 
 # Measure of spread of gamma selectivity curve
